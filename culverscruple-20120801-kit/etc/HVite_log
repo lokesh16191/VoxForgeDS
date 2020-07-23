@@ -1,0 +1,63 @@
+/usr/local/bin/HVite -A -D -T 1 -l * -a -b SENT-END -m -C /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/wav_config -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/macros -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/hmmdefs -m -t 250.0 150.0 1000.0 -I /tmp/SfOtN4dQNM/words.mlf -i /tmp/SfOtN4dQNM/aligned.out -S /tmp/SfOtN4dQNM/fileList /data/svn-mirror/SpeechCorpus/Trunk/Lexicon/VoxForge/VoxForgeDict /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/tiedlist 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_D_N_Z_0
+#                 SOURCEFORMAT                 WAV
+
+Read 8294 physical / 9429 logical HMMs
+Label file will be used to align each file
+Aligning File: /tmp/SfOtN4dQNM/culverscruple-20120801-kit/a0516.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END ALSO THERE WAS AWE IN THEIR FACES SENT-END  ==  [498 frames] -51.4855 [Ac=-25639.8 LM=0.0] (Act=11.5)
+Aligning File: /tmp/SfOtN4dQNM/culverscruple-20120801-kit/a0517.wav
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END OUT OF ABSTRACTIONS ERNEST HAD CONJURED A VISION AND MADE THEM SEE IT SENT-END  ==  [661 frames] -53.3388 [Ac=-35257.0 LM=0.0] (Act=20.8)
+Aligning File: /tmp/SfOtN4dQNM/culverscruple-20120801-kit/a0518.wav
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END ILLUMINATING OIL WAS BECOMING ALL PROFIT SENT-END  ==  [573 frames] -52.0784 [Ac=-29840.9 LM=0.0] (Act=12.7)
+Aligning File: /tmp/SfOtN4dQNM/culverscruple-20120801-kit/a0519.wav
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END SUCH AN ACT WAS IN DIRECT VIOLATION OF THE LAWS OF THE LAND SENT-END  ==  [611 frames] -52.9141 [Ac=-32330.5 LM=0.0] (Act=15.5)
+Aligning File: /tmp/SfOtN4dQNM/culverscruple-20120801-kit/a0520.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END HE WAS FOND OF QUOTING A FRAGMENT FROM A CERTAIN POEM SENT-END  ==  [598 frames] -53.3954 [Ac=-31930.5 LM=0.0] (Act=12.8)
+Aligning File: /tmp/SfOtN4dQNM/culverscruple-20120801-kit/a0521.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END WITHOUT THEM HE COULD NOT RUN HIS EMPIRE SENT-END  ==  [573 frames] -51.1802 [Ac=-29326.3 LM=0.0] (Act=11.5)
+Aligning File: /tmp/SfOtN4dQNM/culverscruple-20120801-kit/a0522.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END FOR SUCH COUNTRIES NOTHING REMAINED BUT REORGANIZATION SENT-END  ==  [723 frames] -52.8852 [Ac=-38236.0 LM=0.0] (Act=14.2)
+Aligning File: /tmp/SfOtN4dQNM/culverscruple-20120801-kit/a0523.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END THEY COULD NOT CONTINUE THEIR METHOD OF PRODUCING SURPLUSES SENT-END  ==  [586 frames] -53.0046 [Ac=-31060.7 LM=0.0] (Act=17.2)
+Aligning File: /tmp/SfOtN4dQNM/culverscruple-20120801-kit/a0524.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END AT ONCE WOULD BE INSTITUTED A DOZEN COOPERATIVE COMMONWEALTH STATES SENT-END  ==  [711 frames] -53.7291 [Ac=-38201.4 LM=0.0] (Act=15.7)
+Aligning File: /tmp/SfOtN4dQNM/culverscruple-20120801-kit/a0525.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END THE OLIGARCHY WANTED VIOLENCE AND IT SET ITS AGENTS PROVOCATEURS TO WORK SENT-END  ==  [748 frames] -54.4846 [Ac=-40754.4 LM=0.0] (Act=20.4)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_D_N_Z_0
+                  SOURCEFORMAT                 WAV
+
