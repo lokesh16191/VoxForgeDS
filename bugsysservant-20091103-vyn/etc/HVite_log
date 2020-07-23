@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 39 physical / 39 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-vyn/mfc/a0154.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence HE WAS SMOOTH-SHAVEN AND HIS HAIR AND EYES WERE BLACK silence  ==  [411 frames] -63.2509 [Ac=-25996.1 LM=0.0] (Act=10.1)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-vyn/mfc/a0155.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence WON'T YOU DRAW UP GENTLEMEN silence  ==  [274 frames] -64.5705 [Ac=-17692.3 LM=0.0] (Act=11.4)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-vyn/mfc/a0156.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence A STRANGE FIRE BURNED IN HIS EYES WHEN THORPE TURNED silence  ==  [436 frames] -62.7779 [Ac=-27371.1 LM=0.0] (Act=9.8)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-vyn/mfc/a0157.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence HE HAD WORSHIPED HER AS DANTE MIGHT HAVE WORSHIPED BEATRICE silence  ==  [461 frames] -62.1082 [Ac=-28631.9 LM=0.0] (Act=13.3)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-vyn/mfc/a0158.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence DOES THAT LOOK GOOD silence  ==  [274 frames] -65.5906 [Ac=-17971.8 LM=0.0] (Act=9.0)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-vyn/mfc/a0159.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence THEY LOOK AS THOUGH HE HAD BEEN DRUMMING A PIANO ALL HIS LIFE silence  ==  [436 frames] -63.5580 [Ac=-27711.3 LM=0.0] (Act=13.2)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-vyn/mfc/a0160.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence YOU WANT TO GO OVER AND SEE HIS GANG THROW DIRT silence  ==  [399 frames] -62.4573 [Ac=-24920.5 LM=0.0] (Act=11.8)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-vyn/mfc/a0161.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence TAKE AWAY THEIR FOREMAN AND THEY WOULDN'T BE WORTH THEIR GRUB silence  ==  [361 frames] -65.1338 [Ac=-23513.3 LM=0.0] (Act=12.6)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-vyn/mfc/a0162.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence THAT'S THE SUB-FOREMAN EXPLAINED THORPE silence  ==  [349 frames] -62.8835 [Ac=-21946.3 LM=0.0] (Act=9.7)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-vyn/mfc/a0163.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence PHILIP MADE NO EFFORT TO FOLLOW silence  ==  [324 frames] -63.4917 [Ac=-20571.3 LM=0.0] (Act=10.7)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

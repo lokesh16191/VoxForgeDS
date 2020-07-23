@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 42 physical / 42 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100130-nyn/mfc/a0147.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence A MOMENT BEFORE HE WAS INTOXICATED BY A JOY THAT WAS ALMOST MADNESS silence  ==  [1210 frames] -46.6055 [Ac=-56392.6 LM=0.0] (Act=7.8)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100130-nyn/mfc/a0148.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence NOW THESE THINGS HAD BEEN STRUCK DEAD WITHIN HIM silence  ==  [920 frames] -45.4100 [Ac=-41777.2 LM=0.0] (Act=10.2)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100130-nyn/mfc/a0149.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence FOR AN INSTANT HE SAW PIERRE DRAWN LIKE A SILHOUETTE AGAINST THE SKY silence  ==  [1099 frames] -46.3828 [Ac=-50974.7 LM=0.0] (Act=15.6)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100130-nyn/mfc/a0150.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence GOODBYE PIERRE HE SHOUTED silence  ==  [749 frames] -40.4723 [Ac=-30313.7 LM=0.0] (Act=6.6)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100130-nyn/mfc/a0151.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence AND MACDOUGALL WAS BEYOND THE TRAIL WITH THREE WEEKS TO SPARE silence  ==  [1099 frames] -46.7573 [Ac=-51386.2 LM=0.0] (Act=13.2)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100130-nyn/mfc/a0152.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence PHILIP THRUST HIMSELF AGAINST IT AND ENTERED silence  ==  [783 frames] -48.1694 [Ac=-37716.6 LM=0.0] (Act=14.2)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100130-nyn/mfc/a0153.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence MACDOUGALL TAPPED HIS FOREHEAD SUSPICIOUSLY WITH A STUBBY FOREFINGER silence  ==  [1346 frames] -45.7885 [Ac=-61631.3 LM=0.0] (Act=11.2)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100130-nyn/mfc/a0154.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence HE WAS SMOOTH-SHAVEN AND HIS HAIR AND EYES WERE BLACK silence  ==  [971 frames] -47.6819 [Ac=-46299.1 LM=0.0] (Act=12.3)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100130-nyn/mfc/a0155.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence WON'T YOU DRAW UP GENTLEMEN silence  ==  [672 frames] -41.2846 [Ac=-27743.3 LM=0.0] (Act=6.7)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100130-nyn/mfc/a0156.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence A STRANGE FIRE BURNED IN HIS EYES WHEN THORPE TURNED silence  ==  [1116 frames] -44.2985 [Ac=-49437.1 LM=0.0] (Act=8.4)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 43 physical / 43 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-dro/mfc/a0234.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence WHY THE AVERAGE REVIEW IS MORE NAUSEATING THAN COD LIVER OIL silence  ==  [402 frames] -65.0952 [Ac=-26168.3 LM=0.0] (Act=12.4)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-dro/mfc/a0235.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence HIS VOICE WAS PASSIONATELY REBELLIOUS silence  ==  [311 frames] -67.3004 [Ac=-20930.4 LM=0.0] (Act=9.1)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-dro/mfc/a0236.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence DON'T YOU SEE I HATE YOU silence  ==  [286 frames] -62.6016 [Ac=-17904.1 LM=0.0] (Act=11.5)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-dro/mfc/a0237.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence SO HUGHIE AND I DID THE MANAGING OURSELVES silence  ==  [361 frames] -64.0053 [Ac=-23105.9 LM=0.0] (Act=11.8)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-dro/mfc/a0238.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence IT HAPPENED TO HIM AT THE GALLINA SOCIETY IN OAKLAND ONE AFTERNOON silence  ==  [487 frames] -65.4085 [Ac=-31853.9 LM=0.0] (Act=13.4)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-dro/mfc/a0239.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence HE CRIED IN SUCH GENUINE DISMAY THAT SHE BROKE INTO HEARTY LAUGHTER silence  ==  [499 frames] -66.6222 [Ac=-33244.5 LM=0.0] (Act=11.5)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-dro/mfc/a0240.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence WASH YOUR HANDS OF ME silence  ==  [261 frames] -63.3338 [Ac=-16530.1 LM=0.0] (Act=10.1)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-dro/mfc/a0241.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence I THINK IT'S MUCH NICER TO QUARREL silence  ==  [311 frames] -65.1552 [Ac=-20263.3 LM=0.0] (Act=11.1)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-dro/mfc/a0242.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence I SAW IT WHEN SHE ROLLED silence  ==  [286 frames] -62.2515 [Ac=-17803.9 LM=0.0] (Act=12.3)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-dro/mfc/a0243.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence I ONLY READ THE QUOTATIONS silence  ==  [311 frames] -63.6891 [Ac=-19807.3 LM=0.0] (Act=9.8)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

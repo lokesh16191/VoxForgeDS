@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 42 physical / 42 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-wfn/mfc/a0400.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence MANUEL HAD ONE BESETTING SIN silence  ==  [311 frames] -63.4501 [Ac=-19733.0 LM=0.0] (Act=10.9)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-wfn/mfc/a0401.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence THE MAN SMILED GRIMLY AND BROUGHT A HATCHET AND A CLUB silence  ==  [386 frames] -65.0595 [Ac=-25113.0 LM=0.0] (Act=12.8)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-wfn/mfc/a0402.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence CURLY RUSHED HER ANTAGONIST WHO STRUCK AGAIN AND LEAPED ASIDE silence  ==  [474 frames] -63.1381 [Ac=-29927.5 LM=0.0] (Act=12.0)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-wfn/mfc/a0403.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence HIS NEWBORN CUNNING GAVE HIM POISE AND CONTROL silence  ==  [436 frames] -61.5561 [Ac=-26838.5 LM=0.0] (Act=14.5)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-wfn/mfc/a0404.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence PERRAULT FOUND ONE WITH HEAD BURIED IN THE GRUB BOX silence  ==  [361 frames] -63.9501 [Ac=-23086.0 LM=0.0] (Act=13.7)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-wfn/mfc/a0405.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence IT SEEMED THE ORDAINED ORDER OF THINGS THAT DOGS SHOULD WORK silence  ==  [411 frames] -64.3651 [Ac=-26454.0 LM=0.0] (Act=9.5)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-wfn/mfc/a0406.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence AND THAT WAS THE LAST OF FRANCOIS AND PERRAULT silence  ==  [349 frames] -63.7301 [Ac=-22241.8 LM=0.0] (Act=14.4)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-wfn/mfc/a0407.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence MERCEDES SCREAMED CRIED LAUGHED AND MANIFESTED THE CHAOTIC ABANDONMENT OF HYSTERIA silence  ==  [662 frames] -63.2964 [Ac=-41902.2 LM=0.0] (Act=9.7)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-wfn/mfc/a0408.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence THE ELDORADO EMPTIED ITS OCCUPANTS INTO THE STREET TO SEE THE TEST silence  ==  [512 frames] -65.1422 [Ac=-33352.8 LM=0.0] (Act=10.8)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-wfn/mfc/a0409.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence HE COULD FEEL A NEW STIR IN THE LAND silence  ==  [361 frames] -60.7638 [Ac=-21935.7 LM=0.0] (Act=13.7)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

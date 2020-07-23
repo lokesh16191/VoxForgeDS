@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 41 physical / 41 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100315-oat/mfc/b0075.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence IN THAT CASE HE COULD NOT MISS THEM IF HE USED CAUTION silence  ==  [1073 frames] -47.5204 [Ac=-50989.4 LM=0.0] (Act=11.1)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100315-oat/mfc/b0076.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence BEFORE PHILIP COULD RECOVER HIMSELF JEANNE'S STARTLED GUARDS WERE UPON HIM silence  ==  [1278 frames] -47.0419 [Ac=-60119.6 LM=0.0] (Act=10.6)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100315-oat/mfc/b0077.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence IT IS THE NEAREST REFUGE silence  ==  [578 frames] -45.6451 [Ac=-26382.9 LM=0.0] (Act=8.4)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100315-oat/mfc/b0078.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence THERE WAS PRIDE AND STRENGTH THE RING OF TRIUMPH IN HIS VOICE silence  ==  [1073 frames] -46.8248 [Ac=-50243.0 LM=0.0] (Act=11.1)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100315-oat/mfc/b0079.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THE TRUTH OF IT SET JEANNE QUIVERING silence  ==  [826 frames] -43.6791 [Ac=-36078.9 LM=0.0] (Act=10.8)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100315-oat/mfc/b0080.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence TOMORROW IT WILL BE STRONG ENOUGH FOR YOU TO STAND UPON silence  ==  [1013 frames] -49.5887 [Ac=-50233.4 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100315-oat/mfc/b0081.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence YOU WERE GOING TO LEAVE AFTER YOU SAW ME ON THE ROCK silence  ==  [1073 frames] -50.6419 [Ac=-54338.7 LM=0.0] (Act=8.0)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100315-oat/mfc/b0082.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence HE BIT HIS TONGUE AND CURSED HIMSELF AT THIS FRESH BREAK silence  ==  [1099 frames] -49.3629 [Ac=-54249.9 LM=0.0] (Act=11.8)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100315-oat/mfc/b0083.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence IN IT THERE WAS SOMETHING THAT WAS ALMOST TRAGEDY silence  ==  [962 frames] -47.7697 [Ac=-45954.5 LM=0.0] (Act=10.7)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100315-oat/mfc/b0084.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence YOUR FACE IS RED WITH BLOOD silence  ==  [672 frames] -43.6728 [Ac=-29348.1 LM=0.0] (Act=12.7)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

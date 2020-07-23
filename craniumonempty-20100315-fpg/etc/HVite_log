@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 39 physical / 39 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/craniumonempty-20100315-fpg/mfc/b0328.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence CHANGE CHAIRS DAYLIGHT COMMANDED silence  ==  [348 frames] -50.4525 [Ac=-17557.5 LM=0.0] (Act=8.0)
+Aligning File: /data/UserSubmissions/Quarantine/craniumonempty-20100315-fpg/mfc/b0329.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence I'D SOONER HAVE MY CHIPS BACK silence  ==  [273 frames] -54.2497 [Ac=-14810.2 LM=0.0] (Act=10.4)
+Aligning File: /data/UserSubmissions/Quarantine/craniumonempty-20100315-fpg/mfc/b0330.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence THEY ONLY HAD A LITTLE THIRTY THOUSAND DOLLAR FIRE silence  ==  [361 frames] -53.7498 [Ac=-19403.7 LM=0.0] (Act=9.8)
+Aligning File: /data/UserSubmissions/Quarantine/craniumonempty-20100315-fpg/mfc/b0331.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence HIS PARTNERS HAD STARVED AND DIED ON THE STEWART silence  ==  [361 frames] -55.2597 [Ac=-19948.7 LM=0.0] (Act=13.6)
+Aligning File: /data/UserSubmissions/Quarantine/craniumonempty-20100315-fpg/mfc/b0332.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence AS TO HOW SHE DRESSED HE HAD NO IDEAS AT ALL silence  ==  [411 frames] -50.4392 [Ac=-20730.5 LM=0.0] (Act=7.8)
+Aligning File: /data/UserSubmissions/Quarantine/craniumonempty-20100315-fpg/mfc/b0333.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence IT DOES WAS HER AUDACIOUS ANSWER silence  ==  [348 frames] -49.3236 [Ac=-17164.6 LM=0.0] (Act=8.5)
+Aligning File: /data/UserSubmissions/Quarantine/craniumonempty-20100315-fpg/mfc/b0334.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence OH IT'S JUST A NOVEL A LOVE STORY silence  ==  [373 frames] -52.3756 [Ac=-19536.1 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/craniumonempty-20100315-fpg/mfc/b0335.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence WHOEVER LIVED ON THE RANCH DID THAT silence  ==  [323 frames] -49.9626 [Ac=-16137.9 LM=0.0] (Act=10.8)
+Aligning File: /data/UserSubmissions/Quarantine/craniumonempty-20100315-fpg/mfc/b0336.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence HOW OLD ARE YOU MOTHER silence  ==  [261 frames] -47.5013 [Ac=-12397.8 LM=0.0] (Act=8.5)
+Aligning File: /data/UserSubmissions/Quarantine/craniumonempty-20100315-fpg/mfc/b0337.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence HERE HE GOT A FRESH THRILL silence  ==  [248 frames] -51.7461 [Ac=-12833.0 LM=0.0] (Act=8.9)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

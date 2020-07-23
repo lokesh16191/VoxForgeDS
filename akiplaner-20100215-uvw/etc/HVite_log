@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 43 physical / 43 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100215-uvw/mfc/a0230.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence DO YOU KNOW ANY GOOD LAND AROUND HERE silence  ==  [826 frames] -44.4613 [Ac=-36725.1 LM=0.0] (Act=9.6)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100215-uvw/mfc/a0231.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THE RESIDENT COMMISSIONER IS AWAY IN AUSTRALIA silence  ==  [894 frames] -44.5871 [Ac=-39860.8 LM=0.0] (Act=13.9)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100215-uvw/mfc/a0232.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence I CANNOT FOLLOW YOU SHE SAID silence  ==  [672 frames] -46.0290 [Ac=-30931.5 LM=0.0] (Act=8.4)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100215-uvw/mfc/a0233.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence I NEVER ALLOW WHAT CAN'T BE CHANGED TO ANNOY ME silence  ==  [937 frames] -44.8677 [Ac=-42041.0 LM=0.0] (Act=7.5)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100215-uvw/mfc/a0234.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence WHY THE AVERAGE REVIEW IS MORE NAUSEATING THAN COD LIVER OIL silence  ==  [1193 frames] -46.9900 [Ac=-56059.0 LM=0.0] (Act=8.0)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100215-uvw/mfc/a0235.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence HIS VOICE WAS PASSIONATELY REBELLIOUS silence  ==  [587 frames] -48.9575 [Ac=-28738.0 LM=0.0] (Act=8.4)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100215-uvw/mfc/a0236.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence DON'T YOU SEE I HATE YOU silence  ==  [570 frames] -43.0905 [Ac=-24561.6 LM=0.0] (Act=6.2)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100215-uvw/mfc/a0237.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence SO HUGHIE AND I DID THE MANAGING OURSELVES silence  ==  [851 frames] -47.0511 [Ac=-40040.5 LM=0.0] (Act=7.8)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100215-uvw/mfc/a0238.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence IT HAPPENED TO HIM AT THE GALLINA SOCIETY IN OAKLAND ONE AFTERNOON silence  ==  [1116 frames] -47.7040 [Ac=-53237.6 LM=0.0] (Act=10.4)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100215-uvw/mfc/a0239.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence HE CRIED IN SUCH GENUINE DISMAY THAT SHE BROKE INTO HEARTY LAUGHTER silence  ==  [1176 frames] -48.2948 [Ac=-56794.7 LM=0.0] (Act=9.1)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

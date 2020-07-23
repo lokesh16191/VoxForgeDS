@@ -1,0 +1,63 @@
+/usr/local/bin/HVite -A -D -T 1 -l * -a -b SENT-END -m -C /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/wav_config -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/macros -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/hmmdefs -m -t 250.0 150.0 1000.0 -I /tmp/Cbag_mbWhI/words.mlf -i /tmp/Cbag_mbWhI/aligned.out -S /tmp/Cbag_mbWhI/fileList /data/svn-mirror/SpeechCorpus/Trunk/Lexicon/VoxForge/VoxForgeDict /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/tiedlist 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_D_N_Z_0
+#                 SOURCEFORMAT                 WAV
+
+Read 8073 physical / 9417 logical HMMs
+Label file will be used to align each file
+Aligning File: /tmp/Cbag_mbWhI/akiplaner-20110928-ajy/a0154.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END HE WAS SMOOTH-SHAVEN AND HIS HAIR AND EYES WERE BLACK SENT-END  ==  [986 frames] -56.0009 [Ac=-55216.9 LM=0.0] (Act=10.2)
+Aligning File: /tmp/Cbag_mbWhI/akiplaner-20110928-ajy/a0155.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END WON'T YOU DRAW UP GENTLEMEN SENT-END  ==  [573 frames] -54.2321 [Ac=-31075.0 LM=0.0] (Act=8.4)
+Aligning File: /tmp/Cbag_mbWhI/akiplaner-20110928-ajy/a0156.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END A STRANGE FIRE BURNED IN HIS EYES WHEN THORPE TURNED SENT-END  ==  [948 frames] -56.2229 [Ac=-53299.3 LM=0.0] (Act=9.7)
+Aligning File: /tmp/Cbag_mbWhI/akiplaner-20110928-ajy/a0157.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END HE HAD WORSHIPED HER AS DANTE MIGHT HAVE WORSHIPED BEATRICE SENT-END  ==  [873 frames] -57.3215 [Ac=-50041.6 LM=0.0] (Act=13.6)
+Aligning File: /tmp/Cbag_mbWhI/akiplaner-20110928-ajy/a0158.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END DOES THAT LOOK GOOD SENT-END  ==  [461 frames] -49.8736 [Ac=-22991.7 LM=0.0] (Act=6.8)
+Aligning File: /tmp/Cbag_mbWhI/akiplaner-20110928-ajy/a0159.wav
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END THEY LOOK AS THOUGH HE HAD BEEN DRUMMING A PIANO ALL HIS LIFE SENT-END  ==  [836 frames] -57.0342 [Ac=-47680.6 LM=0.0] (Act=11.0)
+Aligning File: /tmp/Cbag_mbWhI/akiplaner-20110928-ajy/a0160.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END YOU WANT TO GO OVER AND SEE HIS GANG THROW DIRT SENT-END  ==  [748 frames] -55.1799 [Ac=-41274.6 LM=0.0] (Act=9.0)
+Aligning File: /tmp/Cbag_mbWhI/akiplaner-20110928-ajy/a0161.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END TAKE AWAY THEIR FOREMAN AND THEY WOULDN'T BE WORTH THEIR GRUB SENT-END  ==  [1098 frames] -53.2991 [Ac=-58522.4 LM=0.0] (Act=10.7)
+Aligning File: /tmp/Cbag_mbWhI/akiplaner-20110928-ajy/a0162.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END THAT'S THE SUB-FOREMAN EXPLAINED THORPE SENT-END  ==  [648 frames] -53.9401 [Ac=-34953.2 LM=0.0] (Act=9.7)
+Aligning File: /tmp/Cbag_mbWhI/akiplaner-20110928-ajy/a0163.wav
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END PHILIP MADE NO EFFORT TO FOLLOW SENT-END  ==  [598 frames] -54.4109 [Ac=-32537.7 LM=0.0] (Act=7.9)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_D_N_Z_0
+                  SOURCEFORMAT                 WAV
+

@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 39 physical / 39 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091214-woc/mfc/b0466.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence IT IS DOG EAT DOG AND YOU ATE THEM UP silence  ==  [836 frames] -48.2194 [Ac=-40311.4 LM=0.0] (Act=12.8)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091214-woc/mfc/b0467.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence LET US RUN THEM FOR OURSELVES silence  ==  [598 frames] -48.4471 [Ac=-28971.4 LM=0.0] (Act=9.5)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091214-woc/mfc/b0468.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence IT WAS INTRODUCED BY REPRESENTATIVE DICK OF OHIO silence  ==  [811 frames] -51.2446 [Ac=-41559.4 LM=0.0] (Act=8.5)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091214-woc/mfc/b0469.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence VERY FEW PEOPLE KNEW OF THE EXISTENCE OF THIS LAW silence  ==  [748 frames] -50.4328 [Ac=-37723.7 LM=0.0] (Act=9.4)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091214-woc/mfc/b0470.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence THE VERY THING ERNEST AGREED silence  ==  [598 frames] -48.3037 [Ac=-28885.6 LM=0.0] (Act=11.3)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091214-woc/mfc/b0471.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence ALSO A FELLOW SENATOR CHAUNCEY DEPEW SAID silence  ==  [711 frames] -48.1783 [Ac=-34254.8 LM=0.0] (Act=8.9)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091214-woc/mfc/b0472.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence ERNEST SAW IN THE AFFAIR THE MOST SINISTER IMPORT silence  ==  [873 frames] -50.3339 [Ac=-43941.5 LM=0.0] (Act=11.1)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091214-woc/mfc/b0473.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence THEN THERE WAS THE CAMPAIGN silence  ==  [636 frames] -42.8930 [Ac=-27280.0 LM=0.0] (Act=7.9)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091214-woc/mfc/b0474.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence HE WAS MANIFESTLY DISTRESSED BY MY COMING silence  ==  [948 frames] -48.3125 [Ac=-45800.2 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091214-woc/mfc/b0475.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence NOT A WHEEL MOVED IN HIS EMPIRE silence  ==  [686 frames] -48.6230 [Ac=-33355.4 LM=0.0] (Act=10.3)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

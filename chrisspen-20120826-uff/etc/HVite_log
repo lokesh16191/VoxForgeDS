@@ -1,0 +1,63 @@
+/usr/local/bin/HVite -A -D -T 1 -l * -a -b SENT-END -m -C /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/wav_config -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/macros -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/hmmdefs -m -t 250.0 150.0 1000.0 -I /tmp/JV6DuaOfDY/words.mlf -i /tmp/JV6DuaOfDY/aligned.out -S /tmp/JV6DuaOfDY/fileList /data/svn-mirror/SpeechCorpus/Trunk/Lexicon/VoxForge/VoxForgeDict /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/tiedlist 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_D_N_Z_0
+#                 SOURCEFORMAT                 WAV
+
+Read 8294 physical / 9429 logical HMMs
+Label file will be used to align each file
+Aligning File: /tmp/JV6DuaOfDY/chrisspen-20120826-uff/b0493.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END YOU YELLOW GIANT THING OF THE FROST SENT-END  ==  [598 frames] -53.2344 [Ac=-31834.2 LM=0.0] (Act=10.0)
+Aligning File: /tmp/JV6DuaOfDY/chrisspen-20120826-uff/b0494.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END NEVER SO STRANGE A PROPHET CAME UP TO JERUSALEM SENT-END  ==  [686 frames] -54.2168 [Ac=-37192.7 LM=0.0] (Act=10.1)
+Aligning File: /tmp/JV6DuaOfDY/chrisspen-20120826-uff/b0495.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END WE WHO HAVE ENDURED SO MUCH SURELY CAN ENDURE A LITTLE MORE SENT-END  ==  [598 frames] -55.3968 [Ac=-33127.3 LM=0.0] (Act=10.2)
+Aligning File: /tmp/JV6DuaOfDY/chrisspen-20120826-uff/b0496.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END I HAVE SEEN MYSELF THAT ONE MAN CONTEMPLATED BY PASCAL'S PHILOSOPHIC EYE SENT-END  ==  [898 frames] -55.1837 [Ac=-49555.0 LM=0.0] (Act=11.3)
+Aligning File: /tmp/JV6DuaOfDY/chrisspen-20120826-uff/b0497.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END ONE GREAT DRAWBACK TO FARMING IN CALIFORNIA IS OUR LONG DRY SUMMER SENT-END  ==  [623 frames] -56.8333 [Ac=-35407.1 LM=0.0] (Act=14.1)
+Aligning File: /tmp/JV6DuaOfDY/chrisspen-20120826-uff/b0498.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END I REMEMBERED THE RED WINE OF THE ITALIAN RANCHO AND SHUDDERED INWARDLY SENT-END  ==  [698 frames] -54.5544 [Ac=-38079.0 LM=0.0] (Act=11.4)
+Aligning File: /tmp/JV6DuaOfDY/chrisspen-20120826-uff/b0499.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END I SAID AND DISMISSED THE MATTER AS NOT WORTH THINKING ABOUT SENT-END  ==  [673 frames] -53.8321 [Ac=-36229.0 LM=0.0] (Act=13.1)
+Aligning File: /tmp/JV6DuaOfDY/chrisspen-20120826-uff/b0500.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END THEN CAME MY BOY CODE SENT-END  ==  [473 frames] -50.6009 [Ac=-23934.2 LM=0.0] (Act=7.7)
+Aligning File: /tmp/JV6DuaOfDY/chrisspen-20120826-uff/b0501.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END AND WHEREVER I RANGED THE WAY LAY ALONG ALCOHOL-DRENCHED ROADS SENT-END  ==  [711 frames] -55.8805 [Ac=-39731.0 LM=0.0] (Act=11.2)
+Aligning File: /tmp/JV6DuaOfDY/chrisspen-20120826-uff/b0502.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END AND AS WE HURRIED UP TOWN JOE GOOSE EXPLAINED SENT-END  ==  [598 frames] -53.3064 [Ac=-31877.2 LM=0.0] (Act=11.1)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_D_N_Z_0
+                  SOURCEFORMAT                 WAV
+

@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 42 physical / 42 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/craniumonempty-20100314-lmc/mfc/a0268.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence NOW GO AHEAD AND TELL ME IN A STRAIGHTFORWARD WAY WHAT HAS HAPPENED silence  ==  [386 frames] -55.6536 [Ac=-21482.3 LM=0.0] (Act=11.8)
+Aligning File: /data/UserSubmissions/Quarantine/craniumonempty-20100314-lmc/mfc/a0269.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence THAT'S WHERE THEY CUT OFF THE SCOTTISH CHIEFS AND KILLED ALL HANDS silence  ==  [398 frames] -55.3432 [Ac=-22026.6 LM=0.0] (Act=13.8)
+Aligning File: /data/UserSubmissions/Quarantine/craniumonempty-20100314-lmc/mfc/a0270.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence AND AFTER THE BATH A SHAVE WOULD NOT BE BAD silence  ==  [323 frames] -53.5667 [Ac=-17302.0 LM=0.0] (Act=12.9)
+Aligning File: /data/UserSubmissions/Quarantine/craniumonempty-20100314-lmc/mfc/a0271.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence NOW PLEASE GIVE A PLAIN STATEMENT OF WHAT OCCURRED silence  ==  [336 frames] -54.0621 [Ac=-18164.9 LM=0.0] (Act=11.1)
+Aligning File: /data/UserSubmissions/Quarantine/craniumonempty-20100314-lmc/mfc/a0272.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence YOU CAN TAKE A VACATION ON PAY silence  ==  [261 frames] -53.7552 [Ac=-14030.1 LM=0.0] (Act=12.7)
+Aligning File: /data/UserSubmissions/Quarantine/craniumonempty-20100314-lmc/mfc/a0273.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence THEY ARE BIG TREES AND REQUIRE PLENTY OF ROOM silence  ==  [361 frames] -53.6018 [Ac=-19350.2 LM=0.0] (Act=9.8)
+Aligning File: /data/UserSubmissions/Quarantine/craniumonempty-20100314-lmc/mfc/a0274.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence AND RAOUL LISTENED AGAIN TO THE TALE OF THE HOUSE silence  ==  [361 frames] -55.0766 [Ac=-19882.7 LM=0.0] (Act=16.2)
+Aligning File: /data/UserSubmissions/Quarantine/craniumonempty-20100314-lmc/mfc/a0275.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THERE ARE NO KIDDIES AND HALF GROWN YOUTHS AMONG THEM silence  ==  [311 frames] -53.9151 [Ac=-16767.6 LM=0.0] (Act=11.7)
+Aligning File: /data/UserSubmissions/Quarantine/craniumonempty-20100314-lmc/mfc/a0276.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence OOLONG ATOLL WAS ONE HUNDRED AND FORTY MILES IN CIRCUMFERENCE silence  ==  [423 frames] -54.3969 [Ac=-23009.9 LM=0.0] (Act=9.6)
+Aligning File: /data/UserSubmissions/Quarantine/craniumonempty-20100314-lmc/mfc/a0277.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence MCCOY FOUND A STIFLING POISONOUS ATMOSPHERE IN THE PENT CABIN silence  ==  [448 frames] -55.9078 [Ac=-25046.7 LM=0.0] (Act=10.0)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

@@ -1,0 +1,63 @@
+/usr/local/bin/HVite -A -D -T 1 -l * -a -b SENT-END -m -C /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/wav_config -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/macros -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/hmmdefs -m -t 250.0 150.0 1000.0 -I /tmp/6zjHlvachv/words.mlf -i /tmp/6zjHlvachv/aligned.out -S /tmp/6zjHlvachv/fileList /data/svn-mirror/SpeechCorpus/Trunk/Lexicon/VoxForge/VoxForgeDict /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/tiedlist 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_D_N_Z_0
+#                 SOURCEFORMAT                 WAV
+
+Read 8294 physical / 9429 logical HMMs
+Label file will be used to align each file
+Aligning File: /tmp/6zjHlvachv/chrisspen-20120826-oeh/b0446.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END SOME ONE HAD THRUST A LARGE SHEATH-KNIFE INTO HIS HAND SENT-END  ==  [586 frames] -55.8023 [Ac=-32700.1 LM=0.0] (Act=10.7)
+Aligning File: /tmp/6zjHlvachv/chrisspen-20120826-oeh/b0447.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END O'BRIEN EMITTED A SHRIEK THAT SANK SWIFTLY TO A GURGLING SOB SENT-END  ==  [698 frames] -56.7783 [Ac=-39631.3 LM=0.0] (Act=11.6)
+Aligning File: /tmp/6zjHlvachv/chrisspen-20120826-oeh/b0448.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END SANDEL WOULD NEVER BECOME A WORLD CHAMPION SENT-END  ==  [511 frames] -53.1949 [Ac=-27182.6 LM=0.0] (Act=8.7)
+Aligning File: /tmp/6zjHlvachv/chrisspen-20120826-oeh/b0449.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END ALSO SHE WOULDN'T WALK SENT-END  ==  [473 frames] -54.6956 [Ac=-25871.0 LM=0.0] (Act=7.8)
+Aligning File: /tmp/6zjHlvachv/chrisspen-20120826-oeh/b0450.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END TO MY DEAREST AND ALWAYS APPRECIATED FRIEND I SUBMIT MYSELF SENT-END  ==  [661 frames] -56.8856 [Ac=-37601.4 LM=0.0] (Act=12.5)
+Aligning File: /tmp/6zjHlvachv/chrisspen-20120826-oeh/b0451.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END YOU USED TO JOYRIDE LIKE THE VERY DEVIL SENT-END  ==  [511 frames] -54.0857 [Ac=-27637.8 LM=0.0] (Act=10.7)
+Aligning File: /tmp/6zjHlvachv/chrisspen-20120826-oeh/b0452.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END THEY SAW EACH OTHER FOR THE FIRST TIME IN BOSTON SENT-END  ==  [561 frames] -53.3764 [Ac=-29944.2 LM=0.0] (Act=8.8)
+Aligning File: /tmp/6zjHlvachv/chrisspen-20120826-oeh/b0453.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END ISAAC FORD THE AUSTERE SOLDIER OF THE LORD THE OLD HYPOCRITE SENT-END  ==  [673 frames] -58.1270 [Ac=-39119.4 LM=0.0] (Act=14.3)
+Aligning File: /tmp/6zjHlvachv/chrisspen-20120826-oeh/b0454.wav
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END EIGHTEEN HE ADDED SENT-END  ==  [361 frames] -51.2935 [Ac=-18516.9 LM=0.0] (Act=7.6)
+Aligning File: /tmp/6zjHlvachv/chrisspen-20120826-oeh/b0455.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END HIS REWARD SHOULD HAVE BEEN PEACE AND REPOSE SENT-END  ==  [548 frames] -54.4811 [Ac=-29855.7 LM=0.0] (Act=9.6)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_D_N_Z_0
+                  SOURCEFORMAT                 WAV
+

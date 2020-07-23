@@ -1,0 +1,63 @@
+/usr/local/bin/HVite -A -D -T 1 -l * -a -b SENT-END -m -C /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/wav_config -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/macros -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/hmmdefs -m -t 250.0 150.0 1000.0 -I /tmp/wtR13ucIoD/words.mlf -i /tmp/wtR13ucIoD/aligned.out -S /tmp/wtR13ucIoD/fileList /data/svn-mirror/SpeechCorpus/Trunk/Lexicon/VoxForge/VoxForgeDict /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/tiedlist 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_D_N_Z_0
+#                 SOURCEFORMAT                 WAV
+
+Read 8073 physical / 9417 logical HMMs
+Label file will be used to align each file
+Aligning File: /tmp/wtR13ucIoD/akiplaner-20110928-oiw/b0469.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END VERY FEW PEOPLE KNEW OF THE EXISTENCE OF THIS LAW SENT-END  ==  [836 frames] -55.5067 [Ac=-46403.6 LM=0.0] (Act=12.7)
+Aligning File: /tmp/wtR13ucIoD/akiplaner-20110928-oiw/b0470.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END THE VERY THING ERNEST AGREED SENT-END  ==  [636 frames] -54.3701 [Ac=-34579.4 LM=0.0] (Act=7.5)
+Aligning File: /tmp/wtR13ucIoD/akiplaner-20110928-oiw/b0471.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END ALSO A FELLOW SENATOR CHAUNCEY DEPEW SAID SENT-END  ==  [823 frames] -54.1854 [Ac=-44594.5 LM=0.0] (Act=7.4)
+Aligning File: /tmp/wtR13ucIoD/akiplaner-20110928-oiw/b0472.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END ERNEST SAW IN THE AFFAIR THE MOST SINISTER IMPORT SENT-END  ==  [873 frames] -58.0178 [Ac=-50649.5 LM=0.0] (Act=8.8)
+Aligning File: /tmp/wtR13ucIoD/akiplaner-20110928-oiw/b0473.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END THEN THERE WAS THE CAMPAIGN SENT-END  ==  [573 frames] -52.8399 [Ac=-30277.3 LM=0.0] (Act=9.4)
+Aligning File: /tmp/wtR13ucIoD/akiplaner-20110928-oiw/b0474.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END HE WAS MANIFESTLY DISTRESSED BY MY COMING SENT-END  ==  [773 frames] -55.2706 [Ac=-42724.2 LM=0.0] (Act=9.1)
+Aligning File: /tmp/wtR13ucIoD/akiplaner-20110928-oiw/b0475.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END NOT A WHEEL MOVED IN HIS EMPIRE SENT-END  ==  [648 frames] -54.6835 [Ac=-35434.9 LM=0.0] (Act=10.3)
+Aligning File: /tmp/wtR13ucIoD/akiplaner-20110928-oiw/b0476.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END THE REORGANIZATION OF THESE COUNTRIES TOOK THE FORM OF REVOLUTION SENT-END  ==  [936 frames] -55.2987 [Ac=-51759.6 LM=0.0] (Act=12.8)
+Aligning File: /tmp/wtR13ucIoD/akiplaner-20110928-oiw/b0477.wav
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END YOU'RE GOING IN FOR GRAB SHARING SENT-END  ==  [648 frames] -52.7328 [Ac=-34170.9 LM=0.0] (Act=8.5)
+Aligning File: /tmp/wtR13ucIoD/akiplaner-20110928-oiw/b0478.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END THE OLIGARCHY WILL ENCOURAGE SUCH AMBITION AND THE CONSEQUENT COMPETITION SENT-END  ==  [961 frames] -58.7596 [Ac=-56467.9 LM=0.0] (Act=12.4)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_D_N_Z_0
+                  SOURCEFORMAT                 WAV
+

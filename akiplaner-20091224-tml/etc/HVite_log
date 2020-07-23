@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 42 physical / 42 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091224-tml/mfc/a0101.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence YOU YOU WOULD NOT KEEP THE TRUTH FROM ME silence  ==  [911 frames] -43.4388 [Ac=-39572.8 LM=0.0] (Act=11.3)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091224-tml/mfc/a0102.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence HE WILL FOLLOW US SOON silence  ==  [673 frames] -43.1097 [Ac=-29012.9 LM=0.0] (Act=9.6)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091224-tml/mfc/a0103.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence BUT THERE CAME NO PROMISE FROM THE BOW OF THE CANOE silence  ==  [948 frames] -47.4236 [Ac=-44957.6 LM=0.0] (Act=19.0)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091224-tml/mfc/a0104.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence SHE WAS SLEEPING UNDER HIS PROTECTION AS SWEETLY AS A CHILD silence  ==  [1323 frames] -47.2719 [Ac=-62540.7 LM=0.0] (Act=11.8)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091224-tml/mfc/a0105.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence ONLY IT IS SO WONDERFUL SO ALMOST IMPOSSIBLE TO BELIEVE silence  ==  [1211 frames] -46.0132 [Ac=-55722.0 LM=0.0] (Act=12.3)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091224-tml/mfc/a0106.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence THE EMOTION WHICH SHE HAD SUPPRESSED BURST FORTH NOW IN A CHOKING SOB silence  ==  [1336 frames] -49.9582 [Ac=-66744.1 LM=0.0] (Act=13.9)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091224-tml/mfc/a0107.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence IF YOU ONLY COULD KNOW HOW I THANK YOU silence  ==  [986 frames] -44.3117 [Ac=-43691.3 LM=0.0] (Act=10.0)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091224-tml/mfc/a0108.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence HE WADED INTO THE EDGE OF THE WATER AND BEGAN SCRUBBING HIMSELF silence  ==  [1136 frames] -49.1558 [Ac=-55841.0 LM=0.0] (Act=11.9)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091224-tml/mfc/a0109.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence DO YOU KNOW THAT YOU ARE SHAKING MY CONFIDENCE IN YOU silence  ==  [1173 frames] -44.3522 [Ac=-52025.2 LM=0.0] (Act=10.0)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091224-tml/mfc/a0110.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence MUCH REPLIED JEANNE AS TERSELY silence  ==  [861 frames] -45.5877 [Ac=-39251.0 LM=0.0] (Act=8.2)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

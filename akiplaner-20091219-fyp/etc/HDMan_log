@@ -1,0 +1,57 @@
+WARNING: no script file /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/VoxForgeDict.ded
+
+Dictionary Usage Statistics
+---------------------------
+  Dictionary    TotalWords WordsUsed  TotalProns PronsUsed
+VoxForgeDict    130097         68     130097         68
+        dict        68         68         68         68
+
+68 words required, 0 missing
+
+New Phone Usage Counts
+---------------------
+  1. ax    :     7
+  2. sp    :    68
+  3. ae    :     8
+  4. d     :    13
+  5. v     :     5
+  6. ay    :     3
+  7. s     :    10
+  8. ao    :     9
+  9. l     :    11
+ 10. n     :     9
+ 11. er    :     8
+ 12. aa    :     7
+ 13. r     :    14
+ 14. w     :     7
+ 15. ey    :     6
+ 16. b     :     4
+ 17. k     :     6
+ 18. t     :    15
+ 19. ih    :    10
+ 20. g     :     3
+ 21. uh    :     2
+ 22. sh    :     3
+ 23. iy    :     7
+ 24. eh    :     8
+ 25. f     :     9
+ 26. ah    :     5
+ 27. m     :     8
+ 28. hh    :     4
+ 29. ix    :     4
+ 30. z     :     3
+ 31. jh    :     1
+ 32. ow    :     3
+ 33. oy    :     1
+ 34. zh    :     1
+ 35. dx    :     3
+ 36. ng    :     3
+ 37. uw    :     4
+ 38. aw    :     1
+ 39. p     :     5
+ 40. ch    :     2
+ 41. dh    :     6
+ 42. th    :     1
+ 43. y     :     1
+
+Dictionary /data/UserSubmissions/Quarantine/akiplaner-20091219-fyp/dict created

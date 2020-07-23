@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 42 physical / 42 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091217-mnm/mfc/rb-13.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence MANY PHONES ALREADY OFFER THE POSSIBILITY OF SO-CALLED VOICE DIALING silence  ==  [1223 frames] -48.8204 [Ac=-59707.3 LM=0.0] (Act=7.7)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091217-mnm/mfc/rb-14.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence A MAJOR STUMBLING BLOCK IS THE STILL LIMITED COMPUTING POWER OF THESE PHONES silence  ==  [1161 frames] -49.2296 [Ac=-57155.5 LM=0.0] (Act=8.1)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091217-mnm/mfc/rb-15.mfc
+Created lattice with 18 nodes / 17 arcs from label file
+silence ONE WAY TO DEAL WITH THIS IS TO USE ONLY A LIMITED NUMBER OF AVAILABLE COMMANDS silence  ==  [1473 frames] -51.3221 [Ac=-75597.4 LM=0.0] (Act=13.3)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091217-mnm/mfc/rb-16.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THAT WAY THE SOFTWARE ONLY NEEDS TO COMPARE silence  ==  [823 frames] -50.5217 [Ac=-41579.3 LM=0.0] (Act=8.9)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091217-mnm/mfc/rb-17.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THE VOICE INPUT WITH A SMALL NUMBER OF POSSIBLE OPTIONS silence  ==  [998 frames] -47.8343 [Ac=-47738.6 LM=0.0] (Act=8.4)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091217-mnm/mfc/rb-18.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence MODERN COMPUTERS HAVE FAR MORE COMPUTING POWER THAN HAND-HELD DEVICES silence  ==  [1198 frames] -47.4613 [Ac=-56858.7 LM=0.0] (Act=6.5)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091217-mnm/mfc/rb-19.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence THAT MEANS THAT WHEN A PROGRAMMER WANTS TO WRITE SPEECH RECOGNITION SOFTWARE silence  ==  [1286 frames] -52.3121 [Ac=-67273.4 LM=0.0] (Act=10.4)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091217-mnm/mfc/rb-20.mfc
+Created lattice with 16 nodes / 15 arcs from label file
+silence IT IS NECESSARY TO KEEP IN MIND ON WHICH HARDWARE THE SOFTWARE WILL RUN silence  ==  [1361 frames] -53.5399 [Ac=-72867.8 LM=0.0] (Act=12.1)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091217-mnm/mfc/rb-21.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence A FULL-BLOWN COMPUTER OFFERS A PROGRAMMER THE FREEDOM TO DEVELOP SOFTWARE silence  ==  [1298 frames] -48.1593 [Ac=-62510.8 LM=0.0] (Act=8.9)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091217-mnm/mfc/rb-22.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence THAT ALLOWS THE END USER TO ISSUE A WIDER ARRAY OF COMMANDS silence  ==  [1111 frames] -49.6480 [Ac=-55159.0 LM=0.0] (Act=10.6)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

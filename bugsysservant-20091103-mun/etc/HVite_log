@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 42 physical / 42 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-mun/mfc/a0519.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence SUCH AN ACT WAS IN DIRECT VIOLATION OF THE LAWS OF THE LAND silence  ==  [436 frames] -65.4832 [Ac=-28550.7 LM=0.0] (Act=13.2)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-mun/mfc/a0520.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence HE WAS FOND OF QUOTING A FRAGMENT FROM A CERTAIN POEM silence  ==  [399 frames] -60.8167 [Ac=-24265.9 LM=0.0] (Act=12.8)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-mun/mfc/a0521.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence WITHOUT THEM HE COULD NOT RUN HIS EMPIRE silence  ==  [311 frames] -63.6200 [Ac=-19785.8 LM=0.0] (Act=18.9)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-mun/mfc/a0522.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence FOR SUCH COUNTRIES NOTHING REMAINED BUT REORGANIZATION silence  ==  [436 frames] -65.0406 [Ac=-28357.7 LM=0.0] (Act=9.8)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-mun/mfc/a0523.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence THEY COULD NOT CONTINUE THEIR METHOD OF PRODUCING SURPLUSES silence  ==  [436 frames] -66.0194 [Ac=-28784.4 LM=0.0] (Act=12.2)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-mun/mfc/a0524.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence AT ONCE WOULD BE INSTITUTED A DOZEN COOPERATIVE COMMONWEALTH STATES silence  ==  [474 frames] -64.8047 [Ac=-30717.5 LM=0.0] (Act=15.5)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-mun/mfc/a0525.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence THE OLIGARCHY WANTED VIOLENCE AND IT SET ITS AGENTS PROVOCATEURS TO WORK silence  ==  [537 frames] -65.8974 [Ac=-35386.9 LM=0.0] (Act=13.5)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-mun/mfc/a0526.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence NOWHERE DID THE RAW EARTH APPEAR silence  ==  [311 frames] -63.9931 [Ac=-19901.8 LM=0.0] (Act=12.6)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-mun/mfc/a0527.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence THE LUSH VEGETATION OF THAT SHELTERED SPOT MAKE A NATURAL SHIELD silence  ==  [474 frames] -63.3945 [Ac=-30049.0 LM=0.0] (Act=17.0)
+Aligning File: /data/UserSubmissions/Quarantine/bugsysservant-20091103-mun/mfc/a0528.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence MEN WHO ENDURE IT CALL IT LIVING DEATH silence  ==  [361 frames] -63.6444 [Ac=-22975.6 LM=0.0] (Act=12.4)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

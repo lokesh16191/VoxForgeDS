@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 43 physical / 43 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100215-dpf/mfc/a0543.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence I HAD BEEN BORN WITH NO ORGANIC CHEMICAL PREDISPOSITION TOWARD ALCOHOL silence  ==  [937 frames] -48.7328 [Ac=-45662.6 LM=0.0] (Act=8.2)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100215-dpf/mfc/a0544.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence HE MAY ANTICIPATE THE DAY OF HIS DEATH silence  ==  [698 frames] -45.2906 [Ac=-31612.8 LM=0.0] (Act=13.1)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100215-dpf/mfc/a0545.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THE ITALIAN RANCHO WAS A BACHELOR ESTABLISHMENT silence  ==  [698 frames] -47.6794 [Ac=-33280.2 LM=0.0] (Act=9.7)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100215-dpf/mfc/a0546.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence I LOST MY BALANCE AND PITCHED HEAD FOREMOST INTO THE OOZE silence  ==  [971 frames] -49.0105 [Ac=-47589.2 LM=0.0] (Act=10.7)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100215-dpf/mfc/a0547.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence MEN LIKE JOE GOOSE DATED EXISTENCE FROM DRUNK TO DRUNK silence  ==  [903 frames] -49.0197 [Ac=-44264.8 LM=0.0] (Act=18.3)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100215-dpf/mfc/a0548.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence ALSO CHURCHES AND PREACHERS I HAD NEVER KNOWN silence  ==  [860 frames] -48.0085 [Ac=-41287.3 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100215-dpf/mfc/a0549.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence DO YOU KNOW THAT WE WEIGH EVERY POUND OF COAL WE BURN silence  ==  [1013 frames] -45.9213 [Ac=-46518.2 LM=0.0] (Act=18.9)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100215-dpf/mfc/a0550.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THIS ALSO BECAME PART OF THE DAILY SCHEDULE silence  ==  [732 frames] -47.6806 [Ac=-34902.2 LM=0.0] (Act=9.9)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100215-dpf/mfc/a0551.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence ALL AN APPEARANCE CAN KNOW IS MIRAGE silence  ==  [800 frames] -45.1100 [Ac=-36088.0 LM=0.0] (Act=10.4)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100215-dpf/mfc/a0552.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence YET HE DREAMS HE IS IMMORTAL I ARGUE FEEBLY silence  ==  [1005 frames] -44.5177 [Ac=-44740.3 LM=0.0] (Act=9.7)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

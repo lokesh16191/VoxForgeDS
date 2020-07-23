@@ -1,0 +1,401 @@
+STAT: jconf successfully finalized
+STAT: *** loading AM00 _default
+Stat: init_phmm: Reading in HMM definition
+Stat: rdhmmdef: ascii format HMM definition
+Stat: rdhmmdef: limit check passed
+Stat: check_hmm_restriction: an HMM with several arcs from initial state found: "sp"
+Stat: rdhmmdef: this HMM requires multipath handling at decoding
+Stat: init_phmm: defined HMMs:  8073
+Stat: init_phmm: loading ascii hmmlist
+Stat: init_phmm: logical names:  9417 in HMMList
+Stat: init_phmm: base phones:    44 used in logical
+Stat: init_phmm: finished reading HMM definitions
+STAT: m_fusion: force multipath HMM handling by user request
+STAT: making pseudo bi/mono-phone for IW-triphone
+Stat: hmm_lookup: 1085 pseudo phones are added to logical HMM list
+STAT: *** AM00 _default loaded
+STAT: *** loading LM00 _default
+STAT: reading [/tmp/adgdlvx1sq/chrisspen-20120505-zgz.dfa] and [/tmp/adgdlvx1sq/chrisspen-20120505-zgz.dict]...
+Stat: init_voca: read 80 words
+STAT: done
+STAT: Gram #0 chrisspen-20120505-zgz registered
+STAT: Gram #0 chrisspen-20120505-zgz: new grammar loaded, now mash it up for recognition
+STAT: Gram #0 chrisspen-20120505-zgz: extracting category-pair constraint for the 1st pass
+STAT: Gram #0 chrisspen-20120505-zgz: installed
+STAT: Gram #0 chrisspen-20120505-zgz: turn on active
+STAT: grammar update completed
+STAT: *** LM00 _default loaded
+STAT: ------
+STAT: All models are ready, go for final fusion
+STAT: [1] create MFCC extraction instance(s)
+STAT: *** create MFCC calculation modules from AM
+STAT: AM 0 _default: create a new module MFCC01
+STAT: 1 MFCC modules created
+STAT: [2] create recognition processing instance(s) with AM and LM
+STAT: composing recognizer instance SR00 _default (AM00 _default, LM00 _default)
+STAT: Building HMM lexicon tree
+STAT: lexicon size: 1000 nodes
+STAT: coordination check passed
+STAT: wchmm (re)build completed
+STAT: SR00 _default composed
+STAT: [3] initialize for acoustic HMM calculation
+Stat: outprob_init: state-level mixture PDFs, use calc_mix()
+Stat: addlog: generating addlog table (size = 1953 kB)
+Stat: addlog: addlog table generated
+STAT: [4] prepare MFCC storage(s)
+STAT: All init successfully done
+
+STAT: ###### initialize input device
+----------------------- System Information begin ---------------------
+JuliusLib rev.4.2 (fast)
+
+Engine specification:
+ -  Base setup   : fast
+ -  Supported LM : DFA, N-gram, Word
+ -  Extension    :
+ -  Compiled by  : gcc -O6 -fomit-frame-pointer
+
+------------------------------------------------------------
+Configuration of Modules
+
+ Number of defined modules: AM=1, LM=1, SR=1
+
+ Acoustic Model (with input parameter spec.):
+ - AM00 "_default"
+	hmmfilename=/data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/hmmdefs
+	hmmmapfilename=/data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/tiedlist
+
+ Language Model:
+ - LM00 "_default"
+	grammar #1:
+	    dfa  = /tmp/adgdlvx1sq/chrisspen-20120505-zgz.dfa
+	    dict = /tmp/adgdlvx1sq/chrisspen-20120505-zgz.dict
+
+ Recognizer:
+ - SR00 "_default" (AM00, LM00)
+
+------------------------------------------------------------
+Speech Analysis Module(s)
+
+[MFCC01]  for [AM00 _default]
+
+ Acoustic analysis condition:
+	       parameter = MFCC_0_D_N_Z (25 dim. from 12 cepstrum + c0, abs energy supressed with CMN)
+	sample frequency = 16000 Hz
+	   sample period =  625  (1 = 100ns)
+	     window size =  400 samples (25.0 ms)
+	     frame shift =  160 samples (10.0 ms)
+	    pre-emphasis = 0.97
+	    # filterbank = 24
+	   cepst. lifter = 22
+	      raw energy = False
+	energy normalize = False
+	    delta window = 2 frames (20.0 ms) around
+	     hi freq cut = OFF
+	     lo freq cut = OFF
+	 zero mean frame = OFF
+	       use power = OFF
+	             CVN = OFF
+	            VTLN = OFF
+    spectral subtraction = off
+  cepstral normalization = sentence CMN
+	 base setup from = Julius defaults
+
+------------------------------------------------------------
+Acoustic Model(s)
+
+[AM00 "_default"]
+
+ HMM Info:
+    8073 models, 6341 states, 6341 mpdfs, 6341 Gaussians are defined
+	      model type = context dependency handling ON
+      training parameter = MFCC_N_D_Z_0
+	   vector length = 25
+	number of stream = 1
+	     stream info = [0-24]
+	cov. matrix type = DIAGC
+	   duration type = NULLD
+	max mixture size = 1 Gaussians
+     max length of model = 5 states
+     logical base phones = 44
+       model skip trans. = exist, require multi-path handling
+      skippable models = sp (1 model(s))
+
+ AM Parameters:
+        Gaussian pruning = none (full computation)  (-gprune)
+    short pause HMM name = "sp" specified, "sp" applied (physical)  (-sp)
+  cross-word CD on pass1 = handle by approx. (use average prob. of same LC)
+   sp transition penalty = -1.0
+
+------------------------------------------------------------
+Language Model(s)
+
+[LM00 "_default"] type=grammar
+
+ DFA grammar info:
+      87 nodes, 95 arcs, 80 terminal(category) symbols
+      category-pair matrix: 420 bytes (7520 bytes allocated)
+
+ Vocabulary Info:
+        vocabulary size  = 80 words, 280 models
+        average word len = 3.5 models, 10.5 states
+       maximum state num = 27 nodes per word
+       transparent words = not exist
+       words under class = not exist
+
+ Parameters:
+   found sp category IDs =
+
+------------------------------------------------------------
+Recognizer(s)
+
+[SR00 "_default"]  AM00 "_default"  +  LM00 "_default"
+
+ Lexicon tree:
+	 total node num =   1000
+	  root node num =     80
+	  leaf node num =     80
+
+	(-penalty1) IW penalty1 = +0.0
+	(-penalty2) IW penalty2 = +0.0
+	(-cmalpha)CM alpha coef = 0.050000
+
+ Search parameters: 
+	    multi-path handling = yes, multi-path mode enabled
+	(-b) trellis beam width = 500
+	(-bs)score pruning thres= disabled
+	(-n)search candidate num= 1
+	(-s)  search stack size = 500
+	(-m)    search overflow = after 2000 hypothesis poped
+	        2nd pass method = searching sentence, generating N-best
+	(-b2)  pass2 beam width = 500
+	(-lookuprange)lookup range= 5  (tm-5 <= t <tm+5)
+	(-sb)2nd scan beamthres = 80.0 (in logscore)
+	(-n)        search till = 1 candidates found
+	(-output)    and output = 1 candidates out of above
+	 IWCD handling:
+	   1st pass: approximation (use average prob. of same LC)
+	   2nd pass: loose (apply when hypo. is popped and scanned)
+	 all possible words will be expanded in 2nd pass
+	 build_wchmm2() used
+	 lcdset limited by word-pair constraint
+	short pause segmentation = off
+	fall back on search fail = off, returns search failure
+
+------------------------------------------------------------
+Decoding algorithm:
+
+	1st pass input processing = (forced) buffered, batch
+	1st pass method = 1-best approx. generating indexed trellis
+	output word confidence measure based on search-time scores
+
+------------------------------------------------------------
+FrontEnd:
+
+ Input stream:
+	             input type = waveform
+	           input source = waveform file
+	          input filelist = /tmp/adgdlvx1sq/fileList
+	          sampling freq. = 16000 Hz required
+	         threaded A/D-in = supported, off
+	   zero frames stripping = on
+	         silence cutting = off
+	    long-term DC removal = off
+	      reject short input = off
+
+----------------------- System Information end -----------------------
+
+------
+..................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................### read waveform input
+Stat: adin_file: input speechfile: /tmp/adgdlvx1sq/chrisspen-20120505-zgz/a0370.wav
+STAT: 97917 samples (6.12 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+### Recognition: 1st pass (LR beam)
+pass1_best: <s> HE SAW ALL MEN IN THE BUSINESS GAME DOING THIS <s>
+pass1_best_wordseq: 0 2 3 4 5 6 7 8 9 10 11 1
+pass1_best_phonemeseq: sil | hh iy | s ao | ao l | m eh n | ix n | dh ax | b ih z n ax s | g ey m | d uw ix ng | dh ih s | sil
+pass1_best_score: -13063.364258
+### Recognition: 2nd pass (RL heuristic best-first)
+STAT: 00 _default: 19 generated, 19 pushed, 13 nodes popped in 610
+sentence1: <s> HE SAW ALL MEN IN THE BUSINESS GAME DOING THIS <s>
+wseq1: 0 2 3 4 5 6 7 8 9 10 11 1
+phseq1: sil | hh iy | s ao | ao l | m eh n | ix n | dh ax | b ih z n ax s | g ey m | d uw ix ng | dh ih s | sil
+cmscore1: 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 0.987 1.000
+score1: -13057.527344
+
+
+------
+.............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................### read waveform input
+Stat: adin_file: input speechfile: /tmp/adgdlvx1sq/chrisspen-20120505-zgz/a0371.wav
+STAT: 112500 samples (7.03 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+### Recognition: 1st pass (LR beam)
+pass1_best: <s> IT ISSUED A RATE OF FORTY TWO DOLLARS A CAR ON CHARCOAL <s>
+pass1_best_wordseq: 0 12 13 14 15 16 17 18 19 14 20 21 22 1
+pass1_best_phonemeseq: sil | ih t | ih sh uw d | ax | r ey t | ah v | f ao r dx iy | t uw | d aa l er z | ax | k aa r | aa n | ch aa r k ow l | sil
+pass1_best_score: -15715.900391
+### Recognition: 2nd pass (RL heuristic best-first)
+WARNING: IW-triphone for word head "d-ax+r" not found, fallback to pseudo {ax+r}
+STAT: 00 _default: 21 generated, 21 pushed, 15 nodes popped in 701
+sentence1: <s> IT ISSUED A RATE OF FORTY TWO DOLLARS A CAR ON CHARCOAL <s>
+wseq1: 0 12 13 14 15 16 17 18 19 14 20 21 22 1
+phseq1: sil | ih t | ih sh uw d | ax | r ey t | ah v | f ao r dx iy | t uw | d aa l er z | ax | k aa r | aa n | ch aa r k ow l | sil
+cmscore1: 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000
+score1: -15723.566406
+
+
+------
+.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................### read waveform input
+Stat: adin_file: input speechfile: /tmp/adgdlvx1sq/chrisspen-20120505-zgz/a0372.wav
+STAT: 104167 samples (6.51 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+### Recognition: 1st pass (LR beam)
+pass1_best: <s> HE SAW ONLY THE EFFECT IN A GENERAL SKETCHY WAY <s>
+pass1_best_wordseq: 0 2 3 23 7 24 6 14 25 26 27 1
+pass1_best_phonemeseq: sil | hh iy | s ao | ow n l iy | dh ax | ix f eh k t | ix n | ax | jh eh n er ax l | s k eh ch iy | w ey | sil
+pass1_best_score: -14305.542969
+### Recognition: 2nd pass (RL heuristic best-first)
+STAT: 00 _default: 19 generated, 19 pushed, 13 nodes popped in 649
+sentence1: <s> HE SAW ONLY THE EFFECT IN A GENERAL SKETCHY WAY <s>
+wseq1: 0 2 3 23 7 24 6 14 25 26 27 1
+phseq1: sil | hh iy | s ao | ow n l iy | dh ax | ix f eh k t | ix n | ax | jh eh n er ax l | s k eh ch iy | w ey | sil
+cmscore1: 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000
+score1: -14301.654297
+
+
+------
+....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................### read waveform input
+Stat: adin_file: input speechfile: /tmp/adgdlvx1sq/chrisspen-20120505-zgz/a0373.wav
+STAT: 85417 samples (5.34 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+### Recognition: 1st pass (LR beam)
+pass1_best: <s> POINTS OF VIEW NEW IDEAS LIFE <s>
+pass1_best_wordseq: 0 28 16 29 30 31 32 1
+pass1_best_phonemeseq: sil | p oy n t s | ah v | v y uw | n uw | ay d iy ax z | l ay f | sil
+pass1_best_score: -11538.018555
+### Recognition: 2nd pass (RL heuristic best-first)
+STAT: 00 _default: 15 generated, 15 pushed, 9 nodes popped in 532
+sentence1: <s> POINTS OF VIEW NEW IDEAS LIFE <s>
+wseq1: 0 28 16 29 30 31 32 1
+phseq1: sil | p oy n t s | ah v | v y uw | n uw | ay d iy ax z | l ay f | sil
+cmscore1: 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000
+score1: -11538.035156
+
+
+------
+..........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................### read waveform input
+Stat: adin_file: input speechfile: /tmp/adgdlvx1sq/chrisspen-20120505-zgz/a0374.wav
+STAT: 81250 samples (5.08 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+### Recognition: 1st pass (LR beam)
+pass1_best: <s> BUT LIFE'S WORTH MORE THAN CASH SHE ARGUED <s>
+pass1_best_wordseq: 0 33 34 35 36 37 38 39 40 1
+pass1_best_phonemeseq: sil | b ah t | l ay f s | w er th | m ao r | dh ae n | k ae sh | sh iy | aa r g y uw d | sil
+pass1_best_score: -11109.343750
+### Recognition: 2nd pass (RL heuristic best-first)
+STAT: 00 _default: 17 generated, 17 pushed, 11 nodes popped in 506
+sentence1: <s> BUT LIFE'S WORTH MORE THAN CASH SHE ARGUED <s>
+wseq1: 0 33 34 35 36 37 38 39 40 1
+phseq1: sil | b ah t | l ay f s | w er th | m ao r | dh ae n | k ae sh | sh iy | aa r g y uw d | sil
+cmscore1: 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000
+score1: -11109.339844
+
+
+------
+...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................### read waveform input
+Stat: adin_file: input speechfile: /tmp/adgdlvx1sq/chrisspen-20120505-zgz/a0375.wav
+STAT: 133333 samples (8.33 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+### Recognition: 1st pass (LR beam)
+pass1_best: <s> THE BUTCHERS AND MEAT CUTTERS REFUSED TO HANDLE MEAT DESTINED FOR UNFAIR RESTAURANTS <s>
+pass1_best_wordseq: 0 7 41 42 43 44 45 46 47 43 48 49 50 51 1
+pass1_best_phonemeseq: sil | dh ax | b uh ch er z | ae n d | m iy t | k ah dx er z | r ax f y uw z d | t uw | hh ae n d ax l | m iy t | d eh s t ix n d | f ao r | ax n f eh r | r eh s t er aa n t s | sil
+pass1_best_score: -18908.337891
+### Recognition: 2nd pass (RL heuristic best-first)
+STAT: 00 _default: 22 generated, 22 pushed, 16 nodes popped in 831
+sentence1: <s> THE BUTCHERS AND MEAT CUTTERS REFUSED TO HANDLE MEAT DESTINED FOR UNFAIR RESTAURANTS <s>
+wseq1: 0 7 41 42 43 44 45 46 47 43 48 49 50 51 1
+phseq1: sil | dh ax | b uh ch er z | ae n d | m iy t | k ah dx er z | r ax f y uw z d | t uw | hh ae n d ax l | m iy t | d eh s t ix n d | f ao r | ax n f eh r | r eh s t er aa n t s | sil
+cmscore1: 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000
+score1: -18909.072266
+
+
+------
+......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................### read waveform input
+Stat: adin_file: input speechfile: /tmp/adgdlvx1sq/chrisspen-20120505-zgz/a0376.wav
+STAT: 106250 samples (6.64 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+### Recognition: 1st pass (LR beam)
+pass1_best: <s> YOUR PRICE MY SON IS JUST ABOUT THIRTY PER WEEK <s>
+pass1_best_wordseq: 0 52 53 54 55 56 57 58 59 60 61 1
+pass1_best_phonemeseq: sil | y ao r | p r ay s | m ay | s ah n | ih z | jh ah s t | ax b aw t | th er dx iy | p er | w iy k | sil
+pass1_best_score: -14915.022461
+### Recognition: 2nd pass (RL heuristic best-first)
+STAT: 00 _default: 21 generated, 21 pushed, 13 nodes popped in 662
+sentence1: <s> YOUR PRICE MY SON IS JUST ABOUT THIRTY PER WEEK <s>
+wseq1: 0 52 53 54 55 56 57 58 59 60 61 1
+phseq1: sil | y ao r | p r ay s | m ay | s ah n | ih z | jh ah s t | ax b aw t | th er dx iy | p er | w iy k | sil
+cmscore1: 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000
+score1: -14915.084961
+
+
+------
+................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................### read waveform input
+Stat: adin_file: input speechfile: /tmp/adgdlvx1sq/chrisspen-20120505-zgz/a0377.wav
+STAT: 110417 samples (6.90 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+### Recognition: 1st pass (LR beam)
+pass1_best: <s> THIS SOUND DID NOT DISTURB THE HUSH AND AWE OF THE PLACE <s>
+pass1_best_wordseq: 0 11 62 63 64 65 7 66 42 67 16 7 68 1
+pass1_best_phonemeseq: sil | dh ih s | s aw n d | d ih d | n aa t | d ix s t er b | dh ax | hh ah sh | ae n d | aa | ah v | dh ax | p l ey s | sil
+pass1_best_score: -15326.628906
+### Recognition: 2nd pass (RL heuristic best-first)
+STAT: 00 _default: 21 generated, 21 pushed, 15 nodes popped in 688
+sentence1: <s> THIS SOUND DID NOT DISTURB THE HUSH AND AWE OF THE PLACE <s>
+wseq1: 0 11 62 63 64 65 7 66 42 67 16 7 68 1
+phseq1: sil | dh ih s | s aw n d | d ih d | n aa t | d ix s t er b | dh ax | hh ah sh | ae n d | aa | ah v | dh ax | p l ey s | sil
+cmscore1: 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000
+score1: -15325.569336
+
+
+------
+..........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................### read waveform input
+Stat: adin_file: input speechfile: /tmp/adgdlvx1sq/chrisspen-20120505-zgz/a0378.wav
+STAT: 114583 samples (7.16 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+### Recognition: 1st pass (LR beam)
+pass1_best: <s> THAT'S WHY ITS BOUNDARIES ARE ALL GOUGED AND JAGGED <s>
+pass1_best_wordseq: 0 69 70 71 72 73 4 74 42 75 1
+pass1_best_phonemeseq: sil | dh ae t s | w ay | ih t s | b aw n d er iy z | aa r | ao l | g aw jh d | ae n d | jh ae g d | sil
+pass1_best_score: -15556.900391
+### Recognition: 2nd pass (RL heuristic best-first)
+STAT: 00 _default: 19 generated, 19 pushed, 12 nodes popped in 714
+sentence1: <s> THAT'S WHY ITS BOUNDARIES ARE ALL GOUGED AND JAGGED <s>
+wseq1: 0 69 70 71 72 73 4 74 42 75 1
+phseq1: sil | dh ae t s | w ay | ih t s | b aw n d er iy z | aa r | ao l | g aw jh d | ae n d | jh ae g d | sil
+cmscore1: 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000
+score1: -15543.338867
+
+
+------
+...........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................### read waveform input
+Stat: adin_file: input speechfile: /tmp/adgdlvx1sq/chrisspen-20120505-zgz/a0379.wav
+STAT: 91667 samples (5.73 sec.)
+STAT: ### speech analysis (waveform -> MFCC)
+### Recognition: 1st pass (LR beam)
+pass1_best: <s> HOW OLD ARE YOU DADDY <s>
+pass1_best_wordseq: 0 76 77 73 78 79 1
+pass1_best_phonemeseq: sil | hh aw | ow l d | aa r | y uw | d ae dx iy | sil
+pass1_best_score: -11674.708008
+### Recognition: 2nd pass (RL heuristic best-first)
+STAT: 00 _default: 13 generated, 13 pushed, 8 nodes popped in 571
+sentence1: <s> HOW OLD ARE YOU DADDY <s>
+wseq1: 0 76 77 73 78 79 1
+phseq1: sil | hh aw | ow l d | aa r | y uw | d ae dx iy | sil
+cmscore1: 1.000 1.000 1.000 1.000 1.000 1.000 1.000
+score1: -11674.882812
+
+
+------
+10 files processed
+### read waveform input

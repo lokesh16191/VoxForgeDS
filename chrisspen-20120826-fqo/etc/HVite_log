@@ -1,0 +1,63 @@
+/usr/local/bin/HVite -A -D -T 1 -l * -a -b SENT-END -m -C /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/wav_config -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/macros -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/hmmdefs -m -t 250.0 150.0 1000.0 -I /tmp/DMOGfazD1O/words.mlf -i /tmp/DMOGfazD1O/aligned.out -S /tmp/DMOGfazD1O/fileList /data/svn-mirror/SpeechCorpus/Trunk/Lexicon/VoxForge/VoxForgeDict /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/tiedlist 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_D_N_Z_0
+#                 SOURCEFORMAT                 WAV
+
+Read 8294 physical / 9429 logical HMMs
+Label file will be used to align each file
+Aligning File: /tmp/DMOGfazD1O/chrisspen-20120826-fqo/a0440.wav
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END YES SIR I CORRECTED SENT-END  ==  [461 frames] -52.8474 [Ac=-24362.6 LM=0.0] (Act=7.8)
+Aligning File: /tmp/DMOGfazD1O/chrisspen-20120826-fqo/a0441.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END VIOLENT LIFE AND ATHLETIC SPORTS HAD NEVER APPEALED TO ME SENT-END  ==  [648 frames] -55.9014 [Ac=-36224.1 LM=0.0] (Act=13.4)
+Aligning File: /tmp/DMOGfazD1O/chrisspen-20120826-fqo/a0442.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END YOU LIVE ON AN INCOME WHICH YOUR FATHER EARNED SENT-END  ==  [486 frames] -54.7670 [Ac=-26616.8 LM=0.0] (Act=11.7)
+Aligning File: /tmp/DMOGfazD1O/chrisspen-20120826-fqo/a0443.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END HE WAS WORTH NOTHING TO THE WORLD SENT-END  ==  [448 frames] -53.4462 [Ac=-23943.9 LM=0.0] (Act=8.1)
+Aligning File: /tmp/DMOGfazD1O/chrisspen-20120826-fqo/a0444.wav
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END THEN YOU DON'T BELIEVE IN ALTRUISM SENT-END  ==  [498 frames] -51.8447 [Ac=-25818.7 LM=0.0] (Act=9.2)
+Aligning File: /tmp/DMOGfazD1O/chrisspen-20120826-fqo/a0445.wav
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END THE CREATIVE JOY I MURMURED SENT-END  ==  [448 frames] -50.9663 [Ac=-22832.9 LM=0.0] (Act=7.3)
+Aligning File: /tmp/DMOGfazD1O/chrisspen-20120826-fqo/a0446.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END HE DELUGED ME OVERWHELMED ME WITH ARGUMENT SENT-END  ==  [623 frames] -53.5368 [Ac=-33353.4 LM=0.0] (Act=11.8)
+Aligning File: /tmp/DMOGfazD1O/chrisspen-20120826-fqo/a0447.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END AH IT IS GROWING DARK AND DARKER SENT-END  ==  [523 frames] -54.1287 [Ac=-28309.3 LM=0.0] (Act=9.4)
+Aligning File: /tmp/DMOGfazD1O/chrisspen-20120826-fqo/a0448.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END I WAS HUMP CABIN BOY ON THE SCHOONER GHOST SENT-END  ==  [623 frames] -55.3973 [Ac=-34512.5 LM=0.0] (Act=11.4)
+Aligning File: /tmp/DMOGfazD1O/chrisspen-20120826-fqo/a0449.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END A SINEWY HAND DRIPPING WITH WATER WAS CLUTCHING THE RAIL SENT-END  ==  [636 frames] -56.7177 [Ac=-36072.5 LM=0.0] (Act=12.0)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_D_N_Z_0
+                  SOURCEFORMAT                 WAV
+

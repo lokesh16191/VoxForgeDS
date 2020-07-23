@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 42 physical / 42 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091219-qvh/mfc/a0497.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence KING TOOK EVERY ADVANTAGE HE KNEW silence  ==  [636 frames] -47.9538 [Ac=-30498.6 LM=0.0] (Act=8.8)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091219-qvh/mfc/a0498.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence THE LINES WERE NOW VERY TAUT silence  ==  [648 frames] -46.3525 [Ac=-30036.4 LM=0.0] (Act=9.5)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091219-qvh/mfc/a0499.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence AND RIGHT THERE I SAW AND KNEW IT ALL silence  ==  [723 frames] -48.6883 [Ac=-35201.6 LM=0.0] (Act=10.1)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091219-qvh/mfc/a0500.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence WHO THE DEVIL GAVE IT TO YOU TO BE JUDGE AND JURY silence  ==  [973 frames] -46.5185 [Ac=-45262.5 LM=0.0] (Act=9.1)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091219-qvh/mfc/a0501.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence YOU'RE JOKING ME SIR THE OTHER MANAGED TO ARTICULATE silence  ==  [936 frames] -49.9572 [Ac=-46759.9 LM=0.0] (Act=10.4)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091219-qvh/mfc/a0502.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence ANYTHING UNUSUAL OR ABNORMAL WAS SUFFICIENT TO SEND A FELLOW TO MOLOKAI silence  ==  [1111 frames] -49.7009 [Ac=-55217.7 LM=0.0] (Act=8.4)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091219-qvh/mfc/a0503.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence HIS BEADY BLACK EYES SAW BARGAINS WHERE OTHER MEN SAW BANKRUPTCY silence  ==  [973 frames] -50.8745 [Ac=-49500.9 LM=0.0] (Act=8.0)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091219-qvh/mfc/a0504.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence HE WAS AN ATHLETE AND A GIANT silence  ==  [736 frames] -48.3044 [Ac=-35552.0 LM=0.0] (Act=11.4)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091219-qvh/mfc/a0505.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence WE FISHED SHARKS ON NIIHAU TOGETHER silence  ==  [748 frames] -46.4329 [Ac=-34731.8 LM=0.0] (Act=7.2)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20091219-qvh/mfc/a0506.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THE CLAUDINE WAS LEAVING NEXT MORNING FOR HONOLULU silence  ==  [911 frames] -47.1879 [Ac=-42988.2 LM=0.0] (Act=8.1)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

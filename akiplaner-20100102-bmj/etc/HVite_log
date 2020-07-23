@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 41 physical / 41 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100102-bmj/mfc/a0015.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence IT'S THE AURORA BOREALIS silence  ==  [586 frames] -45.6717 [Ac=-26763.6 LM=0.0] (Act=8.3)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100102-bmj/mfc/a0016.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence THERE'S FORT CHURCHILL A RIFLE-SHOT BEYOND THE RIDGE ASLEEP silence  ==  [1048 frames] -49.3428 [Ac=-51711.2 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100102-bmj/mfc/a0017.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence FROM THAT MOMENT HIS FRIENDSHIP FOR BELIZE TURNS TO HATRED AND JEALOUSY silence  ==  [1023 frames] -52.9986 [Ac=-54217.6 LM=0.0] (Act=9.1)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100102-bmj/mfc/a0018.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence THERE WAS A CHANGE NOW silence  ==  [623 frames] -45.2665 [Ac=-28201.0 LM=0.0] (Act=7.1)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100102-bmj/mfc/a0019.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence I FOLLOWED THE LINE OF THE PROPOSED RAILROAD LOOKING FOR CHANCES silence  ==  [1098 frames] -52.2912 [Ac=-57415.7 LM=0.0] (Act=12.2)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100102-bmj/mfc/a0020.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence CLUBS AND BALLS AND CITIES GREW TO BE ONLY MEMORIES silence  ==  [1161 frames] -50.8322 [Ac=-59016.1 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100102-bmj/mfc/a0021.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence IT FAIRLY CLUBBED ME INTO RECOGNIZING IT silence  ==  [1011 frames] -46.8725 [Ac=-47388.1 LM=0.0] (Act=8.2)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100102-bmj/mfc/a0022.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence HARDLY WERE OUR PLANS MADE PUBLIC BEFORE WE WERE MET BY POWERFUL OPPOSITION silence  ==  [1411 frames] -52.4457 [Ac=-74000.9 LM=0.0] (Act=12.0)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100102-bmj/mfc/a0023.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence A COMBINATION OF CANADIAN CAPITAL QUICKLY ORGANIZED AND PETITIONED FOR THE SAME PRIVILEGES silence  ==  [1448 frames] -52.2455 [Ac=-75651.5 LM=0.0] (Act=11.4)
+Aligning File: /data/UserSubmissions/Quarantine/akiplaner-20100102-bmj/mfc/a0024.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence IT WAS MY REPORTS FROM THE NORTH WHICH CHIEFLY INDUCED PEOPLE TO BUY silence  ==  [1498 frames] -47.3128 [Ac=-70874.5 LM=0.0] (Act=8.5)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

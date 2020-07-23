@@ -1,0 +1,63 @@
+/usr/local/bin/HVite -A -D -T 1 -l * -a -b SENT-END -m -C /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/wav_config -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/macros -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/hmmdefs -m -t 250.0 150.0 1000.0 -I /tmp/FBX9Om5QpR/words.mlf -i /tmp/FBX9Om5QpR/aligned.out -S /tmp/FBX9Om5QpR/fileList /data/svn-mirror/SpeechCorpus/Trunk/Lexicon/VoxForge/VoxForgeDict /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/tiedlist 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_D_N_Z_0
+#                 SOURCEFORMAT                 WAV
+
+Read 8073 physical / 9417 logical HMMs
+Label file will be used to align each file
+Aligning File: /tmp/FBX9Om5QpR/chrisspen-20120505-uxh/rb-09.wav
+Created lattice with 18 nodes / 17 arcs from label file
+SENT-END ON TOP OF THAT THUMBING OR THUMB TYPING PUTS A LOT OF STRAIN ON THE THUMB SENT-END  ==  [844 frames] -53.1500 [Ac=-44858.6 LM=0.0] (Act=12.7)
+Aligning File: /tmp/FBX9Om5QpR/chrisspen-20120505-uxh/rb-10.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END WHICH IS NOT AS DEXTEROUS AS THE FINGERS ARE SENT-END  ==  [571 frames] -52.4629 [Ac=-29956.3 LM=0.0] (Act=10.8)
+Aligning File: /tmp/FBX9Om5QpR/chrisspen-20120505-uxh/rb-11.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END A GOOD SOLUTION WOULD BE TO USE SPEECH RECOGNITION SENT-END  ==  [610 frames] -53.9126 [Ac=-32886.7 LM=0.0] (Act=11.3)
+Aligning File: /tmp/FBX9Om5QpR/chrisspen-20120505-uxh/rb-12.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END ESPECIALLY SINCE MOST OF THESE DEVICES OFTEN ALREADY HAVE A BUILT-IN MICROPHONE SENT-END  ==  [779 frames] -55.8235 [Ac=-43486.5 LM=0.0] (Act=13.2)
+Aligning File: /tmp/FBX9Om5QpR/chrisspen-20120505-uxh/rb-13.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END MANY PHONES ALREADY OFFER THE POSSIBILITY OF SO-CALLED VOICE DIALING SENT-END  ==  [753 frames] -55.3166 [Ac=-41653.4 LM=0.0] (Act=13.7)
+Aligning File: /tmp/FBX9Om5QpR/chrisspen-20120505-uxh/rb-14.wav
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END A MAJOR STUMBLING BLOCK IS THE STILL LIMITED COMPUTING POWER OF THESE PHONES SENT-END  ==  [714 frames] -54.2884 [Ac=-38761.9 LM=0.0] (Act=13.4)
+Aligning File: /tmp/FBX9Om5QpR/chrisspen-20120505-uxh/rb-15.wav
+Created lattice with 18 nodes / 17 arcs from label file
+SENT-END ONE WAY TO DEAL WITH THIS IS TO USE ONLY A LIMITED NUMBER OF AVAILABLE COMMANDS SENT-END  ==  [805 frames] -54.9816 [Ac=-44260.2 LM=0.0] (Act=16.7)
+Aligning File: /tmp/FBX9Om5QpR/chrisspen-20120505-uxh/rb-16.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END THAT WAY THE SOFTWARE ONLY NEEDS TO COMPARE SENT-END  ==  [545 frames] -52.3210 [Ac=-28514.9 LM=0.0] (Act=10.4)
+Aligning File: /tmp/FBX9Om5QpR/chrisspen-20120505-uxh/rb-17.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END THE VOICE INPUT WITH A SMALL NUMBER OF POSSIBLE OPTIONS SENT-END  ==  [584 frames] -53.7391 [Ac=-31383.6 LM=0.0] (Act=10.8)
+Aligning File: /tmp/FBX9Om5QpR/chrisspen-20120505-uxh/rb-18.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END MODERN COMPUTERS HAVE FAR MORE COMPUTING POWER THAN HAND-HELD DEVICES SENT-END  ==  [740 frames] -54.1048 [Ac=-40037.5 LM=0.0] (Act=16.0)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_D_N_Z_0
+                  SOURCEFORMAT                 WAV
+
