@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 42 physical / 42 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-mcn/mfc/b0114.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence HE MOVED HIS POSITION AND THE ILLUSION WAS GONE silence  ==  [512 frames] -48.2741 [Ac=-24716.3 LM=0.0] (Act=9.2)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-mcn/mfc/b0115.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence FOR TWO HOURS NOT A WORD PASSED BETWEEN THEM silence  ==  [461 frames] -47.8755 [Ac=-22070.6 LM=0.0] (Act=10.8)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-mcn/mfc/b0116.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence I HAVE HUNTED ALONG THIS RIDGE REPLIED PHILIP silence  ==  [474 frames] -46.1910 [Ac=-21894.6 LM=0.0] (Act=8.6)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-mcn/mfc/b0117.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence THAT'S THORPE'S SAID THE YOUNG ENGINEER silence  ==  [461 frames] -47.2402 [Ac=-21777.7 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-mcn/mfc/b0118.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence WE SAW YOUR LIGHT AND THOUGHT YOU WOULDN'T MIND A CALL silence  ==  [487 frames] -47.2783 [Ac=-23024.5 LM=0.0] (Act=9.6)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-mcn/mfc/b0119.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence BILLINGER MAY ARRIVE IN TIME silence  ==  [436 frames] -45.5235 [Ac=-19848.3 LM=0.0] (Act=10.0)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-mcn/mfc/b0120.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THERE'S THE HITCH REPLIED THORPE ROLLING A CIGARETTE silence  ==  [524 frames] -46.8813 [Ac=-24565.8 LM=0.0] (Act=7.6)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-mcn/mfc/b0121.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence I WANT MY MEN TO WORK BY THEMSELVES silence  ==  [487 frames] -46.5337 [Ac=-22661.9 LM=0.0] (Act=9.5)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-mcn/mfc/b0122.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence PHILIP SAW MACDOUGALL SOON AFTER HIS SHORT TALK WITH THORPE silence  ==  [574 frames] -47.5897 [Ac=-27316.5 LM=0.0] (Act=8.3)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-mcn/mfc/b0123.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence NEITHER COULD THEY UNDERSTAND THE GROWING DISAFFECTION AMONG THORPE'S MEN silence  ==  [637 frames] -49.2361 [Ac=-31363.4 LM=0.0] (Act=10.3)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

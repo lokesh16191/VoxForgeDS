@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 43 physical / 43 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-qgv/mfc/rb-01.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence HAND-HELD DEVICES SUCH AS PERSONAL DIGITAL ASSISTANTS AND SMARTPHONES ARE QUITE SMALL silence  ==  [474 frames] -57.1555 [Ac=-27091.7 LM=0.0] (Act=6.6)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-qgv/mfc/rb-02.mfc
+Created lattice with 18 nodes / 17 arcs from label file
+silence MOST OF THEM USE EITHER A TOUCH SCREEN INTERFACE OR A MINIATURIZED KEYBOARD FOR USER INPUT silence  ==  [499 frames] -55.9945 [Ac=-27941.3 LM=0.0] (Act=6.9)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-qgv/mfc/rb-03.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence BUILT-IN KEYBOARDS ARE USUALLY OPERATED WITH THE THUMBS SINCE TOUCH TYPING AND silence  ==  [436 frames] -55.3843 [Ac=-24147.6 LM=0.0] (Act=6.0)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-qgv/mfc/rb-04.mfc
+Created lattice with 16 nodes / 15 arcs from label file
+silence HUNT AND PECK TYPING USING THE FINGERS ARE PRETTY MUCH OUT OF THE QUESTION silence  ==  [386 frames] -55.6521 [Ac=-21481.7 LM=0.0] (Act=7.6)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-qgv/mfc/rb-05.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence DEVICES WITH A TOUCH SCREEN INTERFACE OFTEN USE AN ON-SCREEN KEYBOARD OR HANDWRITING silence  ==  [436 frames] -55.8979 [Ac=-24371.5 LM=0.0] (Act=6.0)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-qgv/mfc/rb-06.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence RECOGNITION FOR INPUTTING TEXT THIS HAS A COUPLE OF DRAWBACKS silence  ==  [386 frames] -57.4539 [Ac=-22177.2 LM=0.0] (Act=7.9)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-qgv/mfc/rb-07.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence THE KEYBOARD WHETHER IT'S AN ON-SCREEN VERSION OR NOT STRONGLY REDUCES silence  ==  [411 frames] -56.5129 [Ac=-23226.8 LM=0.0] (Act=7.2)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-qgv/mfc/rb-08.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence THE AMOUNT OF AVAILABLE SCREEN REAL-ESTATE silence  ==  [274 frames] -56.4381 [Ac=-15464.0 LM=0.0] (Act=7.3)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-qgv/mfc/rb-09.mfc
+Created lattice with 18 nodes / 17 arcs from label file
+silence ON TOP OF THAT THUMBING OR THUMB TYPING PUTS A LOT OF STRAIN ON THE THUMB silence  ==  [424 frames] -54.5802 [Ac=-23142.0 LM=0.0] (Act=8.2)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-qgv/mfc/rb-10.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence WHICH IS NOT AS DEXTEROUS AS THE FINGERS ARE silence  ==  [286 frames] -56.2700 [Ac=-16093.2 LM=0.0] (Act=7.1)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 41 physical / 41 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-sxs/mfc/b0249.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence I KNOW THEY ARE MY OYSTERS silence  ==  [198 frames] -56.7029 [Ac=-11227.2 LM=0.0] (Act=10.8)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-sxs/mfc/b0250.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence BY THIS TIME CHARLEY WAS AS ENRAGED AS THE GREEK silence  ==  [274 frames] -60.0941 [Ac=-16465.8 LM=0.0] (Act=10.7)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-sxs/mfc/b0251.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THEY MUST HAVE BEEN SWEPT AWAY BY THE CHAOTIC CURRENTS silence  ==  [274 frames] -58.4628 [Ac=-16018.8 LM=0.0] (Act=12.1)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-sxs/mfc/b0252.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence IT RESEMBLED TEA LESS THAN LAGER BEER RESEMBLES CHAMPAGNE silence  ==  [324 frames] -59.5919 [Ac=-19307.8 LM=0.0] (Act=10.4)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-sxs/mfc/b0253.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence THE VERY OPPOSITE IS TRUE THEY ARE DISCOURAGED VAGABONDS silence  ==  [336 frames] -59.5522 [Ac=-20009.6 LM=0.0] (Act=10.4)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-sxs/mfc/b0254.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence AT THE SAME TIME SPEARS AND ARROWS BEGAN TO FALL AMONG THE INVADERS silence  ==  [361 frames] -59.8050 [Ac=-21589.6 LM=0.0] (Act=11.4)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-sxs/mfc/b0255.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THEN AGAIN TUDOR HAD SUCH AN IRRITATING WAY ABOUT HIM silence  ==  [361 frames] -56.6961 [Ac=-20467.3 LM=0.0] (Act=10.6)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-sxs/mfc/b0256.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence OUTWARDLY HE MAINTAINED A CALM AND SMILING ASPECT silence  ==  [349 frames] -56.8707 [Ac=-19847.9 LM=0.0] (Act=11.2)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-sxs/mfc/b0257.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence TUDOR SURVEYED HIM WITH WITHERING DISGUST silence  ==  [286 frames] -56.9319 [Ac=-16282.5 LM=0.0] (Act=10.8)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-sxs/mfc/b0258.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence YOU FIRED ME OUT OF YOUR HOUSE IN SHORT silence  ==  [299 frames] -55.5057 [Ac=-16596.2 LM=0.0] (Act=10.5)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

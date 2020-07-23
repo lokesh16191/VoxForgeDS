@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 39 physical / 39 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/sharrington-20081018-ucg/mfc/a0394.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence IT'S THE STRAP HANGERS THAT'LL KEEP US FROM GOING UNDER silence  ==  [419 frames] -50.2330 [Ac=-21047.6 LM=0.0] (Act=7.3)
+Aligning File: /data/UserSubmissions/Quarantine/sharrington-20081018-ucg/mfc/a0395.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence AS FOR HIMSELF WEREN'T THE STREET RAILWAY EARNINGS INCREASING STEADILY silence  ==  [510 frames] -51.7249 [Ac=-26379.7 LM=0.0] (Act=8.6)
+Aligning File: /data/UserSubmissions/Quarantine/sharrington-20081018-ucg/mfc/a0396.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence A RISING TIDE OF FAT HAD SUBMERGED THEM silence  ==  [417 frames] -51.6994 [Ac=-21558.6 LM=0.0] (Act=10.1)
+Aligning File: /data/UserSubmissions/Quarantine/sharrington-20081018-ucg/mfc/a0397.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence CALL ME THAT AGAIN HE MURMURED ECSTATICALLY silence  ==  [334 frames] -51.9161 [Ac=-17340.0 LM=0.0] (Act=8.0)
+Aligning File: /data/UserSubmissions/Quarantine/sharrington-20081018-ucg/mfc/a0398.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence IN THE CAR WERE UNWIN AND HARRISON WHILE JONES SAT WITH THE CHAUFFEUR silence  ==  [548 frames] -48.9970 [Ac=-26850.4 LM=0.0] (Act=9.1)
+Aligning File: /data/UserSubmissions/Quarantine/sharrington-20081018-ucg/mfc/a0399.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence AND HERE'S ANOTHER IDEA silence  ==  [191 frames] -51.2252 [Ac=-9784.0 LM=0.0] (Act=7.4)
+Aligning File: /data/UserSubmissions/Quarantine/sharrington-20081018-ucg/mfc/a0400.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence MANUEL HAD ONE BESETTING SIN silence  ==  [277 frames] -49.7853 [Ac=-13790.5 LM=0.0] (Act=7.5)
+Aligning File: /data/UserSubmissions/Quarantine/sharrington-20081018-ucg/mfc/a0401.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence THE MAN SMILED GRIMLY AND BROUGHT A HATCHET AND A CLUB silence  ==  [406 frames] -51.9640 [Ac=-21097.4 LM=0.0] (Act=9.4)
+Aligning File: /data/UserSubmissions/Quarantine/sharrington-20081018-ucg/mfc/a0402.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence CURLY RUSHED HER ANTAGONIST WHO STRUCK AGAIN AND LEAPED silence  ==  [473 frames] -51.7045 [Ac=-24456.2 LM=0.0] (Act=8.9)
+Aligning File: /data/UserSubmissions/Quarantine/sharrington-20081018-ucg/mfc/a0403.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence HIS NEWBORN CUNNING GAVE HIM POISE AND CONTROL silence  ==  [332 frames] -54.5141 [Ac=-18098.7 LM=0.0] (Act=8.8)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 43 physical / 43 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-vqr/mfc/a0134.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence HE OBEYED THE PRESSURE OF HER HAND silence  ==  [361 frames] -47.9406 [Ac=-17306.6 LM=0.0] (Act=10.6)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-vqr/mfc/a0135.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence I AM GOING TO SURPRISE FATHER AND YOU WILL GO WITH PIERRE silence  ==  [523 frames] -49.5366 [Ac=-25907.6 LM=0.0] (Act=10.4)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-vqr/mfc/a0136.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence ABOUT HIM EVERYWHERE WERE THE EVIDENCES OF LUXURY AND OF AGE silence  ==  [661 frames] -53.0649 [Ac=-35075.9 LM=0.0] (Act=11.9)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-vqr/mfc/a0137.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THEN HE STEPPED BACK WITH A LOW CRY OF PLEASURE silence  ==  [523 frames] -49.3133 [Ac=-25790.9 LM=0.0] (Act=14.1)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-vqr/mfc/a0138.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence IN THE PICTURE HE SAW EACH MOMENT A GREATER RESEMBLANCE TO JEANNE silence  ==  [611 frames] -51.0441 [Ac=-31187.9 LM=0.0] (Act=12.1)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-vqr/mfc/a0139.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence HE TOLD HIMSELF THAT AS HE WASHED HIMSELF AND GROOMED HIS DISHEVELED CLOTHES silence  ==  [698 frames] -52.6642 [Ac=-36759.6 LM=0.0] (Act=11.8)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-vqr/mfc/a0140.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence ACCEPT A FATHER'S BLESSING AND WITH IT THIS silence  ==  [548 frames] -50.0514 [Ac=-27428.2 LM=0.0] (Act=11.7)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-vqr/mfc/a0141.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence IT SEEMS LIKE A STRANGE POINTING OF THE HAND OF GOD silence  ==  [548 frames] -49.6282 [Ac=-27196.2 LM=0.0] (Act=10.4)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-vqr/mfc/a0142.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence SUCH THINGS HAD OCCURRED BEFORE HE TOLD PHILIP silence  ==  [486 frames] -49.5956 [Ac=-24103.5 LM=0.0] (Act=12.6)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-vqr/mfc/a0143.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence AH I HAD FORGOTTEN HE EXCLAIMED silence  ==  [473 frames] -48.5049 [Ac=-22942.8 LM=0.0] (Act=11.1)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

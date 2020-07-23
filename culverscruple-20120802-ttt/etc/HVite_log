@@ -1,0 +1,60 @@
+/usr/local/bin/HVite -A -D -T 1 -l * -a -b SENT-END -m -C /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/wav_config -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/macros -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/hmmdefs -m -t 250.0 150.0 1000.0 -I /tmp/pLQFEQcEtv/words.mlf -i /tmp/pLQFEQcEtv/aligned.out -S /tmp/pLQFEQcEtv/fileList /data/svn-mirror/SpeechCorpus/Trunk/Lexicon/VoxForge/VoxForgeDict /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/tiedlist 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_D_N_Z_0
+#                 SOURCEFORMAT                 WAV
+
+Read 8294 physical / 9429 logical HMMs
+Label file will be used to align each file
+Aligning File: /tmp/pLQFEQcEtv/culverscruple-20120802-ttt/b0475.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END NOT A WHEEL MOVED IN HIS EMPIRE SENT-END  ==  [461 frames] -51.7538 [Ac=-23858.5 LM=0.0] (Act=14.4)
+Aligning File: /tmp/pLQFEQcEtv/culverscruple-20120802-ttt/b0476.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END THE REORGANIZATION OF THESE COUNTRIES TOOK THE FORM OF REVOLUTION SENT-END  ==  [636 frames] -53.4151 [Ac=-33972.0 LM=0.0] (Act=14.6)
+Aligning File: /tmp/pLQFEQcEtv/culverscruple-20120802-ttt/b0477.wav
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END YOU'RE GOING IN FOR GRAB SHARING SENT-END  ==  [436 frames] -51.7936 [Ac=-22582.0 LM=0.0] (Act=8.7)
+Aligning File: /tmp/pLQFEQcEtv/culverscruple-20120802-ttt/b0478.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END THE OLIGARCHY WILL ENCOURAGE SUCH AMBITION AND THE CONSEQUENT COMPETITION SENT-END  ==  [711 frames] -54.8107 [Ac=-38970.4 LM=0.0] (Act=16.5)
+Aligning File: /tmp/pLQFEQcEtv/culverscruple-20120802-ttt/b0479.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END VIOLATION OF THIS LAW WAS MADE A HIGH MISDEMEANOR AND PUNISHED ACCORDINGLY SENT-END  ==  [723 frames] -54.3193 [Ac=-39272.9 LM=0.0] (Act=13.5)
+Aligning File: /tmp/pLQFEQcEtv/culverscruple-20120802-ttt/b0480.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END WITHOUT DISCUSSION IT WAS THE AGENTS PROVOCATEURS WHO CAUSED THE PEASANT REVOLT SENT-END  ==  [761 frames] -53.8803 [Ac=-41002.9 LM=0.0] (Act=14.7)
+Aligning File: /tmp/pLQFEQcEtv/culverscruple-20120802-ttt/b0481.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END THE TASK WE SET OURSELVES WAS THREEFOLD SENT-END  ==  [523 frames] -52.9866 [Ac=-27712.0 LM=0.0] (Act=11.5)
+Aligning File: /tmp/pLQFEQcEtv/culverscruple-20120802-ttt/b0482.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END MANY OTHER SIMILAR DISCONCERTING OMISSIONS WILL BE NOTICED IN THE MANUSCRIPT SENT-END  ==  [711 frames] -54.7584 [Ac=-38933.2 LM=0.0] (Act=12.3)
+Aligning File: /tmp/pLQFEQcEtv/culverscruple-20120802-ttt/b0483.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END THE FLOWER OF THE ARTISTIC AND INTELLECTUAL WORLD WERE REVOLUTIONISTS SENT-END  ==  [636 frames] -55.6591 [Ac=-35399.2 LM=0.0] (Act=19.1)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_D_N_Z_0
+                  SOURCEFORMAT                 WAV
+

@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 40 physical / 40 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-sve/mfc/a0337.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence ENCOURAGED BY MY CONDUCT BIG-FACE BECAME A SUDDEN ALLY silence  ==  [587 frames] -51.6589 [Ac=-30323.8 LM=0.0] (Act=11.2)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-sve/mfc/a0338.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence THE FIGHTING HAD NOW BECOME INTERMITTENT silence  ==  [374 frames] -48.6833 [Ac=-18207.6 LM=0.0] (Act=9.0)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-sve/mfc/a0339.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence THEY OBEYED HIM AND WENT HERE AND THERE AT HIS COMMANDS silence  ==  [487 frames] -49.0506 [Ac=-23887.7 LM=0.0] (Act=9.6)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-sve/mfc/a0340.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence IT WAS LIKE THE BEATING OF HOOFS silence  ==  [349 frames] -48.2913 [Ac=-16853.6 LM=0.0] (Act=9.5)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-sve/mfc/a0341.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence WHY DOGGONE YOU ALL SHAKE AGAIN silence  ==  [386 frames] -48.3588 [Ac=-18666.5 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-sve/mfc/a0342.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence SEVENTEEN NO EIGHTEEN DAYS AGO silence  ==  [349 frames] -48.5462 [Ac=-16942.6 LM=0.0] (Act=7.0)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-sve/mfc/a0343.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence YOU MEAN FOR THIS STATE GENERAL ALBERTA silence  ==  [374 frames] -50.0867 [Ac=-18732.4 LM=0.0] (Act=8.8)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-sve/mfc/a0344.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence HE SEEMED TO FILL IT WITH HIS TREMENDOUS VITALITY silence  ==  [386 frames] -52.8960 [Ac=-20417.8 LM=0.0] (Act=9.1)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-sve/mfc/a0345.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence SHE WAS TRYING TO PASS THE APRON STRING AROUND HIM silence  ==  [449 frames] -50.1293 [Ac=-22508.1 LM=0.0] (Act=10.4)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-sve/mfc/a0346.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence GET DOWN AND DIG IN silence  ==  [299 frames] -48.0652 [Ac=-14371.5 LM=0.0] (Act=11.6)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

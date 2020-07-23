@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 41 physical / 41 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080827-ins/mfc/a0218.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THE RINGING OF THE BIG BELL AROUSED HIM silence  ==  [297 frames] -51.8571 [Ac=-15401.6 LM=0.0] (Act=8.8)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080827-ins/mfc/a0219.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence AT FIRST HE PUZZLED OVER SOMETHING UNTOWARD HE WAS SURE HAD HAPPENED silence  ==  [434 frames] -53.0099 [Ac=-23006.3 LM=0.0] (Act=9.6)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080827-ins/mfc/a0220.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence A DEAD MAN IS OF NO USE ON A PLANTATION silence  ==  [349 frames] -53.8585 [Ac=-18796.6 LM=0.0] (Act=8.1)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080827-ins/mfc/a0221.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence I DON'T KNOW WHY YOU'RE HERE AT ALL silence  ==  [306 frames] -54.8677 [Ac=-16789.5 LM=0.0] (Act=12.1)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080827-ins/mfc/a0222.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence WHAT PART OF THE UNITED STATES IS YOUR HOME silence  ==  [289 frames] -55.6392 [Ac=-16079.7 LM=0.0] (Act=9.7)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080827-ins/mfc/a0223.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence MY I'M ALMOST HOMESICK FOR IT ALREADY silence  ==  [263 frames] -55.8600 [Ac=-14691.2 LM=0.0] (Act=8.1)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080827-ins/mfc/a0224.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence SHE NODDED AND HER EYES GREW SOFT AND MOIST silence  ==  [340 frames] -55.8418 [Ac=-18986.2 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080827-ins/mfc/a0225.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence I WAS BROUGHT UP THE WAY MOST GIRLS IN HAWAII ARE BROUGHT UP silence  ==  [408 frames] -54.1999 [Ac=-22113.6 LM=0.0] (Act=9.7)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080827-ins/mfc/a0226.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THAT CAME BEFORE MY A B C'S silence  ==  [331 frames] -53.3758 [Ac=-17667.4 LM=0.0] (Act=9.9)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080827-ins/mfc/a0227.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence IT WAS THE SAME WAY WITH OUR REVOLVERS AND RIFLES silence  ==  [366 frames] -54.5361 [Ac=-19960.2 LM=0.0] (Act=10.1)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

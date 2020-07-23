@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 42 physical / 42 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-jbx/mfc/a0349.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence IT WAS SIMPLE IN ITS WAY AND NO VIRTUE OF HIS silence  ==  [468 frames] -53.1423 [Ac=-24870.6 LM=0.0] (Act=9.8)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-jbx/mfc/a0350.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence IS THAT PAT HANRAHAN'S MUG LOOKING HUNGRY AND WILLING silence  ==  [443 frames] -53.7015 [Ac=-23789.8 LM=0.0] (Act=9.7)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-jbx/mfc/a0351.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence IT WAS MORE LIKE SUGAR silence  ==  [272 frames] -49.6482 [Ac=-13504.3 LM=0.0] (Act=9.0)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-jbx/mfc/a0352.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence I'M SURE GOING ALONG WITH YOU ALL ELIJAH silence  ==  [391 frames] -50.9037 [Ac=-19903.4 LM=0.0] (Act=8.4)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-jbx/mfc/a0353.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence HERE THE EXPLOSION OF MIRTH DROWNED HIM OUT silence  ==  [408 frames] -53.3196 [Ac=-21754.4 LM=0.0] (Act=10.2)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-jbx/mfc/a0354.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence FRESH MEAT THEY FAILED TO OBTAIN silence  ==  [366 frames] -53.3791 [Ac=-19536.8 LM=0.0] (Act=9.0)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-jbx/mfc/a0355.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence A BURST OF LAUGHTER WAS HIS REWARD silence  ==  [357 frames] -52.7561 [Ac=-18833.9 LM=0.0] (Act=8.3)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-jbx/mfc/a0356.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence YOU DON'T CATCH ME AT ANY SUCH FOOLISHNESS silence  ==  [400 frames] -52.4442 [Ac=-20977.7 LM=0.0] (Act=10.6)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-jbx/mfc/a0357.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence A MONTH PASSED BY AND BONANZA CREEK REMAINED QUIET silence  ==  [520 frames] -51.0773 [Ac=-26560.2 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-jbx/mfc/a0358.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence THEY CONTINUED VALIANTLY TO LIE BUT THE TRUTH CONTINUED TO OUTRUN THEM silence  ==  [639 frames] -53.7850 [Ac=-34368.6 LM=0.0] (Act=9.4)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

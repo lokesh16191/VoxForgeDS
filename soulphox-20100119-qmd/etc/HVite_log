@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 43 physical / 43 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100119-qmd/mfc/b0297.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence WHY SHOULD A FELLOW THROW UP THE SPONGE AFTER THE FIRST ROUND silence  ==  [673 frames] -54.7535 [Ac=-36849.1 LM=0.0] (Act=10.1)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100119-qmd/mfc/b0298.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence HIS HAND SHOT OUT AND CLUTCHED CROOKED-LEG BY THE NECK silence  ==  [586 frames] -54.7778 [Ac=-32099.8 LM=0.0] (Act=9.6)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100119-qmd/mfc/b0299.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence MISS BRODIE'S SMILE WAS SLIGHTLY SARCASTIC silence  ==  [586 frames] -57.0061 [Ac=-33405.6 LM=0.0] (Act=7.7)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100119-qmd/mfc/b0300.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence DOES THE OLD BOY OFTEN GO OFF AT HALF-COCK THAT WAY silence  ==  [561 frames] -56.3481 [Ac=-31611.3 LM=0.0] (Act=14.9)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100119-qmd/mfc/b0301.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence A FLYING ARROW PASSED BETWEEN US silence  ==  [511 frames] -52.4611 [Ac=-26807.6 LM=0.0] (Act=8.1)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100119-qmd/mfc/b0302.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence I PULLED SUDDENLY WITH ALL MY MIGHT silence  ==  [473 frames] -52.6957 [Ac=-24925.1 LM=0.0] (Act=10.8)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100119-qmd/mfc/b0303.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence HERE WE ALLOW OUR SOLICITORS TO LOOK AFTER OUR LEGAL WORK silence  ==  [636 frames] -54.7874 [Ac=-34844.8 LM=0.0] (Act=10.6)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100119-qmd/mfc/b0304.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence HIS PREVIOUS WIVES HAD NEVER LIVED LONG ENOUGH TO BEAR HIM CHILDREN silence  ==  [736 frames] -54.8147 [Ac=-40343.6 LM=0.0] (Act=10.2)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100119-qmd/mfc/b0305.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence IT WAS OUR RIVER EMERGING LIKE OURSELVES FROM THE GREAT SWAMP silence  ==  [623 frames] -55.3465 [Ac=-34480.9 LM=0.0] (Act=10.9)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100119-qmd/mfc/b0306.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence CAMERON LOOKED AT HIS HANDS WITH THEIR LONG SINEWY FINGERS silence  ==  [636 frames] -53.1991 [Ac=-33834.6 LM=0.0] (Act=9.7)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

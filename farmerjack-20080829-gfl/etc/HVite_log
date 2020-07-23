@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 42 physical / 42 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080829-gfl/mfc/b0303.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence HERE WE ALLOW OUR SOLICITORS TO LOOK AFTER OUR LEGAL WORK silence  ==  [468 frames] -55.0264 [Ac=-25752.3 LM=0.0] (Act=10.0)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080829-gfl/mfc/b0304.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence HIS PREVIOUS WIVES HAD NEVER LIVED LONG ENOUGH TO BEAR HIM CHILDREN silence  ==  [460 frames] -52.8693 [Ac=-24319.9 LM=0.0] (Act=8.5)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080829-gfl/mfc/b0305.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence IT WAS OUR RIVER EMERGING LIKE OURSELVES FROM THE GREAT SWAMP silence  ==  [477 frames] -53.8027 [Ac=-25663.9 LM=0.0] (Act=9.1)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080829-gfl/mfc/b0306.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence CAMERON LOOKED AT HIS HANDS WITH THEIR LONG SINEWY FINGERS silence  ==  [451 frames] -52.7027 [Ac=-23768.9 LM=0.0] (Act=8.0)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080829-gfl/mfc/b0307.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence WE GOT FEW VEGETABLES AND FRUITS AND BECAME FISH EATERS silence  ==  [426 frames] -56.3439 [Ac=-24002.5 LM=0.0] (Act=10.1)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080829-gfl/mfc/b0308.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence WE NEVER MADE ANOTHER MIGRATION silence  ==  [297 frames] -50.3525 [Ac=-14954.7 LM=0.0] (Act=7.6)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080829-gfl/mfc/b0309.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence NOR WAS ELAM HARNISH AN EXCEPTION silence  ==  [280 frames] -53.0506 [Ac=-14854.2 LM=0.0] (Act=7.1)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080829-gfl/mfc/b0310.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence A LITTLE TREATMENT MASSAGE WITH SOME HELP FROM THE DOCTOR silence  ==  [400 frames] -53.9334 [Ac=-21573.3 LM=0.0] (Act=10.7)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080829-gfl/mfc/b0311.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence THE TWENTY NINTH VERY FOGGY silence  ==  [272 frames] -52.2154 [Ac=-14202.6 LM=0.0] (Act=9.0)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080829-gfl/mfc/b0312.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence DIG IN YOU'RE SURE GOOD WAS DAYLIGHT'S ANSWER silence  ==  [383 frames] -51.1283 [Ac=-19582.1 LM=0.0] (Act=7.7)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

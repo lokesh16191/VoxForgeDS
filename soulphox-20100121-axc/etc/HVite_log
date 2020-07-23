@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 41 physical / 41 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100121-axc/mfc/a0540.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence YEA SO ARE ALL THE LESSER ANIMALS OF TODAY CLEAN silence  ==  [586 frames] -51.7560 [Ac=-30329.0 LM=0.0] (Act=10.6)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100121-axc/mfc/a0541.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THE WARDEN WITH A QUART OF CHAMPAGNE silence  ==  [486 frames] -49.1787 [Ac=-23900.8 LM=0.0] (Act=7.8)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100121-axc/mfc/a0542.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence WITHOUT A DOUBT SOME OF THEM HAVE DINNER ENGAGEMENTS silence  ==  [548 frames] -49.9155 [Ac=-27353.7 LM=0.0] (Act=8.4)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100121-axc/mfc/a0543.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence I HAD BEEN BORN WITH NO ORGANIC CHEMICAL PREDISPOSITION TOWARD ALCOHOL silence  ==  [748 frames] -51.4504 [Ac=-38484.9 LM=0.0] (Act=7.6)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100121-axc/mfc/a0544.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence HE MAY ANTICIPATE THE DAY OF HIS DEATH silence  ==  [461 frames] -48.5580 [Ac=-22385.3 LM=0.0] (Act=10.7)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100121-axc/mfc/a0545.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THE ITALIAN RANCHO WAS A BACHELOR ESTABLISHMENT silence  ==  [536 frames] -49.6274 [Ac=-26600.3 LM=0.0] (Act=6.1)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100121-axc/mfc/a0546.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence I LOST MY BALANCE AND PITCHED HEAD FOREMOST INTO THE OOZE silence  ==  [623 frames] -50.0980 [Ac=-31211.0 LM=0.0] (Act=7.4)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100121-axc/mfc/a0547.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence MEN LIKE JOE GOOSE DATED EXISTENCE FROM DRUNK TO DRUNK silence  ==  [661 frames] -51.4779 [Ac=-34026.9 LM=0.0] (Act=7.9)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100121-axc/mfc/a0548.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence ALSO CHURCHES AND PREACHERS I HAD NEVER KNOWN silence  ==  [561 frames] -49.6747 [Ac=-27867.5 LM=0.0] (Act=6.6)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100121-axc/mfc/a0549.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence DO YOU KNOW THAT WE WEIGH EVERY POUND OF COAL WE BURN silence  ==  [611 frames] -51.3154 [Ac=-31353.7 LM=0.0] (Act=8.3)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

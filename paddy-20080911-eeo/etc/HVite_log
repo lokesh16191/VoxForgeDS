@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 39 physical / 39 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-eeo/mfc/a0039.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence THE SHIP SHOULD BE IN WITHIN A WEEK OR TEN DAYS silence  ==  [461 frames] -55.6877 [Ac=-25672.0 LM=0.0] (Act=9.8)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-eeo/mfc/a0040.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence I SUPPOSE YOU WONDER WHY SHE IS COMING UP HERE silence  ==  [361 frames] -58.7541 [Ac=-21210.2 LM=0.0] (Act=11.1)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-eeo/mfc/a0041.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence MEANWHILE I'LL GO OUT TO BREATHE A SPELL silence  ==  [349 frames] -58.4014 [Ac=-20382.1 LM=0.0] (Act=10.4)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-eeo/mfc/a0042.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence HOW COULD HE EXPLAIN HIS POSSESSION OF THE SKETCH silence  ==  [399 frames] -58.1094 [Ac=-23185.7 LM=0.0] (Act=10.7)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-eeo/mfc/a0043.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence IT SEEMED NEARER TO HIM SINCE HE HAD SEEN AND TALKED WITH GREGSON silence  ==  [537 frames] -59.1559 [Ac=-31766.7 LM=0.0] (Act=11.0)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-eeo/mfc/a0044.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence HER OWN BETRAYAL OF HERSELF WAS LIKE TONIC TO PHILIP silence  ==  [487 frames] -58.6102 [Ac=-28543.2 LM=0.0] (Act=9.9)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-eeo/mfc/a0045.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence HE MOVED AWAY AS QUIETLY AS HE HAD COME silence  ==  [386 frames] -56.9876 [Ac=-21997.2 LM=0.0] (Act=9.1)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-eeo/mfc/a0046.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THE GIRL FACED HIM HER EYES SHINING WITH SUDDEN FEAR silence  ==  [487 frames] -56.7606 [Ac=-27642.4 LM=0.0] (Act=8.7)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-eeo/mfc/a0047.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence CLOSE BESIDE HIM GLEAMED THE WHITE FANGS OF THE WOLF-DOG silence  ==  [474 frames] -58.2481 [Ac=-27609.6 LM=0.0] (Act=7.6)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-eeo/mfc/a0048.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence HE LOOKED AT THE HANDKERCHIEF MORE CLOSELY silence  ==  [324 frames] -59.6966 [Ac=-19341.7 LM=0.0] (Act=12.4)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

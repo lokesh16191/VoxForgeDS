@@ -1,0 +1,63 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 43 physical / 43 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-orz/mfc/a0452.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence THREE OILERS AND A FOURTH ENGINEER WAS HIS GREETING silence  ==  [548 frames] -51.0664 [Ac=-27984.4 LM=0.0] (Act=9.1)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-orz/mfc/a0453.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence EIGHTEEN HUNDRED HE CALCULATED silence  ==  [436 frames] -48.6031 [Ac=-21191.0 LM=0.0] (Act=12.1)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-orz/mfc/a0454.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THE SHARP VOICE OF WOLF LARSEN AROUSED ME silence  ==  [536 frames] -49.1037 [Ac=-26319.6 LM=0.0] (Act=10.3)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-orz/mfc/a0455.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence I OBEYED AND A MINUTE OR TWO LATER THEY STOOD BEFORE HIM silence  ==  [598 frames] -48.7083 [Ac=-29127.6 LM=0.0] (Act=10.6)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-orz/mfc/a0456.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+No tokens survived to final node of network at beam 250.0
+silence BUT IT WON'T CONTINUE SHE SAID WITH EASY CONFIDENCE silence  ==  [548 frames] -50.3198 [Ac=-27575.3 LM=0.0] (Act=16.4)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-orz/mfc/a0457.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence WHAT I SAW I COULD NOT AT FIRST BELIEVE silence  ==  [511 frames] -47.8156 [Ac=-24433.7 LM=0.0] (Act=11.4)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-orz/mfc/a0458.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THE STOUT WOOD WAS CRUSHED LIKE AN EGGSHELL silence  ==  [523 frames] -48.5098 [Ac=-25370.6 LM=0.0] (Act=12.7)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-orz/mfc/a0459.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THERE'S TOO MUCH OF THE SCHOOLBOY IN ME silence  ==  [486 frames] -46.4677 [Ac=-22583.3 LM=0.0] (Act=13.1)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-orz/mfc/a0460.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence I HAD FORGOTTEN THEIR EXISTENCE silence  ==  [423 frames] -47.0895 [Ac=-19918.9 LM=0.0] (Act=10.2)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-orz/mfc/a0461.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+No tokens survived to final node of network at beam 250.0
+silence AH WE WERE VERY CLOSE TOGETHER IN THAT MOMENT silence  ==  [523 frames] -48.1561 [Ac=-25185.6 LM=0.0] (Act=16.8)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

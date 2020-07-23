@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 42 physical / 42 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/sharrington-20081018-yqy/mfc/b0484.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THIS THE IRON HEEL FORESAW AND LAID ITS SCHEMES ACCORDINGLY silence  ==  [513 frames] -54.3312 [Ac=-27871.9 LM=0.0] (Act=9.0)
+Aligning File: /data/UserSubmissions/Quarantine/sharrington-20081018-yqy/mfc/b0485.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence THE MOB CAME ON BUT IT COULD NOT ADVANCE silence  ==  [365 frames] -49.6370 [Ac=-18117.5 LM=0.0] (Act=8.9)
+Aligning File: /data/UserSubmissions/Quarantine/sharrington-20081018-yqy/mfc/b0486.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence BUT WHY CONTINUE THE TIRADE FOR TIRADE IT WAS silence  ==  [396 frames] -53.2130 [Ac=-21072.4 LM=0.0] (Act=9.6)
+Aligning File: /data/UserSubmissions/Quarantine/sharrington-20081018-yqy/mfc/b0487.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence AFTER ALL SUPERFLUOUS FLESH IS GONE WHAT IS LEFT IS STRINGY AND RESISTANT silence  ==  [661 frames] -53.8533 [Ac=-35597.0 LM=0.0] (Act=8.6)
+Aligning File: /data/UserSubmissions/Quarantine/sharrington-20081018-yqy/mfc/b0488.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence BEYOND REFUSING TO SELL US FOOD THEY LEFT US TO OURSELVES silence  ==  [490 frames] -52.9601 [Ac=-25950.4 LM=0.0] (Act=8.1)
+Aligning File: /data/UserSubmissions/Quarantine/sharrington-20081018-yqy/mfc/b0489.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence HE WAS A MERRY MONARCH ESPECIALLY SO FOR AN ASIATIC silence  ==  [440 frames] -53.8311 [Ac=-23685.7 LM=0.0] (Act=8.3)
+Aligning File: /data/UserSubmissions/Quarantine/sharrington-20081018-yqy/mfc/b0490.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence WHAT AN EXCITED WHISPERING AND CONFERRING TOOK PLACE silence  ==  [448 frames] -53.2711 [Ac=-23865.4 LM=0.0] (Act=9.8)
+Aligning File: /data/UserSubmissions/Quarantine/sharrington-20081018-yqy/mfc/b0491.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence JACOB BRINKER WHO WAS HIS ROADMATE BROUGHT NEWS silence  ==  [385 frames] -52.9079 [Ac=-20369.6 LM=0.0] (Act=10.2)
+Aligning File: /data/UserSubmissions/Quarantine/sharrington-20081018-yqy/mfc/b0492.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence THUS HE TURNED THE TENETS AND JARGON OF PSYCHOLOGY BACK ON ME silence  ==  [401 frames] -55.1593 [Ac=-22118.9 LM=0.0] (Act=11.8)
+Aligning File: /data/UserSubmissions/Quarantine/sharrington-20081018-yqy/mfc/b0493.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence YOU YELLOW GIANT THING OF THE FROST silence  ==  [288 frames] -50.8340 [Ac=-14640.2 LM=0.0] (Act=10.4)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

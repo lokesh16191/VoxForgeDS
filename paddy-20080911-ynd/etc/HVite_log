@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 44 physical / 44 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-ynd/mfc/a0584.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence I HAVE LONG NOTED YOUR THIRST UNQUENCHABLE silence  ==  [411 frames] -57.4200 [Ac=-23599.6 LM=0.0] (Act=9.0)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-ynd/mfc/a0585.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence WONDER IF HE'S A LION DOG CHARLES SUGGESTED silence  ==  [386 frames] -54.5778 [Ac=-21067.0 LM=0.0] (Act=7.2)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-ynd/mfc/a0586.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence WE DON'T SEE OURSELVES AS FOOLISH silence  ==  [361 frames] -52.0667 [Ac=-18796.1 LM=0.0] (Act=7.3)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-ynd/mfc/a0587.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence HE HAD COMPARATIVELY NO ADVANTAGES AT FIRST silence  ==  [461 frames] -54.5101 [Ac=-25129.1 LM=0.0] (Act=8.6)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-ynd/mfc/a0588.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence HE HAD PROVED IT TODAY WITH HIS AMATEURISH AND SOPHOMORIC PRODUCTIONS silence  ==  [512 frames] -58.1164 [Ac=-29755.6 LM=0.0] (Act=8.8)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-ynd/mfc/a0589.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence I WAS SICK ONCE TYPHOID silence  ==  [336 frames] -52.6575 [Ac=-17692.9 LM=0.0] (Act=6.9)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-ynd/mfc/a0590.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence IN A WAY HE IS MY PROTEGE silence  ==  [299 frames] -51.8096 [Ac=-15491.1 LM=0.0] (Act=7.8)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-ynd/mfc/a0591.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence WE ARE BOTH CHILDREN TOGETHER silence  ==  [286 frames] -55.8283 [Ac=-15966.9 LM=0.0] (Act=9.2)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-ynd/mfc/a0592.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence IT'S ONLY HIS INDIGESTION I FIND FAULT WITH silence  ==  [374 frames] -56.9221 [Ac=-21288.9 LM=0.0] (Act=8.1)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-ynd/mfc/a0593.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence SHE'D MAKE A GOOD WIFE FOR THE CASHIER silence  ==  [324 frames] -54.6903 [Ac=-17719.6 LM=0.0] (Act=9.6)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

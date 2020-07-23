@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 41 physical / 41 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-gea/mfc/a0192.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence HE DID NOT RUSH IN silence  ==  [161 frames] -53.3941 [Ac=-8596.5 LM=0.0] (Act=10.5)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-gea/mfc/a0193.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence IT WAS EDGED WITH ICE silence  ==  [249 frames] -51.3853 [Ac=-12794.9 LM=0.0] (Act=9.1)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-gea/mfc/a0194.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence HE DRANK OF THE WATER CAUTIOUSLY silence  ==  [223 frames] -53.5323 [Ac=-11937.7 LM=0.0] (Act=7.8)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-gea/mfc/a0195.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence BUT A STRANGE THING HAPPENED silence  ==  [186 frames] -54.9749 [Ac=-10225.3 LM=0.0] (Act=11.3)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-gea/mfc/a0196.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence HE BEGAN TO FOLLOW THE FOOTPRINTS OF THE DOG silence  ==  [261 frames] -53.9866 [Ac=-14090.5 LM=0.0] (Act=8.8)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-gea/mfc/a0197.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence SUCH A DOG THE WISE DRIVER KILLS OR TURNS LOOSE silence  ==  [361 frames] -56.5246 [Ac=-20405.4 LM=0.0] (Act=9.1)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-gea/mfc/a0198.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence SOMETIMES HER DREAMS WERE FILLED WITH VISIONS silence  ==  [299 frames] -54.9826 [Ac=-16439.8 LM=0.0] (Act=8.8)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-gea/mfc/a0199.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THUS HAD THE RAW WILDERNESS PREPARED HIM FOR THIS DAY silence  ==  [324 frames] -55.4998 [Ac=-17981.9 LM=0.0] (Act=10.2)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-gea/mfc/a0200.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence HE LEAPT AGAIN AND THE CLUB CAUGHT HIM ONCE MORE silence  ==  [274 frames] -56.1363 [Ac=-15381.4 LM=0.0] (Act=9.9)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-gea/mfc/a0201.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence HE CRIED AND SWUNG THE CLUB WILDLY silence  ==  [249 frames] -55.8019 [Ac=-13894.7 LM=0.0] (Act=8.9)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

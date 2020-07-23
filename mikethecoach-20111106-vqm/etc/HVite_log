@@ -1,0 +1,63 @@
+/usr/local/bin/HVite -A -D -T 1 -l * -a -b SENT-END -m -C /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/wav_config -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/macros -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/hmmdefs -m -t 250.0 150.0 1000.0 -I /tmp/bPpjZvaTiM/words.mlf -i /tmp/bPpjZvaTiM/aligned.out -S /tmp/bPpjZvaTiM/fileList /data/svn-mirror/SpeechCorpus/Trunk/Lexicon/VoxForge/VoxForgeDict /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/tiedlist 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_D_N_Z_0
+#                 SOURCEFORMAT                 WAV
+
+Read 8073 physical / 9417 logical HMMs
+Label file will be used to align each file
+Aligning File: /tmp/bPpjZvaTiM/mikethecoach-20111106-vqm/a0136.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END ABOUT HIM EVERYWHERE WERE THE EVIDENCES OF LUXURY AND OF AGE SENT-END  ==  [661 frames] -61.4774 [Ac=-40636.6 LM=0.0] (Act=12.1)
+Aligning File: /tmp/bPpjZvaTiM/mikethecoach-20111106-vqm/a0137.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END THEN HE STEPPED BACK WITH A LOW CRY OF PLEASURE SENT-END  ==  [523 frames] -60.2042 [Ac=-31486.8 LM=0.0] (Act=15.5)
+Aligning File: /tmp/bPpjZvaTiM/mikethecoach-20111106-vqm/a0138.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END IN THE PICTURE HE SAW EACH MOMENT A GREATER RESEMBLANCE TO JEANNE SENT-END  ==  [573 frames] -62.7301 [Ac=-35944.3 LM=0.0] (Act=11.4)
+Aligning File: /tmp/bPpjZvaTiM/mikethecoach-20111106-vqm/a0139.wav
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END HE TOLD HIMSELF THAT AS HE WASHED HIMSELF AND GROOMED HIS DISHEVELED CLOTHES SENT-END  ==  [686 frames] -61.5442 [Ac=-42219.3 LM=0.0] (Act=11.7)
+Aligning File: /tmp/bPpjZvaTiM/mikethecoach-20111106-vqm/a0140.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END ACCEPT A FATHER'S BLESSING AND WITH IT THIS SENT-END  ==  [548 frames] -59.3203 [Ac=-32507.5 LM=0.0] (Act=10.7)
+Aligning File: /tmp/bPpjZvaTiM/mikethecoach-20111106-vqm/a0141.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END IT SEEMS LIKE A STRANGE POINTING OF THE HAND OF GOD SENT-END  ==  [423 frames] -61.7589 [Ac=-26124.0 LM=0.0] (Act=12.6)
+Aligning File: /tmp/bPpjZvaTiM/mikethecoach-20111106-vqm/a0142.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END SUCH THINGS HAD OCCURRED BEFORE HE TOLD PHILIP SENT-END  ==  [473 frames] -59.1085 [Ac=-27958.3 LM=0.0] (Act=10.5)
+Aligning File: /tmp/bPpjZvaTiM/mikethecoach-20111106-vqm/a0143.wav
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END AH I HAD FORGOTTEN HE EXCLAIMED SENT-END  ==  [498 frames] -57.9088 [Ac=-28838.6 LM=0.0] (Act=12.0)
+Aligning File: /tmp/bPpjZvaTiM/mikethecoach-20111106-vqm/a0144.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END BUT THERE WAS SOMETHING EVEN MORE STARTLING THAN THIS RESEMBLANCE SENT-END  ==  [623 frames] -60.3174 [Ac=-37577.7 LM=0.0] (Act=11.2)
+Aligning File: /tmp/bPpjZvaTiM/mikethecoach-20111106-vqm/a0145.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END I HAVE TO BE CAREFUL OF THEM AS THEY TEAR VERY EASILY SENT-END  ==  [486 frames] -60.6616 [Ac=-29481.5 LM=0.0] (Act=13.2)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_D_N_Z_0
+                  SOURCEFORMAT                 WAV
+

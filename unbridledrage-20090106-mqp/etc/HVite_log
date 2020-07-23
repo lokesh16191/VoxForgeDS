@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 41 physical / 41 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-mqp/mfc/a0408.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence THE ELDORADO EMPTIED ITS OCCUPANTS INTO THE STREET TO SEE THE TEST silence  ==  [411 frames] -61.6704 [Ac=-25346.5 LM=0.0] (Act=9.8)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-mqp/mfc/a0409.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence HE COULD FEEL A NEW STIR IN THE LAND silence  ==  [249 frames] -56.5772 [Ac=-14087.7 LM=0.0] (Act=8.2)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-mqp/mfc/a0410.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence SO WE HAVE TO FIT THE BOAT THROUGHOUT WITH OIL LAMPS AS WELL silence  ==  [361 frames] -58.9733 [Ac=-21289.4 LM=0.0] (Act=8.5)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-mqp/mfc/a0411.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence IT WILL BREAK OUR HEARTS AND OUR BACKS TO HOIST ANCHOR BY HAND silence  ==  [374 frames] -60.6796 [Ac=-22694.2 LM=0.0] (Act=8.9)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-mqp/mfc/a0412.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THERE IS ANOTHER VIRTUE IN THESE BULKHEADS silence  ==  [286 frames] -59.3331 [Ac=-16969.3 LM=0.0] (Act=8.0)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-mqp/mfc/a0413.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence BUT I AM AT THE END OF MY RESOURCES silence  ==  [299 frames] -56.3302 [Ac=-16842.7 LM=0.0] (Act=8.6)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-mqp/mfc/a0414.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence NOW OUR FIGURING WAS ALL RIGHT silence  ==  [261 frames] -55.8830 [Ac=-14585.5 LM=0.0] (Act=8.3)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-mqp/mfc/a0415.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence IT LASTED AS A DETERRENT FOR TWO DAYS silence  ==  [311 frames] -57.3087 [Ac=-17823.0 LM=0.0] (Act=10.3)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-mqp/mfc/a0416.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence THE ADDED WEIGHT HAD A VELOCITY OF FIFTEEN MILES PER HOUR silence  ==  [411 frames] -57.3909 [Ac=-23587.7 LM=0.0] (Act=8.2)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-mqp/mfc/a0417.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence IT IS ALSO AN INSIDIOUS DECEITFUL SUN silence  ==  [374 frames] -56.1542 [Ac=-21001.7 LM=0.0] (Act=7.1)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

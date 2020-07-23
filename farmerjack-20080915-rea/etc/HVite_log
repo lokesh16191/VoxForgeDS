@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 40 physical / 40 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080915-rea/mfc/b0079.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THE TRUTH OF IT SET JEANNE QUIVERING silence  ==  [323 frames] -55.8199 [Ac=-18029.8 LM=0.0] (Act=9.9)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080915-rea/mfc/b0080.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence TOMORROW IT WILL BE STRONG ENOUGH FOR YOU TO STAND UPON silence  ==  [400 frames] -55.2845 [Ac=-22113.8 LM=0.0] (Act=10.6)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080915-rea/mfc/b0081.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence YOU WERE GOING TO LEAVE AFTER YOU SAW ME ON THE ROCK silence  ==  [400 frames] -54.3711 [Ac=-21748.5 LM=0.0] (Act=9.2)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080915-rea/mfc/b0082.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence HE BIT HIS TONGUE AND CURSED HIMSELF AT THIS FRESH BREAK silence  ==  [426 frames] -54.5912 [Ac=-23255.8 LM=0.0] (Act=8.8)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080915-rea/mfc/b0083.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence IN IT THERE WAS SOMETHING THAT WAS ALMOST TRAGEDY silence  ==  [391 frames] -55.0576 [Ac=-21527.5 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080915-rea/mfc/b0084.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence YOUR FACE IS RED WITH BLOOD silence  ==  [297 frames] -52.4892 [Ac=-15589.3 LM=0.0] (Act=7.8)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080915-rea/mfc/b0085.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence HER EYES SMILED TRUTH AT HIM AS HE CAME UP THE BANK silence  ==  [400 frames] -53.9847 [Ac=-21593.9 LM=0.0] (Act=9.1)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080915-rea/mfc/b0086.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence HE CAN CARE FOR HIMSELF silence  ==  [263 frames] -50.3577 [Ac=-13244.1 LM=0.0] (Act=7.7)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080915-rea/mfc/b0087.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THEY WILL SEARCH FOR US BETWEEN THEIR CAMP AND CHURCHILL silence  ==  [408 frames] -54.7099 [Ac=-22321.7 LM=0.0] (Act=8.3)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080915-rea/mfc/b0088.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence UNTIL I DIE HE EXCLAIMED silence  ==  [306 frames] -50.9031 [Ac=-15576.3 LM=0.0] (Act=6.8)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

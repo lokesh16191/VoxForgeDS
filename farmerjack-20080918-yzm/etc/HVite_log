@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 41 physical / 41 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-yzm/mfc/a0462.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence BUT SHE SWUNG OBEDIENTLY ON HER HEEL INTO THE WIND silence  ==  [477 frames] -53.9205 [Ac=-25720.1 LM=0.0] (Act=9.8)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-yzm/mfc/a0463.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence THEY ARE HIS TONGUE BY WHICH HE MAKES HIS KNOWLEDGE ARTICULATE silence  ==  [511 frames] -54.7569 [Ac=-27980.8 LM=0.0] (Act=11.4)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-yzm/mfc/a0464.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence BETWEEN THE RUSH OF THE CASCADES STREAKS OF RUST SHOWED EVERYWHERE silence  ==  [485 frames] -54.8886 [Ac=-26621.0 LM=0.0] (Act=9.6)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-yzm/mfc/a0465.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence HE'LL NEVER DO A TAP OF WORK THE WHOLE VOYAGE silence  ==  [434 frames] -49.2647 [Ac=-21380.9 LM=0.0] (Act=10.1)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-yzm/mfc/a0466.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence CAPTAIN WEST MAY BE A SAMURAI BUT HE IS ALSO HUMAN silence  ==  [485 frames] -52.6876 [Ac=-25553.5 LM=0.0] (Act=9.6)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-yzm/mfc/a0467.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence AND SO EARLY IN THE VOYAGE TOO silence  ==  [340 frames] -50.7151 [Ac=-17243.1 LM=0.0] (Act=10.0)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-yzm/mfc/a0468.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence IN THE MATTER OF CURRY SHE IS A SHEER GENIUS silence  ==  [383 frames] -55.1800 [Ac=-21134.0 LM=0.0] (Act=12.8)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-yzm/mfc/a0469.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence THE EASTERN HEAVENS WERE EQUALLY SPECTACULAR silence  ==  [400 frames] -51.5984 [Ac=-20639.4 LM=0.0] (Act=7.9)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-yzm/mfc/a0470.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence HE SPAT IT OUT LIKE SO MUCH VENOM silence  ==  [357 frames] -50.8843 [Ac=-18165.7 LM=0.0] (Act=10.7)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-yzm/mfc/a0471.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence I SAW MR PIKE NOD HIS HEAD GRIMLY AND SARCASTICALLY silence  ==  [503 frames] -50.7047 [Ac=-25504.4 LM=0.0] (Act=7.7)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

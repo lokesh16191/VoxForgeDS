@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 41 physical / 41 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-toy/mfc/a0555.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence JERRY WAS SO SECURE IN HIS NOOK THAT HE DID NOT ROLL AWAY silence  ==  [474 frames] -59.7254 [Ac=-28309.8 LM=0.0] (Act=10.3)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-toy/mfc/a0556.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence WHY HE'S BOUGHT FORTY POUNDS OF GOODS FROM YOU ALREADY silence  ==  [349 frames] -62.2528 [Ac=-21726.2 LM=0.0] (Act=8.9)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-toy/mfc/a0557.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence THE LAST REFUGEE HAD PASSED silence  ==  [261 frames] -56.1798 [Ac=-14662.9 LM=0.0] (Act=6.6)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-toy/mfc/a0558.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence AND THE FOUNDATION STONE OF SERVICE IN HIS CASE WAS OBEDIENCE silence  ==  [487 frames] -57.2979 [Ac=-27904.1 LM=0.0] (Act=6.4)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-toy/mfc/a0559.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence PEACE BE UNTO YOU AND GRACE BEFORE THE LORD silence  ==  [324 frames] -57.8125 [Ac=-18731.3 LM=0.0] (Act=7.9)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-toy/mfc/a0560.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence HIS MOUTH OPENED WORDS SHAPED VAINLY ON HIS LIPS silence  ==  [499 frames] -57.0882 [Ac=-28487.0 LM=0.0] (Act=7.8)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-toy/mfc/a0561.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence BILL LINGERED CONTEMPLATING HIS WORK WITH ARTISTIC APPRECIATION silence  ==  [487 frames] -57.2365 [Ac=-27874.2 LM=0.0] (Act=6.9)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-toy/mfc/a0562.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence WHAT THE FLAMING silence  ==  [161 frames] -55.0677 [Ac=-8865.9 LM=0.0] (Act=5.8)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-toy/mfc/a0563.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence MRS MCFEE'S JAWS BROUGHT TOGETHER WITH A SNAP silence  ==  [361 frames] -59.7844 [Ac=-21582.2 LM=0.0] (Act=7.6)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-toy/mfc/a0564.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THEN IT IS AS I SAID WOMBLE ANNOUNCED WITH FINALITY silence  ==  [424 frames] -57.8423 [Ac=-24525.1 LM=0.0] (Act=8.9)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

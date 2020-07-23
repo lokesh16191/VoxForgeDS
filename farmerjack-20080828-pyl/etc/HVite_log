@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 44 physical / 44 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-pyl/mfc/b0422.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence THIS WAS WHEN THE EXPLOSION OCCURRED silence  ==  [340 frames] -52.3658 [Ac=-17804.4 LM=0.0] (Act=8.9)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-pyl/mfc/b0423.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence ALSO AT REGULAR INTERVALS HE WOULD MUTTER silence  ==  [434 frames] -52.0446 [Ac=-22587.3 LM=0.0] (Act=9.0)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-pyl/mfc/b0424.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence IT IS A VERY TENABLE HYPOTHESIS AND WILL BEAR LOOKING INTO silence  ==  [468 frames] -53.4454 [Ac=-25012.4 LM=0.0] (Act=9.6)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-pyl/mfc/b0425.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THERE WERE ORANGE-GREEN GOLD-GREEN AND A COPPER-GREEN silence  ==  [494 frames] -52.8279 [Ac=-26097.0 LM=0.0] (Act=7.7)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-pyl/mfc/b0426.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THE GABRIEL VOICE OF THE SAMURAI RANG OUT silence  ==  [366 frames] -52.8553 [Ac=-19345.1 LM=0.0] (Act=9.6)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-pyl/mfc/b0427.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence THE SUNSETS GROW MORE BIZARRE AND SPECTACULAR OFF THIS COAST OF THE ARGENTINE silence  ==  [579 frames] -54.0330 [Ac=-31285.1 LM=0.0] (Act=8.6)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-pyl/mfc/b0428.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THE HISTORY OF OUR WESTWARD-FARING RACE IS WRITTEN IN IT silence  ==  [391 frames] -52.4952 [Ac=-20525.6 LM=0.0] (Act=9.0)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-pyl/mfc/b0429.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence AND THE EURASIAN CHINESE-ENGLISHMAN BOWED HIMSELF AWAY silence  ==  [451 frames] -52.4326 [Ac=-23647.1 LM=0.0] (Act=7.4)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-pyl/mfc/b0430.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THEY WERE BABBLING AND CHATTERING ALL TOGETHER silence  ==  [297 frames] -52.3809 [Ac=-15557.1 LM=0.0] (Act=9.7)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-pyl/mfc/b0431.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence TOO MUCH HE TOLD ME WITH OMINOUS ROLLING HEAD silence  ==  [400 frames] -52.5135 [Ac=-21005.4 LM=0.0] (Act=8.8)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

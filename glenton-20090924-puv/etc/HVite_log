@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 41 physical / 41 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-puv/mfc/rb-20.mfc
+Created lattice with 16 nodes / 15 arcs from label file
+silence IT IS NECESSARY TO KEEP IN MIND ON WHICH HARDWARE THE SOFTWARE WILL RUN silence  ==  [424 frames] -54.5013 [Ac=-23108.5 LM=0.0] (Act=10.0)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-puv/mfc/rb-21.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence A FULL-BLOWN COMPUTER OFFERS A PROGRAMMER THE FREEDOM TO DEVELOP SOFTWARE silence  ==  [461 frames] -54.3710 [Ac=-25065.0 LM=0.0] (Act=8.7)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-puv/mfc/rb-22.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence THAT ALLOWS THE END USER TO ISSUE A WIDER ARRAY OF COMMANDS silence  ==  [424 frames] -55.5767 [Ac=-23564.5 LM=0.0] (Act=10.0)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-puv/mfc/rb-23.mfc
+Created lattice with 18 nodes / 17 arcs from label file
+silence IN PRACTICE THIS WILL ALLOW END USERS TO ISSUE COMMANDS SUCH AS GO TO PREVIOUS PARAGRAPH silence  ==  [587 frames] -53.5916 [Ac=-31458.3 LM=0.0] (Act=9.1)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-puv/mfc/rb-24.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence GO UP ONE PARAGRAPH OR EVEN I WANT TO EDIT THE PREVIOUS PARAGRAPH silence  ==  [549 frames] -52.5276 [Ac=-28837.7 LM=0.0] (Act=9.8)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-puv/mfc/rb-25.mfc
+Created lattice with 16 nodes / 15 arcs from label file
+silence WHERE ALL THESE COMMANDS MIGHT LEAD TO THE SAME RESULT ON THAT POWERFUL PC silence  ==  [499 frames] -53.1547 [Ac=-26524.2 LM=0.0] (Act=9.6)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-puv/mfc/rb-26.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence THE SOFTWARE ON A HAND-HELD DEVICE MIGHT ONLY RESPOND TO ONE SPECIFIC COMMAND silence  ==  [549 frames] -53.2519 [Ac=-29235.3 LM=0.0] (Act=8.6)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-puv/mfc/rb-27.mfc
+Created lattice with 16 nodes / 15 arcs from label file
+silence THE SAME WOULD BE THE CASE FOR OTHER TASKS SUCH AS BROWSING THE WEB silence  ==  [424 frames] -52.4447 [Ac=-22236.5 LM=0.0] (Act=7.6)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-puv/mfc/rb-28.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence SEARCHING FOR DOCUMENTS IN THE FILE BROWSER AND STARTING OR CLOSING PROGRAMS silence  ==  [549 frames] -53.2105 [Ac=-29212.6 LM=0.0] (Act=7.8)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-puv/mfc/rb-29.mfc
+Created lattice with 17 nodes / 16 arcs from label file
+silence THEREFORE BEHIND YOUR PC GO ONLINE START MY WEB BROWSER OR VISIT MY HOME PAGE silence  ==  [775 frames] -49.8530 [Ac=-38636.0 LM=0.0] (Act=7.9)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

@@ -1,0 +1,63 @@
+/usr/local/bin/HVite -A -D -T 1 -l * -a -b SENT-END -m -C /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/wav_config -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/macros -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/hmmdefs -m -t 250.0 150.0 1000.0 -I /tmp/Y3cJBU9RQG/words.mlf -i /tmp/Y3cJBU9RQG/aligned.out -S /tmp/Y3cJBU9RQG/fileList /data/svn-mirror/SpeechCorpus/Trunk/Lexicon/VoxForge/VoxForgeDict /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/tiedlist 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_D_N_Z_0
+#                 SOURCEFORMAT                 WAV
+
+Read 8073 physical / 9417 logical HMMs
+Label file will be used to align each file
+Aligning File: /tmp/Y3cJBU9RQG/mikethecoach-20111106-xez/a0500.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END WHO THE DEVIL GAVE IT TO YOU TO BE JUDGE AND JURY SENT-END  ==  [461 frames] -61.7871 [Ac=-28483.8 LM=0.0] (Act=16.3)
+Aligning File: /tmp/Y3cJBU9RQG/mikethecoach-20111106-xez/a0501.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END YOU'RE JOKING ME SIR THE OTHER MANAGED TO ARTICULATE SENT-END  ==  [536 frames] -60.9223 [Ac=-32654.3 LM=0.0] (Act=14.3)
+Aligning File: /tmp/Y3cJBU9RQG/mikethecoach-20111106-xez/a0502.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END ANYTHING UNUSUAL OR ABNORMAL WAS SUFFICIENT TO SEND A FELLOW TO MOLOKAI SENT-END  ==  [698 frames] -61.5663 [Ac=-42973.3 LM=0.0] (Act=11.6)
+Aligning File: /tmp/Y3cJBU9RQG/mikethecoach-20111106-xez/a0503.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END HIS BEADY BLACK EYES SAW BARGAINS WHERE OTHER MEN SAW BANKRUPTCY SENT-END  ==  [498 frames] -62.5577 [Ac=-31153.7 LM=0.0] (Act=11.2)
+Aligning File: /tmp/Y3cJBU9RQG/mikethecoach-20111106-xez/a0504.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END HE WAS AN ATHLETE AND A GIANT SENT-END  ==  [311 frames] -60.0509 [Ac=-18675.8 LM=0.0] (Act=10.7)
+Aligning File: /tmp/Y3cJBU9RQG/mikethecoach-20111106-xez/a0505.wav
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END WE FISHED SHARKS ON NIIHAU TOGETHER SENT-END  ==  [311 frames] -58.7469 [Ac=-18270.3 LM=0.0] (Act=11.9)
+Aligning File: /tmp/Y3cJBU9RQG/mikethecoach-20111106-xez/a0506.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END THE CLAUDINE WAS LEAVING NEXT MORNING FOR HONOLULU SENT-END  ==  [361 frames] -61.8384 [Ac=-22323.7 LM=0.0] (Act=15.6)
+Aligning File: /tmp/Y3cJBU9RQG/mikethecoach-20111106-xez/a0508.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END SOON SHALL IT BE THRUST BACK FROM OFF PROSTRATE HUMANITY SENT-END  ==  [536 frames] -62.2079 [Ac=-33343.5 LM=0.0] (Act=11.6)
+Aligning File: /tmp/Y3cJBU9RQG/mikethecoach-20111106-xez/a0509.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END YET IN ACCORDANCE WITH ERNEST'S TEST OF TRUTH IT WORKED SENT-END  ==  [448 frames] -60.2093 [Ac=-26973.7 LM=0.0] (Act=13.9)
+Aligning File: /tmp/Y3cJBU9RQG/mikethecoach-20111106-xez/a0510.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END MUCH MORE ERNEST TOLD THEM OF THEMSELVES AND OF HIS DISILLUSIONMENT SENT-END  ==  [661 frames] -61.3549 [Ac=-40555.6 LM=0.0] (Act=12.4)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_D_N_Z_0
+                  SOURCEFORMAT                 WAV
+

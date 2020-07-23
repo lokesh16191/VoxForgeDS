@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 44 physical / 44 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-xmp/mfc/rb-07.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence THE KEYBOARD WHETHER IT'S AN ON-SCREEN VERSION OR NOT STRONGLY REDUCES silence  ==  [374 frames] -59.8916 [Ac=-22399.5 LM=0.0] (Act=11.2)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-xmp/mfc/rb-08.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence THE AMOUNT OF AVAILABLE SCREEN REAL-ESTATE silence  ==  [261 frames] -58.6143 [Ac=-15298.3 LM=0.0] (Act=10.2)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-xmp/mfc/rb-09.mfc
+Created lattice with 18 nodes / 17 arcs from label file
+silence ON TOP OF THAT THUMBING OR THUMB TYPING PUTS A LOT OF STRAIN ON THE THUMB silence  ==  [411 frames] -58.9971 [Ac=-24247.8 LM=0.0] (Act=12.2)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-xmp/mfc/rb-10.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence WHICH IS NOT AS DEXTEROUS AS THE FINGERS ARE silence  ==  [236 frames] -60.5941 [Ac=-14300.2 LM=0.0] (Act=11.4)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-xmp/mfc/rb-11.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence A GOOD SOLUTION WOULD BE TO USE SPEECH RECOGNITION silence  ==  [261 frames] -57.7673 [Ac=-15077.3 LM=0.0] (Act=10.6)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-xmp/mfc/rb-12.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence ESPECIALLY SINCE MOST OF THESE DEVICES OFTEN ALREADY HAVE A BUILT-IN MICROPHONE silence  ==  [411 frames] -60.1025 [Ac=-24702.1 LM=0.0] (Act=10.4)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-xmp/mfc/rb-13.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence MANY PHONES ALREADY OFFER THE POSSIBILITY OF SO-CALLED VOICE DIALING silence  ==  [374 frames] -59.1397 [Ac=-22118.2 LM=0.0] (Act=9.5)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-xmp/mfc/rb-14.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence A MAJOR STUMBLING BLOCK IS THE STILL LIMITED COMPUTING POWER OF THESE PHONES silence  ==  [424 frames] -58.8581 [Ac=-24955.8 LM=0.0] (Act=10.4)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-xmp/mfc/rb-15.mfc
+Created lattice with 18 nodes / 17 arcs from label file
+silence ONE WAY TO DEAL WITH THIS IS TO USE ONLY A LIMITED NUMBER OF AVAILABLE COMMANDS silence  ==  [386 frames] -59.9741 [Ac=-23150.0 LM=0.0] (Act=11.4)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-xmp/mfc/rb-16.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THAT WAY THE SOFTWARE ONLY NEEDS TO COMPARE silence  ==  [274 frames] -57.6943 [Ac=-15808.2 LM=0.0] (Act=11.2)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

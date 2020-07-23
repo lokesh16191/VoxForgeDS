@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 43 physical / 43 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100120-oau/mfc/a0420.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence WHEN I CAME TO I WAS WAVING MY HAT AND MURMURING ECSTATICALLY silence  ==  [673 frames] -52.9817 [Ac=-35656.7 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100120-oau/mfc/a0421.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence BY GOLLY THE BOY WINS silence  ==  [461 frames] -50.2966 [Ac=-23186.7 LM=0.0] (Act=8.9)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100120-oau/mfc/a0422.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence HALFWAY AROUND THE TRACK ONE DONKEY GOT INTO AN ARGUMENT WITH ITS RIDER silence  ==  [748 frames] -54.8283 [Ac=-41011.6 LM=0.0] (Act=10.8)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100120-oau/mfc/a0423.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence MCVEIGH WHEN HE RETURNS FROM A TRIP TO HONOLULU silence  ==  [586 frames] -51.1039 [Ac=-29946.9 LM=0.0] (Act=9.5)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100120-oau/mfc/a0424.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence OBVIOUSLY IT WAS A DISEASE THAT COULD BE CONTRACTED BY CONTACT silence  ==  [698 frames] -49.8494 [Ac=-34794.9 LM=0.0] (Act=7.4)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100120-oau/mfc/a0425.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence OTHERWISE NO RESTRICTION IS PUT UPON THEIR SEAFARING silence  ==  [586 frames] -51.8749 [Ac=-30398.7 LM=0.0] (Act=7.1)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100120-oau/mfc/a0426.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THEY DO NOT KNOW THE LENGTH OF TIME OF INCUBATION silence  ==  [536 frames] -51.5599 [Ac=-27636.1 LM=0.0] (Act=9.2)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100120-oau/mfc/a0427.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence ENTERS NOW THE PSYCHOLOGY OF THE SITUATION silence  ==  [523 frames] -52.2164 [Ac=-27309.2 LM=0.0] (Act=8.8)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100120-oau/mfc/a0428.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence IT WAS NOT EXACTLY A DEPORTATION silence  ==  [461 frames] -50.4240 [Ac=-23245.4 LM=0.0] (Act=9.6)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100120-oau/mfc/a0429.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence QUICK WAS THE DISAPPOINTMENT IN HIS FACE YET SMILING WAS THE ACQUIESCENCE silence  ==  [723 frames] -54.7029 [Ac=-39550.2 LM=0.0] (Act=11.1)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

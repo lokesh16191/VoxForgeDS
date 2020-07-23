@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 41 physical / 41 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-hkl/mfc/b0289.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence AT FIRST HIS PROGRESS WAS SLOW AND ERRATIC silence  ==  [274 frames] -58.2944 [Ac=-15972.7 LM=0.0] (Act=11.5)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-hkl/mfc/b0290.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence HE PLACED HIS PAW ON ONE AND ITS MOVEMENTS WERE ACCELERATED silence  ==  [324 frames] -57.6692 [Ac=-18684.8 LM=0.0] (Act=13.3)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-hkl/mfc/b0291.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THE AWE OF MAN RUSHED OVER HIM AGAIN silence  ==  [261 frames] -54.2079 [Ac=-14148.3 LM=0.0] (Act=10.9)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-hkl/mfc/b0292.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence THE FIRE-MEN WORE ANIMAL SKINS AROUND THEIR WAISTS AND ACROSS THEIR SHOULDERS silence  ==  [436 frames] -59.3029 [Ac=-25856.1 LM=0.0] (Act=13.3)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-hkl/mfc/b0293.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence BETWEEN HIM AND ALL DOMESTIC ANIMALS THERE MUST BE NO HOSTILITIES silence  ==  [361 frames] -59.2506 [Ac=-21389.5 LM=0.0] (Act=10.6)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-hkl/mfc/b0294.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence FOR A MUCH LONGER TIME LOP-EAR AND I REMAINED AND WATCHED silence  ==  [374 frames] -56.3938 [Ac=-21091.3 LM=0.0] (Act=11.0)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-hkl/mfc/b0295.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence ALL RIGHT SIR REPLIED JOCK WITH GREAT REGRET silence  ==  [374 frames] -56.5202 [Ac=-21138.6 LM=0.0] (Act=11.6)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-hkl/mfc/b0296.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence AT TIMES I WONDERED WHERE SIR ARCHIBALD GOT HIS STYLE silence  ==  [311 frames] -59.2391 [Ac=-18423.4 LM=0.0] (Act=12.0)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-hkl/mfc/b0297.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence WHY SHOULD A FELLOW THROW UP THE SPONGE AFTER THE FIRST ROUND silence  ==  [311 frames] -57.7078 [Ac=-17947.1 LM=0.0] (Act=11.6)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-hkl/mfc/b0298.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence HIS HAND SHOT OUT AND CLUTCHED CROOKED-LEG BY THE NECK silence  ==  [311 frames] -58.2660 [Ac=-18120.7 LM=0.0] (Act=13.0)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

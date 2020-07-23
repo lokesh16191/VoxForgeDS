@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 41 physical / 41 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-vqx/mfc/a0477.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence WADA LOUIS AND THE STEWARD ARE SERVANTS OF ASIATIC BREED silence  ==  [588 frames] -54.4992 [Ac=-32045.5 LM=0.0] (Act=8.7)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-vqx/mfc/a0478.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence ALSO SHE HAS FORBIDDEN THEM SMOKING THEIR PIPES IN THE AFTER-ROOM silence  ==  [511 frames] -56.7102 [Ac=-28978.9 LM=0.0] (Act=9.9)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-vqx/mfc/a0479.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence I TRIED TO READ GEORGE MOORE LAST NIGHT AND WAS DREADFULLY BORED silence  ==  [485 frames] -56.2038 [Ac=-27258.8 LM=0.0] (Act=10.1)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-vqx/mfc/a0480.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence TOM SPINK HAS A HARPOON silence  ==  [255 frames] -51.3562 [Ac=-13095.8 LM=0.0] (Act=8.6)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-vqx/mfc/a0481.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence NIMROD REPLIED WITH A SLIGHT MANIFESTATION OF SENSITIVENESS silence  ==  [451 frames] -57.6961 [Ac=-26020.9 LM=0.0] (Act=10.6)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-vqx/mfc/a0482.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence AND THEIR CHIEF VIRTUE LIES IN THAT THEY WILL NEVER WEAR OUT silence  ==  [426 frames] -53.5505 [Ac=-22812.5 LM=0.0] (Act=8.7)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-vqx/mfc/a0483.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence BEYOND DISPUTE CORRY HUTCHINSON HAD MARRIED MABEL HOLMES silence  ==  [537 frames] -54.9432 [Ac=-29504.5 LM=0.0] (Act=8.2)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-vqx/mfc/a0484.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+silence NO-SIR-EE silence  ==  [237 frames] -45.9361 [Ac=-10886.9 LM=0.0] (Act=4.7)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-vqx/mfc/a0485.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence EACH INSULT ADDED TO THE VALUE OF THE CLAIM silence  ==  [391 frames] -54.4334 [Ac=-21283.5 LM=0.0] (Act=10.5)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-vqx/mfc/a0486.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence FOR THE REST HE WAS A MERE AUTOMATON silence  ==  [349 frames] -52.8778 [Ac=-18454.3 LM=0.0] (Act=10.2)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

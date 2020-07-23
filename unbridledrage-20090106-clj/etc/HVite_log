@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 42 physical / 42 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-clj/mfc/b0172.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence ON THE FAR CORNER OF THE COMPOUND FENCE A HAWK BROODED silence  ==  [399 frames] -61.4492 [Ac=-24518.2 LM=0.0] (Act=9.0)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-clj/mfc/b0173.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence TO THESE HE GAVE CASTOR OIL silence  ==  [236 frames] -58.8690 [Ac=-13893.1 LM=0.0] (Act=7.4)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-clj/mfc/b0174.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence HATRED AND MURDER AND LUST FOR REVENGE THEY POSSESSED TO OVERFLOWING silence  ==  [512 frames] -59.5869 [Ac=-30508.5 LM=0.0] (Act=8.2)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-clj/mfc/b0175.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence SHELDON GLANCED AT THE THERMOMETER silence  ==  [249 frames] -57.6986 [Ac=-14367.0 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-clj/mfc/b0176.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence I'LL SEE TO POOR HUGHIE silence  ==  [211 frames] -55.5700 [Ac=-11725.3 LM=0.0] (Act=9.6)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-clj/mfc/b0177.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence HER GRAY EYES WERE FLASHING AND HER LIPS WERE QUIVERING silence  ==  [424 frames] -55.6469 [Ac=-23594.3 LM=0.0] (Act=6.2)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-clj/mfc/b0178.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence ALSO I WANT INFORMATION silence  ==  [261 frames] -54.6227 [Ac=-14256.5 LM=0.0] (Act=6.4)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-clj/mfc/b0179.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence LET THEM GO OUT AND EAT WITH MY BOYS silence  ==  [236 frames] -60.1095 [Ac=-14185.8 LM=0.0] (Act=10.2)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-clj/mfc/b0180.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence I I BEG PARDON HE DRAWLED silence  ==  [374 frames] -54.5166 [Ac=-20389.2 LM=0.0] (Act=10.7)
+Aligning File: /data/UserSubmissions/Quarantine/unbridledrage-20090106-clj/mfc/b0181.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence AND YOU PREFERRED A CANNIBAL ISLE AND A CARTRIDGE BELT silence  ==  [349 frames] -59.4850 [Ac=-20760.3 LM=0.0] (Act=10.8)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

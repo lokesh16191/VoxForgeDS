@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 42 physical / 42 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-dxa/mfc/rp-07.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence PEOPLE LOOK BUT NO ONE EVER FINDS IT silence  ==  [349 frames] -52.1704 [Ac=-18207.5 LM=0.0] (Act=8.9)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-dxa/mfc/rp-08.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence WHEN A MAN LOOKS FOR SOMETHING BEYOND HIS REACH silence  ==  [349 frames] -53.9068 [Ac=-18813.5 LM=0.0] (Act=9.9)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-dxa/mfc/rp-09.mfc
+Created lattice with 19 nodes / 18 arcs from label file
+silence HIS FRIENDS SAY HE IS LOOKING FOR THE POT OF GOLD AT THE END OF THE RAINBOW silence  ==  [460 frames] -57.2916 [Ac=-26354.1 LM=0.0] (Act=10.8)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-dxa/mfc/rp-10.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence THROUGHOUT THE CENTURIES PEOPLE HAVE EXPLAINED THE RAINBOW IN VARIOUS WAYS silence  ==  [417 frames] -57.0708 [Ac=-23798.5 LM=0.0] (Act=8.8)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-dxa/mfc/rp-11.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence SOME HAVE ACCEPTED IT AS A MIRACLE WITHOUT PHYSICAL EXPLANATION silence  ==  [494 frames] -54.5288 [Ac=-26937.2 LM=0.0] (Act=9.4)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-dxa/mfc/rp-12.mfc
+Created lattice with 17 nodes / 16 arcs from label file
+silence TO THE HEBREWS IT WAS A TOKEN THAT THERE WOULD BE NO MORE UNIVERSAL FLOODS silence  ==  [468 frames] -58.3132 [Ac=-27290.6 LM=0.0] (Act=11.3)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-dxa/mfc/rp-13.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THE GREEKS USED TO IMAGINE THAT IT WAS A SIGN silence  ==  [323 frames] -55.3653 [Ac=-17883.0 LM=0.0] (Act=12.2)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-dxa/mfc/rp-14.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence FROM THE GODS TO FORETELL WAR OR HEAVY RAIN silence  ==  [349 frames] -54.9081 [Ac=-19162.9 LM=0.0] (Act=9.4)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-dxa/mfc/rp-15.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THE NORSEMEN CONSIDERED THE RAINBOW AS A BRIDGE silence  ==  [357 frames] -55.3755 [Ac=-19769.0 LM=0.0] (Act=10.0)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080828-dxa/mfc/rp-16.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence OVER WHICH THE GODS PASSED FROM EARTH TO THEIR HOME IN THE SKY silence  ==  [443 frames] -54.2690 [Ac=-24041.2 LM=0.0] (Act=8.5)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

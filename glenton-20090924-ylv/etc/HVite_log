@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 44 physical / 44 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-ylv/mfc/b0386.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence MY IDEA WAS THAT HE WOULD HAVE MORE INFLUENCE OVER THE NATIVES silence  ==  [411 frames] -53.2459 [Ac=-21884.1 LM=0.0] (Act=12.3)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-ylv/mfc/b0387.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence IT IS MERELY THE SIMPLE SUPERLATIVE silence  ==  [311 frames] -49.9837 [Ac=-15544.9 LM=0.0] (Act=8.7)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-ylv/mfc/b0388.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence I MADE NO MORE OVERTURES silence  ==  [261 frames] -47.6603 [Ac=-12439.4 LM=0.0] (Act=8.1)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-ylv/mfc/b0389.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence AMONG MY MINOR AFFLICTIONS I MAY MENTION A NEW AND MYSTERIOUS ONE silence  ==  [524 frames] -52.2183 [Ac=-27362.4 LM=0.0] (Act=10.3)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-ylv/mfc/b0390.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence THE VOYAGE WAS OUR IDEA OF A GOOD TIME silence  ==  [374 frames] -48.8652 [Ac=-18275.6 LM=0.0] (Act=8.9)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-ylv/mfc/b0391.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence AT SEA TUESDAY MARCH SEVENTEENTH NINETEEN OH EIGHT silence  ==  [512 frames] -51.2278 [Ac=-26228.7 LM=0.0] (Act=8.8)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-ylv/mfc/b0392.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence YES SIR HE ANSWERED WITH CHEERFUL ALACRITY silence  ==  [424 frames] -51.1654 [Ac=-21694.1 LM=0.0] (Act=9.9)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-ylv/mfc/b0393.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence I WAS STILL WEAK FROM MY PROLONGED IMMERSION silence  ==  [386 frames] -48.9429 [Ac=-18892.0 LM=0.0] (Act=8.5)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-ylv/mfc/b0394.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THE BOY HESITATED THEN MASTERED HIS TEMPER silence  ==  [386 frames] -50.7854 [Ac=-19603.1 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-ylv/mfc/b0395.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence I WAS BENEATH THE WATER SUFFOCATING AND DROWNING silence  ==  [461 frames] -49.7168 [Ac=-22919.4 LM=0.0] (Act=9.2)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

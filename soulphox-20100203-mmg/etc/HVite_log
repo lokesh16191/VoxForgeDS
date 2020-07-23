@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 41 physical / 41 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100203-mmg/mfc/a0323.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence HE CONSIDERED THE VICTORY ALREADY HIS AND STEPPED FORWARD TO THE MEAT silence  ==  [611 frames] -56.5411 [Ac=-34546.6 LM=0.0] (Act=13.8)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100203-mmg/mfc/a0324.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence IT WAS NOT RED-EYE'S WAY TO FOREGO REVENGE SO EASILY silence  ==  [611 frames] -56.4873 [Ac=-34513.7 LM=0.0] (Act=10.9)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100203-mmg/mfc/a0325.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence WHIZ-ZIP-BANG LOP-EAR SCREAMED WITH SUDDEN ANGUISH silence  ==  [598 frames] -54.2894 [Ac=-32465.0 LM=0.0] (Act=6.3)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100203-mmg/mfc/a0326.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence CHEROKEE IDENTIFIED HIMSELF WITH HIS INSTINCT silence  ==  [561 frames] -52.5809 [Ac=-29497.9 LM=0.0] (Act=8.2)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100203-mmg/mfc/a0327.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence THEY WERE LESS STOOPED THAN WE LESS SPRINGY IN THEIR MOVEMENTS silence  ==  [673 frames] -53.9628 [Ac=-36317.0 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100203-mmg/mfc/a0328.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THE FIRE PEOPLE LIKE OURSELVES LIVED IN CAVES silence  ==  [586 frames] -52.8092 [Ac=-30946.2 LM=0.0] (Act=8.7)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100203-mmg/mfc/a0329.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+silence AH INDEED silence  ==  [373 frames] -49.6025 [Ac=-18501.7 LM=0.0] (Act=6.1)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100203-mmg/mfc/a0330.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence RED-EYE NEVER COMMITTED A MORE OUTRAGEOUS DEED silence  ==  [511 frames] -54.1746 [Ac=-27683.2 LM=0.0] (Act=9.6)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100203-mmg/mfc/a0331.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence POOR LITTLE CROOKED-LEG WAS TERRIBLY SCARED silence  ==  [498 frames] -53.0531 [Ac=-26420.4 LM=0.0] (Act=8.1)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100203-mmg/mfc/a0332.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence UNCONSCIOUSLY OUR YELLS AND EXCLAMATIONS YIELDED TO THIS RHYTHM silence  ==  [648 frames] -55.7915 [Ac=-36152.9 LM=0.0] (Act=8.5)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

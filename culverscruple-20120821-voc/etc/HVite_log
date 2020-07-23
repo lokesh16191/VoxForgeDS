@@ -1,0 +1,63 @@
+/usr/local/bin/HVite -A -D -T 1 -l * -a -b SENT-END -m -C /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/wav_config -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/macros -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/hmmdefs -m -t 250.0 150.0 1000.0 -I /tmp/pup2Xaxs1r/words.mlf -i /tmp/pup2Xaxs1r/aligned.out -S /tmp/pup2Xaxs1r/fileList /data/svn-mirror/SpeechCorpus/Trunk/Lexicon/VoxForge/VoxForgeDict /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2012-07-24_16kHz_16bit_MFCC_O_D/tiedlist 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_D_N_Z_0
+#                 SOURCEFORMAT                 WAV
+
+Read 8294 physical / 9429 logical HMMs
+Label file will be used to align each file
+Aligning File: /tmp/pup2Xaxs1r/culverscruple-20120821-voc/ar-22.wav
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END IT'S SO NICE AND SNUG HERE THAT NIGHT THERE WAS A BIG CRASH SENT-END  ==  [636 frames] -54.9051 [Ac=-34919.6 LM=0.0] (Act=19.3)
+Aligning File: /tmp/pup2Xaxs1r/culverscruple-20120821-voc/ar-23.wav
+Created lattice with 20 nodes / 19 arcs from label file
+SENT-END IN THE FOGGY MORNING SOME MEN WITH SOME BOYS AND GIRLS RODE UP AND LOOKED AT THE BARN SENT-END  ==  [686 frames] -55.4581 [Ac=-38044.2 LM=0.0] (Act=15.7)
+Aligning File: /tmp/pup2Xaxs1r/culverscruple-20120821-voc/ar-24.wav
+Created lattice with 22 nodes / 21 arcs from label file
+SENT-END ONE OF THEM MOVED A BOARD AND SAW A RAT QUITE DEAD HALF IN AND HALF OUT OF HIS HOLE SENT-END  ==  [698 frames] -55.4032 [Ac=-38671.4 LM=0.0] (Act=18.9)
+Aligning File: /tmp/pup2Xaxs1r/culverscruple-20120821-voc/rb-01.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END HAND-HELD DEVICES SUCH AS PERSONAL DIGITAL ASSISTANTS AND SMARTPHONES ARE QUITE SMALL SENT-END  ==  [698 frames] -56.4646 [Ac=-39412.3 LM=0.0] (Act=20.9)
+Aligning File: /tmp/pup2Xaxs1r/culverscruple-20120821-voc/rb-02.wav
+Created lattice with 18 nodes / 17 arcs from label file
+SENT-END MOST OF THEM USE EITHER A TOUCH SCREEN INTERFACE OR A MINIATURIZED KEYBOARD FOR USER INPUT SENT-END  ==  [736 frames] -56.3633 [Ac=-41483.4 LM=0.0] (Act=16.9)
+Aligning File: /tmp/pup2Xaxs1r/culverscruple-20120821-voc/rb-03.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END BUILT-IN KEYBOARDS ARE USUALLY OPERATED WITH THE THUMBS SINCE TOUCH TYPING AND SENT-END  ==  [698 frames] -55.5588 [Ac=-38780.1 LM=0.0] (Act=19.5)
+Aligning File: /tmp/pup2Xaxs1r/culverscruple-20120821-voc/rb-04.wav
+Created lattice with 16 nodes / 15 arcs from label file
+SENT-END HUNT AND PECK TYPING USING THE FINGERS ARE PRETTY MUCH OUT OF THE QUESTION SENT-END  ==  [611 frames] -54.6475 [Ac=-33389.6 LM=0.0] (Act=20.3)
+Aligning File: /tmp/pup2Xaxs1r/culverscruple-20120821-voc/rb-05.wav
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END DEVICES WITH A TOUCH SCREEN INTERFACE OFTEN USE AN ON-SCREEN KEYBOARD OR HANDWRITING SENT-END  ==  [698 frames] -56.4345 [Ac=-39391.3 LM=0.0] (Act=17.2)
+Aligning File: /tmp/pup2Xaxs1r/culverscruple-20120821-voc/rb-06.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END RECOGNITION FOR INPUTTING TEXT THIS HAS A COUPLE OF DRAWBACKS SENT-END  ==  [586 frames] -54.9299 [Ac=-32188.9 LM=0.0] (Act=19.7)
+Aligning File: /tmp/pup2Xaxs1r/culverscruple-20120821-voc/rb-07.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END THE KEYBOARD WHETHER IT'S AN ON-SCREEN VERSION OR NOT STRONGLY REDUCES SENT-END  ==  [598 frames] -55.8723 [Ac=-33411.6 LM=0.0] (Act=15.0)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_D_N_Z_0
+                  SOURCEFORMAT                 WAV
+

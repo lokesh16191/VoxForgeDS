@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 42 physical / 42 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-lvm/mfc/b0049.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence THERE WAS NOTHING MORE EXCEPT A LARGE INK BLOT UNDER THE WORDS silence  ==  [599 frames] -48.6684 [Ac=-29152.4 LM=0.0] (Act=11.0)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-lvm/mfc/b0050.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence ALL THIS DAY GREGSON REMAINED IN THE CABIN silence  ==  [487 frames] -46.8138 [Ac=-22798.3 LM=0.0] (Act=8.7)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-lvm/mfc/b0051.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THE SIXTH DAY HE SPENT IN THE CABIN WITH GREGSON silence  ==  [537 frames] -46.3399 [Ac=-24884.5 LM=0.0] (Act=8.3)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-lvm/mfc/b0052.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THE FLUSH WAS GONE FROM HER FACE silence  ==  [512 frames] -45.8979 [Ac=-23499.7 LM=0.0] (Act=13.5)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-lvm/mfc/b0053.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence THAT IS WHY I AM AM RATTLED HE LAUGHED silence  ==  [599 frames] -44.8775 [Ac=-26881.6 LM=0.0] (Act=8.8)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-lvm/mfc/b0054.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence HE UNDERSTOOD THE MEANING OF THE LOOK silence  ==  [449 frames] -45.8009 [Ac=-20564.6 LM=0.0] (Act=9.1)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-lvm/mfc/b0055.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence SHE WAS EVEN MORE BEAUTIFUL THAN WHEN I SAW HER BEFORE silence  ==  [487 frames] -49.4641 [Ac=-24089.0 LM=0.0] (Act=10.1)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-lvm/mfc/b0056.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence I'LL GIVE A THOUSAND IF YOU PRODUCE HER RETORTED GREGSON silence  ==  [624 frames] -48.9817 [Ac=-30564.6 LM=0.0] (Act=12.6)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-lvm/mfc/b0057.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THEY HAVE WON POPULAR SENTIMENT THROUGH THE NEWSPAPERS silence  ==  [562 frames] -46.7445 [Ac=-26270.4 LM=0.0] (Act=10.1)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-lvm/mfc/b0058.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence WE MUST ACHIEVE OUR OWN SALVATION silence  ==  [487 frames] -48.0602 [Ac=-23405.3 LM=0.0] (Act=12.5)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

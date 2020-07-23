@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 41 physical / 41 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-els/mfc/b0434.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence THE STEWARD HAS JUST TENDERED ME A RESPECTFUL BIT OF ADVICE silence  ==  [443 frames] -54.2052 [Ac=-24012.9 LM=0.0] (Act=9.0)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-els/mfc/b0435.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence WELL DID THEY EAT silence  ==  [263 frames] -49.4003 [Ac=-12992.3 LM=0.0] (Act=7.7)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-els/mfc/b0436.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence FAMINE HAD BEEN MY GREAT ALLY silence  ==  [314 frames] -49.8152 [Ac=-15642.0 LM=0.0] (Act=7.4)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-els/mfc/b0437.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence NOWHERE IN THE NORTH IS THE SOIL SO PROLIFIC silence  ==  [408 frames] -52.4711 [Ac=-21408.2 LM=0.0] (Act=9.9)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-els/mfc/b0438.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence THEY RAN THE CANOE IN AND CLIMBED THE HIGH EARTH BANK silence  ==  [391 frames] -54.7223 [Ac=-21396.4 LM=0.0] (Act=11.3)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-els/mfc/b0439.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence THE LAND EXCHANGED ITS AUSTERE ROBES FOR THE GARB OF A SMILING WANTON silence  ==  [537 frames] -54.2885 [Ac=-29153.0 LM=0.0] (Act=9.8)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-els/mfc/b0440.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THERE WERE STIR AND BUSTLE NEW FACES AND FRESH FACTS silence  ==  [443 frames] -55.5794 [Ac=-24621.7 LM=0.0] (Act=9.9)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-els/mfc/b0441.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence AND THERE WAS ETHEL BAIRD WHOM ALSO YOU MUST REMEMBER silence  ==  [511 frames] -52.7631 [Ac=-26962.0 LM=0.0] (Act=9.6)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-els/mfc/b0442.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence HE HAD BECOME A MAN VERY EARLY IN LIFE silence  ==  [374 frames] -48.7015 [Ac=-18214.3 LM=0.0] (Act=9.1)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-els/mfc/b0443.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence I DID NOT THINK YOU WOULD BE SO EARLY silence  ==  [366 frames] -49.6686 [Ac=-18178.7 LM=0.0] (Act=7.7)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

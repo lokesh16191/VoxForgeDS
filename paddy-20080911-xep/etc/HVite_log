@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 42 physical / 42 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-xep/mfc/b0514.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence TOMORROW OR NEXT DAY IT MIGHT HE GONE silence  ==  [374 frames] -54.3872 [Ac=-20340.8 LM=0.0] (Act=8.0)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-xep/mfc/b0515.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence BUT ALREADY HE HAD COMPOSED HIMSELF silence  ==  [324 frames] -54.5250 [Ac=-17666.1 LM=0.0] (Act=8.4)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-xep/mfc/b0516.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence ZILLA RELAXED HER SOUR MOUTH LONG ENOUGH TO SIGH HER SATISFACTION silence  ==  [487 frames] -55.6892 [Ac=-27120.6 LM=0.0] (Act=7.7)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-xep/mfc/b0517.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence EGGSHELL IS NOT GOOD TO EAT silence  ==  [336 frames] -54.0713 [Ac=-18168.0 LM=0.0] (Act=7.9)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-xep/mfc/b0518.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence BUT THERE WAS ALSO TALK OF WITCHCRAFT IN THE VILLAGE silence  ==  [411 frames] -54.8903 [Ac=-22559.9 LM=0.0] (Act=8.8)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-xep/mfc/b0519.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence YEA I WILL TELL THEE silence  ==  [274 frames] -53.3881 [Ac=-14628.4 LM=0.0] (Act=11.5)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-xep/mfc/b0520.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence HANS HURLED HIMSELF UPON THE PROSTRATE MAN STRIKING MADLY WITH HIS FISTS silence  ==  [599 frames] -58.2881 [Ac=-34914.6 LM=0.0] (Act=9.6)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-xep/mfc/b0521.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence AND HE THOUGHT OF OONA AND OF HER WORDS silence  ==  [324 frames] -54.4499 [Ac=-17641.8 LM=0.0] (Act=10.5)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-xep/mfc/b0522.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence NOR WOULD IT THAW OUT HIS HANDS AND FEET silence  ==  [349 frames] -54.7410 [Ac=-19104.6 LM=0.0] (Act=9.7)
+Aligning File: /data/UserSubmissions/Quarantine/paddy-20080911-xep/mfc/b0523.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THE RUSSIAN MUSIC PLAYER THE COUNT WAS HER OBEDIENT SLAVE silence  ==  [487 frames] -56.2485 [Ac=-27393.0 LM=0.0] (Act=7.6)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

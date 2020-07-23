@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 43 physical / 43 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-qdo/mfc/a0532.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence MAY DROUGHT DESTROY YOUR CROPS silence  ==  [424 frames] -48.9101 [Ac=-20737.9 LM=0.0] (Act=7.2)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-qdo/mfc/a0533.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence DUNHAM CAN YOUR BOY GO ALONG WITH JESSE silence  ==  [424 frames] -47.9690 [Ac=-20338.8 LM=0.0] (Act=8.6)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-qdo/mfc/a0534.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence BUT JOHANNES COULD AND DID silence  ==  [411 frames] -45.5455 [Ac=-18719.2 LM=0.0] (Act=9.1)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-qdo/mfc/a0535.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence A NEW PREACHER AND A NEW DOCTRINE COME TO JERUSALEM silence  ==  [549 frames] -50.0807 [Ac=-27494.3 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-qdo/mfc/a0536.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence HE WOULD DESTROY ALL THINGS THAT ARE FIXED silence  ==  [487 frames] -49.6884 [Ac=-24198.2 LM=0.0] (Act=10.0)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-qdo/mfc/a0537.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence HE WAS AN ENTHUSIAST AND A DESERT DWELLER silence  ==  [461 frames] -48.3147 [Ac=-22273.1 LM=0.0] (Act=9.8)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-qdo/mfc/a0538.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence WHAT PASCAL GLIMPSED WITH THE VISION OF A SEER I HAVE LIVED silence  ==  [537 frames] -53.6082 [Ac=-28787.6 LM=0.0] (Act=16.1)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-qdo/mfc/a0539.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence I SHOULD LIKE TO ENGAGE JUST FOR ONE WHOLE LIFE IN THAT silence  ==  [599 frames] -50.1730 [Ac=-30053.6 LM=0.0] (Act=9.5)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-qdo/mfc/a0540.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence YEA SO ARE ALL THE LESSER ANIMALS OF TODAY CLEAN silence  ==  [599 frames] -48.9743 [Ac=-29335.6 LM=0.0] (Act=8.7)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080411-qdo/mfc/a0541.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THE WARDEN WITH A QUART OF CHAMPAGNE silence  ==  [474 frames] -46.8560 [Ac=-22209.7 LM=0.0] (Act=11.1)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

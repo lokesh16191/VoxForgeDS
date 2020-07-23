@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 42 physical / 42 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/Saul-20090208-uct/mfc/b0474.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence HE WAS MANIFESTLY DISTRESSED BY MY COMING silence  ==  [336 frames] -54.7411 [Ac=-18393.0 LM=0.0] (Act=7.3)
+Aligning File: /data/UserSubmissions/Quarantine/Saul-20090208-uct/mfc/b0475.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence NOT A WHEEL MOVED IN HIS EMPIRE silence  ==  [261 frames] -55.5263 [Ac=-14492.4 LM=0.0] (Act=9.5)
+Aligning File: /data/UserSubmissions/Quarantine/Saul-20090208-uct/mfc/b0476.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THE REORGANIZATION OF THESE COUNTRIES TOOK THE FORM OF REVOLUTION silence  ==  [399 frames] -56.9533 [Ac=-22724.4 LM=0.0] (Act=7.0)
+Aligning File: /data/UserSubmissions/Quarantine/Saul-20090208-uct/mfc/b0477.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence YOU'RE GOING IN FOR GRAB SHARING silence  ==  [236 frames] -56.0403 [Ac=-13225.5 LM=0.0] (Act=7.5)
+Aligning File: /data/UserSubmissions/Quarantine/Saul-20090208-uct/mfc/b0478.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THE OLIGARCHY WILL ENCOURAGE SUCH AMBITION AND THE CONSEQUENT COMPETITION silence  ==  [386 frames] -59.1491 [Ac=-22831.6 LM=0.0] (Act=7.6)
+Aligning File: /data/UserSubmissions/Quarantine/Saul-20090208-uct/mfc/b0479.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence VIOLATION OF THIS LAW WAS MADE A HIGH MISDEMEANOR AND PUNISHED ACCORDINGLY silence  ==  [411 frames] -58.9035 [Ac=-24209.3 LM=0.0] (Act=6.6)
+Aligning File: /data/UserSubmissions/Quarantine/Saul-20090208-uct/mfc/b0480.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence WITHOUT DISCUSSION IT WAS THE AGENTS PROVOCATEURS WHO CAUSED THE PEASANT REVOLT silence  ==  [474 frames] -58.7300 [Ac=-27838.0 LM=0.0] (Act=7.5)
+Aligning File: /data/UserSubmissions/Quarantine/Saul-20090208-uct/mfc/b0481.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THE TASK WE SET OURSELVES WAS THREEFOLD silence  ==  [274 frames] -56.6660 [Ac=-15526.5 LM=0.0] (Act=6.5)
+Aligning File: /data/UserSubmissions/Quarantine/Saul-20090208-uct/mfc/b0482.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence MANY OTHER SIMILAR DISCONCERTING OMISSIONS WILL BE NOTICED IN THE MANUSCRIPT silence  ==  [411 frames] -58.9520 [Ac=-24229.3 LM=0.0] (Act=6.9)
+Aligning File: /data/UserSubmissions/Quarantine/Saul-20090208-uct/mfc/b0483.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THE FLOWER OF THE ARTISTIC AND INTELLECTUAL WORLD WERE REVOLUTIONISTS silence  ==  [436 frames] -57.7191 [Ac=-25165.5 LM=0.0] (Act=7.6)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

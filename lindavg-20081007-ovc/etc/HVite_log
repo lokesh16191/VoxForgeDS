@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 42 physical / 42 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/lindavg-20081007-ovc/mfc/b0445.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence MOPS SIR EAGERLY ANSWERED THE SAILOR AT THE WHEEL silence  ==  [286 frames] -61.6314 [Ac=-17626.6 LM=0.0] (Act=8.8)
+Aligning File: /data/UserSubmissions/Quarantine/lindavg-20081007-ovc/mfc/b0446.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence SOME ONE HAD THRUST A LARGE SHEATH-KNIFE INTO HIS HAND silence  ==  [336 frames] -57.2142 [Ac=-19224.0 LM=0.0] (Act=11.8)
+Aligning File: /data/UserSubmissions/Quarantine/lindavg-20081007-ovc/mfc/b0447.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence O'BRIEN EMITTED A SHRIEK THAT SANK SWIFTLY TO A GURGLING SOB silence  ==  [474 frames] -57.3079 [Ac=-27163.9 LM=0.0] (Act=10.0)
+Aligning File: /data/UserSubmissions/Quarantine/lindavg-20081007-ovc/mfc/b0448.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence SANDEL WOULD NEVER BECOME A WORLD CHAMPION silence  ==  [361 frames] -54.7322 [Ac=-19758.3 LM=0.0] (Act=10.1)
+Aligning File: /data/UserSubmissions/Quarantine/lindavg-20081007-ovc/mfc/b0449.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence ALSO SHE WOULDN'T WALK silence  ==  [249 frames] -53.6054 [Ac=-13347.7 LM=0.0] (Act=7.6)
+Aligning File: /data/UserSubmissions/Quarantine/lindavg-20081007-ovc/mfc/b0450.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence TO MY DEAREST AND ALWAYS APPRECIATED FRIEND I SUBMIT MYSELF silence  ==  [474 frames] -57.0469 [Ac=-27040.2 LM=0.0] (Act=9.8)
+Aligning File: /data/UserSubmissions/Quarantine/lindavg-20081007-ovc/mfc/b0451.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence YOU USED TO JOYRIDE LIKE THE VERY DEVIL silence  ==  [299 frames] -55.8436 [Ac=-16697.2 LM=0.0] (Act=10.2)
+Aligning File: /data/UserSubmissions/Quarantine/lindavg-20081007-ovc/mfc/b0452.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THEY SAW EACH OTHER FOR THE FIRST TIME IN BOSTON silence  ==  [349 frames] -53.7536 [Ac=-18760.0 LM=0.0] (Act=8.7)
+Aligning File: /data/UserSubmissions/Quarantine/lindavg-20081007-ovc/mfc/b0453.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence ISAAC FORD THE AUSTERE SOLDIER OF THE LORD THE OLD HYPOCRITE silence  ==  [549 frames] -58.5976 [Ac=-32170.1 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/lindavg-20081007-ovc/mfc/b0454.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+silence EIGHTEEN HE ADDED silence  ==  [249 frames] -51.0847 [Ac=-12720.1 LM=0.0] (Act=6.9)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

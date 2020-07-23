@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 42 physical / 42 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080829-jrg/mfc/a0061.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence PHILIP SNATCHED AT THE LETTER WHICH GREGSON HELD OUT TO HIM silence  ==  [494 frames] -53.6701 [Ac=-26513.0 LM=0.0] (Act=10.4)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080829-jrg/mfc/a0062.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THE MEN STARED INTO EACH OTHER'S FACE silence  ==  [349 frames] -53.0024 [Ac=-18497.8 LM=0.0] (Act=8.8)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080829-jrg/mfc/a0063.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence YES IT WAS A MAN WHO ASKED A STRANGER silence  ==  [340 frames] -55.5485 [Ac=-18886.5 LM=0.0] (Act=10.1)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080829-jrg/mfc/a0064.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence THE FOURTH AND FIFTH DAYS PASSED WITHOUT ANY DEVELOPMENTS silence  ==  [426 frames] -53.6026 [Ac=-22834.7 LM=0.0] (Act=10.5)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080829-jrg/mfc/a0065.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence THEY CLOSED NOW UNTIL HIS FINGERS WERE LIKE CORDS OF STEEL silence  ==  [391 frames] -58.7911 [Ac=-22987.3 LM=0.0] (Act=10.8)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080829-jrg/mfc/a0066.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence HE SAW JEANNE FALTER FOR A MOMENT silence  ==  [289 frames] -54.3779 [Ac=-15715.2 LM=0.0] (Act=10.7)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080829-jrg/mfc/a0067.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence SURELY I WILL EXCUSE YOU SHE CRIED silence  ==  [331 frames] -52.9725 [Ac=-17533.9 LM=0.0] (Act=8.3)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080829-jrg/mfc/a0068.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence IN A FLASH PHILIP FOLLOWED ITS DIRECTION silence  ==  [340 frames] -51.6623 [Ac=-17565.2 LM=0.0] (Act=7.2)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080829-jrg/mfc/a0069.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence IT WAS HIS INTENTION TO RETURN TO EILEEN AND HER FATHER silence  ==  [417 frames] -53.2776 [Ac=-22216.8 LM=0.0] (Act=10.8)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080829-jrg/mfc/a0070.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence HE WOULD FIRST HUNT UP GREGSON AND BEGIN HIS WORK THERE silence  ==  [426 frames] -54.5075 [Ac=-23220.2 LM=0.0] (Act=10.9)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

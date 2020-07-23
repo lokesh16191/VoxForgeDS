@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 40 physical / 40 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/Shane-20080604-icj/mfc/b0146.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence SIMPLY A MISTAKE IN JUDGMENT silence  ==  [169 frames] -54.1032 [Ac=-9143.4 LM=0.0] (Act=10.6)
+Aligning File: /data/UserSubmissions/Quarantine/Shane-20080604-icj/mfc/b0147.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence HAD IT STRUCK SQUARELY IT WOULD HAVE KILLED HIM silence  ==  [274 frames] -53.3058 [Ac=-14605.8 LM=0.0] (Act=12.9)
+Aligning File: /data/UserSubmissions/Quarantine/Shane-20080604-icj/mfc/b0148.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence THE INDIAN EVEN POKED HIS STICK INTO THE THICK GROUND SPRUCE silence  ==  [399 frames] -51.7057 [Ac=-20630.6 LM=0.0] (Act=9.9)
+Aligning File: /data/UserSubmissions/Quarantine/Shane-20080604-icj/mfc/b0149.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence PEBBLES AND DIRT FLEW ALONG WITH HAIR AND FUR silence  ==  [311 frames] -51.6717 [Ac=-16069.9 LM=0.0] (Act=10.0)
+Aligning File: /data/UserSubmissions/Quarantine/Shane-20080604-icj/mfc/b0150.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence AND HE WAS FILLED WITH A STRANGE AND FOREBODING FEAR silence  ==  [336 frames] -50.8925 [Ac=-17099.9 LM=0.0] (Act=12.2)
+Aligning File: /data/UserSubmissions/Quarantine/Shane-20080604-icj/mfc/b0151.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence IT WAS STEEL A FISHER TRAP silence  ==  [286 frames] -47.6587 [Ac=-13630.4 LM=0.0] (Act=11.0)
+Aligning File: /data/UserSubmissions/Quarantine/Shane-20080604-icj/mfc/b0152.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence OW A WILD DOG HE GROWLED silence  ==  [286 frames] -52.0683 [Ac=-14891.5 LM=0.0] (Act=10.4)
+Aligning File: /data/UserSubmissions/Quarantine/Shane-20080604-icj/mfc/b0153.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence HE WAS A PARIAH A WANDERER WITHOUT A FRIEND OR A HOME silence  ==  [386 frames] -50.2368 [Ac=-19391.4 LM=0.0] (Act=11.4)
+Aligning File: /data/UserSubmissions/Quarantine/Shane-20080604-icj/mfc/b0154.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THAT IS THE STRANGE PART OF IT silence  ==  [223 frames] -50.4532 [Ac=-11251.1 LM=0.0] (Act=10.3)
+Aligning File: /data/UserSubmissions/Quarantine/Shane-20080604-icj/mfc/b0155.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence HIS FRESHLY CAUGHT FURS HE FLUNG TO THE FLOOR silence  ==  [299 frames] -54.4845 [Ac=-16290.9 LM=0.0] (Act=8.9)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

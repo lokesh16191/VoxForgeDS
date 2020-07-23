@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 42 physical / 42 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-hzh/mfc/b0242.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence THE JAPANESE UNDERSTOOD AS WE COULD NEVER SCHOOL OURSELVES OR HOPE TO UNDERSTAND silence  ==  [661 frames] -53.9013 [Ac=-35628.7 LM=0.0] (Act=13.5)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-hzh/mfc/b0243.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence THEY HAD BEEN ON THE SAME LAY AS OURSELVES silence  ==  [461 frames] -48.5723 [Ac=-22391.8 LM=0.0] (Act=14.5)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-hzh/mfc/b0244.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence YOU ARE POSITIVELY SOULLESS HE SAID SAVAGELY silence  ==  [561 frames] -50.9275 [Ac=-28570.3 LM=0.0] (Act=9.5)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-hzh/mfc/b0245.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence HARRISON IS STILL MY CHAUFFEUR silence  ==  [398 frames] -47.8598 [Ac=-19048.2 LM=0.0] (Act=10.0)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-hzh/mfc/b0246.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence THE BOY GREW AND PROSPERED silence  ==  [411 frames] -49.1279 [Ac=-20191.6 LM=0.0] (Act=10.1)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-hzh/mfc/b0247.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence HE WANTED TO GIVE THE FINISH TO THIS FOE ALREADY SO FAR GONE silence  ==  [598 frames] -50.9472 [Ac=-30466.4 LM=0.0] (Act=14.9)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-hzh/mfc/b0248.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence EXCITING TIMES ARE THE LOT OF THE FISH PATROL silence  ==  [498 frames] -48.2462 [Ac=-24026.6 LM=0.0] (Act=11.0)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-hzh/mfc/b0249.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence I KNOW THEY ARE MY OYSTERS silence  ==  [448 frames] -46.6913 [Ac=-20917.7 LM=0.0] (Act=12.8)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-hzh/mfc/b0250.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence BY THIS TIME CHARLEY WAS AS ENRAGED AS THE GREEK silence  ==  [536 frames] -50.5959 [Ac=-27119.4 LM=0.0] (Act=14.8)
+Aligning File: /data/UserSubmissions/Quarantine/rortiz-20100209-hzh/mfc/b0251.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THEY MUST HAVE BEEN SWEPT AWAY BY THE CHAOTIC CURRENTS silence  ==  [498 frames] -51.9302 [Ac=-25861.2 LM=0.0] (Act=14.8)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

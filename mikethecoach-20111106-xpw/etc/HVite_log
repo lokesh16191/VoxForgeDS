@@ -1,0 +1,63 @@
+/usr/local/bin/HVite -A -D -T 1 -l * -a -b SENT-END -m -C /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/wav_config -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/macros -H /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/hmmdefs -m -t 250.0 150.0 1000.0 -I /tmp/jVTcUctqxt/words.mlf -i /tmp/jVTcUctqxt/aligned.out -S /tmp/jVTcUctqxt/fileList /data/svn-mirror/SpeechCorpus/Trunk/Lexicon/VoxForge/VoxForgeDict /data/svn-mirror/Main/Trunk/Scripts/VoxForge/lib/Corpus/Quarantine/Submission/Audio/HTK_AcousticModel-2010-04-16_16kHz_16bit_MFCC_O_D/tiedlist 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_D_N_Z_0
+#                 SOURCEFORMAT                 WAV
+
+Read 8073 physical / 9417 logical HMMs
+Label file will be used to align each file
+Aligning File: /tmp/jVTcUctqxt/mikethecoach-20111106-xpw/a0247.wav
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END THEY OUGHT TO PASS HERE SOME TIME TODAY SENT-END  ==  [411 frames] -60.8597 [Ac=-25013.3 LM=0.0] (Act=11.8)
+Aligning File: /tmp/jVTcUctqxt/mikethecoach-20111106-xpw/a0248.wav
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END I HAD BEEN SAD TOO LONG ALREADY SENT-END  ==  [423 frames] -57.2800 [Ac=-24229.4 LM=0.0] (Act=9.6)
+Aligning File: /tmp/jVTcUctqxt/mikethecoach-20111106-xpw/a0249.wav
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END ALL EYES HOWEVER WERE STARING AT HIM IN CERTITUDE OF EXPECTANCY SENT-END  ==  [798 frames] -60.6830 [Ac=-48425.1 LM=0.0] (Act=14.5)
+Aligning File: /tmp/jVTcUctqxt/mikethecoach-20111106-xpw/a0250.wav
+Created lattice with 15 nodes / 14 arcs from label file
+SENT-END HE HAD OBSERVED THE BUSINESS LIFE OF HAWAII AND DEVELOPED A VAULTING AMBITION SENT-END  ==  [723 frames] -62.3110 [Ac=-45050.8 LM=0.0] (Act=14.1)
+Aligning File: /tmp/jVTcUctqxt/mikethecoach-20111106-xpw/a0251.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END I MAY MANAGE TO FREIGHT A CARGO BACK AS WELL SENT-END  ==  [511 frames] -59.7604 [Ac=-30537.6 LM=0.0] (Act=9.9)
+Aligning File: /tmp/jVTcUctqxt/mikethecoach-20111106-xpw/a0252.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END O'BRIEN HAD BEEN A CLEAN LIVING YOUNG MAN WITH IDEALS SENT-END  ==  [473 frames] -60.6554 [Ac=-28690.0 LM=0.0] (Act=10.9)
+Aligning File: /tmp/jVTcUctqxt/mikethecoach-20111106-xpw/a0253.wav
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END HE IT WAS THAT LIVED TO FOUND THE FAMILY OF THE PATINO SENT-END  ==  [548 frames] -60.6412 [Ac=-33231.4 LM=0.0] (Act=12.6)
+Aligning File: /tmp/jVTcUctqxt/mikethecoach-20111106-xpw/a0254.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END STRAIGHT OUT THEY SWAM THEIR HEADS GROWING SMALLER AND SMALLER SENT-END  ==  [486 frames] -63.1850 [Ac=-30707.9 LM=0.0] (Act=11.6)
+Aligning File: /tmp/jVTcUctqxt/mikethecoach-20111106-xpw/a0255.wav
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END YOU WON'T DIE OF MALNUTRITION BE SURE OF THAT SENT-END  ==  [448 frames] -57.8923 [Ac=-25935.7 LM=0.0] (Act=9.9)
+Aligning File: /tmp/jVTcUctqxt/mikethecoach-20111106-xpw/a0256.wav
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END SEE THE LENGTH OF THE BODY AND THAT ELONGATED NECK SENT-END  ==  [473 frames] -61.5903 [Ac=-29132.2 LM=0.0] (Act=15.3)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_D_N_Z_0
+                  SOURCEFORMAT                 WAV
+

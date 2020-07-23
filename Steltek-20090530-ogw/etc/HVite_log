@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 43 physical / 43 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090530-ogw/mfc/b0069.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence COULD THE INCIDENT HAVE ANYTHING TO DO WITH JEANNE AND PIERRE silence  ==  [324 frames] -57.7124 [Ac=-18698.8 LM=0.0] (Act=13.1)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090530-ogw/mfc/b0070.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence THERE WAS NO CHANCE TO FIRE WITHOUT HITTING HIM silence  ==  [286 frames] -54.2801 [Ac=-15524.1 LM=0.0] (Act=8.9)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090530-ogw/mfc/b0071.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THERE WAS NO ANSWER FROM THE OTHER SIDE silence  ==  [211 frames] -57.4581 [Ac=-12123.7 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090530-ogw/mfc/b0072.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence THEN HE HASTENED ON AS PIERRE HAD GUIDED HIM silence  ==  [286 frames] -55.3542 [Ac=-15831.3 LM=0.0] (Act=8.9)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090530-ogw/mfc/b0073.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence WITH THESE ARGUMENTS HE CONVINCED HIMSELF THAT HE SHOULD GO ON ALONE silence  ==  [336 frames] -60.4909 [Ac=-20324.9 LM=0.0] (Act=11.8)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090530-ogw/mfc/b0074.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence YET BEHIND THEM THERE WAS ANOTHER AND MORE POWERFUL MOTIVE silence  ==  [336 frames] -58.5062 [Ac=-19658.1 LM=0.0] (Act=10.4)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090530-ogw/mfc/b0075.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence IN THAT CASE HE COULD NOT MISS THEM IF HE USED CAUTION silence  ==  [324 frames] -57.3849 [Ac=-18592.7 LM=0.0] (Act=10.6)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090530-ogw/mfc/b0076.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence BEFORE PHILIP COULD RECOVER HIMSELF JEANNE'S STARTLED GUARDS WERE UPON HIM silence  ==  [374 frames] -59.7550 [Ac=-22348.4 LM=0.0] (Act=8.7)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090530-ogw/mfc/b0077.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence IT IS THE NEAREST REFUGE silence  ==  [211 frames] -55.7321 [Ac=-11759.5 LM=0.0] (Act=9.4)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090530-ogw/mfc/b0078.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence THERE WAS PRIDE AND STRENGTH THE RING OF TRIUMPH IN HIS VOICE silence  ==  [349 frames] -58.0651 [Ac=-20264.7 LM=0.0] (Act=9.2)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

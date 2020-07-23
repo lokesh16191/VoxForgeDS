@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 42 physical / 42 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-cov/mfc/a0566.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence DENNIN'S HANDS WERE RELEASED LONG ENOUGH FOR HIM TO SIGN THE DOCUMENT silence  ==  [512 frames] -53.1738 [Ac=-27225.0 LM=0.0] (Act=13.5)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-cov/mfc/a0567.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence NOW IRVINE WAS A MAN OF IMPULSE A POET silence  ==  [512 frames] -48.4967 [Ac=-24830.3 LM=0.0] (Act=12.7)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-cov/mfc/a0568.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence HE WAS JUST BURSTING WITH JOY JOY OVER WHAT silence  ==  [487 frames] -48.6345 [Ac=-23685.0 LM=0.0] (Act=10.9)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-cov/mfc/a0569.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence AT LAKE LINDERMAN I HAD ONE CANOE VERY GOOD PETERBOROUGH CANOE silence  ==  [599 frames] -50.8035 [Ac=-30431.3 LM=0.0] (Act=11.5)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-cov/mfc/a0570.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence BEHIND HIM LAY THE THOUSAND-YEARS-LONG ROAD ACROSS ALL SIBERIA AND RUSSIA silence  ==  [599 frames] -53.3522 [Ac=-31958.0 LM=0.0] (Act=10.4)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-cov/mfc/a0571.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence HE HAD FORGOTTEN TO BUILD A FIRE AND THAW OUT silence  ==  [436 frames] -48.7211 [Ac=-21242.4 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-cov/mfc/a0572.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence I NEVER SAW ANYTHING LIKE HER IN MY LIFE silence  ==  [399 frames] -48.1583 [Ac=-19215.2 LM=0.0] (Act=12.3)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-cov/mfc/a0573.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence THERE WAS NO LAW ON THE YUKON SAVE WHAT THEY MADE FOR THEMSELVES silence  ==  [474 frames] -52.4675 [Ac=-24869.6 LM=0.0] (Act=10.7)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-cov/mfc/a0574.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence GOOD BUSINESS MAN CURLY O'BRIEN WAS SAYING silence  ==  [461 frames] -47.8001 [Ac=-22035.8 LM=0.0] (Act=10.2)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-cov/mfc/a0575.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence THERE WEREN'T ANY MISSIONS AND HE WAS THE MAN TO KNOW silence  ==  [461 frames] -51.1091 [Ac=-23561.3 LM=0.0] (Act=13.3)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

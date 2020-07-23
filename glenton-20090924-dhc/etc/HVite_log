@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 43 physical / 43 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-dhc/mfc/b0211.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence THIS IS EIGHTEEN EIGHTY silence  ==  [274 frames] -48.3905 [Ac=-13259.0 LM=0.0] (Act=9.0)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-dhc/mfc/b0212.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence DEATH IS AND HAS BEEN EVER SINCE OLD MAUI DIED silence  ==  [436 frames] -52.1043 [Ac=-22717.5 LM=0.0] (Act=9.6)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-dhc/mfc/b0213.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence SOME BOY SHE LAUGHED ACQUIESCENCE silence  ==  [411 frames] -47.9549 [Ac=-19709.5 LM=0.0] (Act=7.1)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-dhc/mfc/b0214.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence LET US TALK IT OVER AND FIND A WAY OUT silence  ==  [424 frames] -48.1617 [Ac=-20420.6 LM=0.0] (Act=10.4)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-dhc/mfc/b0215.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence IT IS A GOOD PROPERTY AND WORTH MORE THAN THAT silence  ==  [436 frames] -48.2311 [Ac=-21028.7 LM=0.0] (Act=10.6)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-dhc/mfc/b0216.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence I WISH YOU WERE MORE ADAPTABLE JOAN RETORTED silence  ==  [399 frames] -49.0607 [Ac=-19575.2 LM=0.0] (Act=8.5)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-dhc/mfc/b0217.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence SUCH IS MY PASSAGE ENGAGED ON THE STEAMER silence  ==  [411 frames] -50.5221 [Ac=-20764.6 LM=0.0] (Act=10.5)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-dhc/mfc/b0218.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence THE ISSUE WAS NOT IN DOUBT silence  ==  [336 frames] -46.2742 [Ac=-15548.1 LM=0.0] (Act=7.2)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-dhc/mfc/b0219.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence WELL THERE ARE BETTER MEN IN HAWAII THAT'S ALL silence  ==  [411 frames] -47.7685 [Ac=-19632.9 LM=0.0] (Act=7.8)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-dhc/mfc/b0220.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+silence HARRY BANCROFT DAVE LIED silence  ==  [374 frames] -48.4056 [Ac=-18103.7 LM=0.0] (Act=8.0)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

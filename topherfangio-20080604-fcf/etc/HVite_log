@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 41 physical / 41 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-fcf/mfc/b0470.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence THE VERY THING ERNEST AGREED silence  ==  [223 frames] -55.2807 [Ac=-12327.6 LM=0.0] (Act=8.3)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-fcf/mfc/b0471.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence ALSO A FELLOW SENATOR CHAUNCEY DEPEW SAID silence  ==  [311 frames] -56.3116 [Ac=-17512.9 LM=0.0] (Act=8.2)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-fcf/mfc/b0472.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence ERNEST SAW IN THE AFFAIR THE MOST SINISTER IMPORT silence  ==  [286 frames] -57.4368 [Ac=-16426.9 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-fcf/mfc/b0473.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence THEN THERE WAS THE CAMPAIGN silence  ==  [186 frames] -53.7324 [Ac=-9994.2 LM=0.0] (Act=11.2)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-fcf/mfc/b0474.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence HE WAS MANIFESTLY DISTRESSED BY MY COMING silence  ==  [249 frames] -56.9950 [Ac=-14191.7 LM=0.0] (Act=8.8)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-fcf/mfc/b0475.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence NOT A WHEEL MOVED IN HIS EMPIRE silence  ==  [249 frames] -52.9221 [Ac=-13177.6 LM=0.0] (Act=10.0)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-fcf/mfc/b0476.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THE REORGANIZATION OF THESE COUNTRIES TOOK THE FORM OF REVOLUTION silence  ==  [361 frames] -59.4891 [Ac=-21475.6 LM=0.0] (Act=11.9)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-fcf/mfc/b0477.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence YOU'RE GOING IN FOR GRAB SHARING silence  ==  [223 frames] -57.0285 [Ac=-12717.4 LM=0.0] (Act=8.9)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-fcf/mfc/b0478.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THE OLIGARCHY WILL ENCOURAGE SUCH AMBITION AND THE CONSEQUENT COMPETITION silence  ==  [411 frames] -59.4816 [Ac=-24447.0 LM=0.0] (Act=11.6)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-fcf/mfc/b0479.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence VIOLATION OF THIS LAW WAS MADE A HIGH MISDEMEANOR AND PUNISHED ACCORDINGLY silence  ==  [386 frames] -58.6048 [Ac=-22621.5 LM=0.0] (Act=8.8)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

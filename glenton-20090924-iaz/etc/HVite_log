@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 42 physical / 42 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-iaz/mfc/b0066.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence IF I MEET HER AGAIN I SHALL APOLOGIZE SAID EILEEN silence  ==  [399 frames] -52.6535 [Ac=-21008.7 LM=0.0] (Act=10.9)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-iaz/mfc/b0067.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence BELOW HIM THE SHADOW WAS BROKEN INTO A POOL OF RIPPLING STARLIGHT silence  ==  [461 frames] -53.1012 [Ac=-24479.6 LM=0.0] (Act=9.4)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-iaz/mfc/b0068.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence ONLY THE CHANCE SOUND HAD LED HIM TO OBSERVE THEM silence  ==  [349 frames] -51.9984 [Ac=-18147.4 LM=0.0] (Act=10.7)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-iaz/mfc/b0069.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence COULD THE INCIDENT HAVE ANYTHING TO DO WITH JEANNE AND PIERRE silence  ==  [361 frames] -51.8847 [Ac=-18730.4 LM=0.0] (Act=13.2)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-iaz/mfc/b0070.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence THERE WAS NO CHANCE TO FIRE WITHOUT HITTING HIM silence  ==  [361 frames] -49.8251 [Ac=-17986.9 LM=0.0] (Act=11.0)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-iaz/mfc/b0071.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence THERE WAS NO ANSWER FROM THE OTHER SIDE silence  ==  [311 frames] -49.1728 [Ac=-15292.7 LM=0.0] (Act=8.7)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-iaz/mfc/b0072.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence THEN HE HASTENED ON AS PIERRE HAD GUIDED HIM silence  ==  [374 frames] -48.5340 [Ac=-18151.7 LM=0.0] (Act=12.2)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-iaz/mfc/b0073.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence WITH THESE ARGUMENTS HE CONVINCED HIMSELF THAT HE SHOULD GO ON ALONE silence  ==  [424 frames] -54.4139 [Ac=-23071.5 LM=0.0] (Act=14.1)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-iaz/mfc/b0074.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence YET BEHIND THEM THERE WAS ANOTHER AND MORE POWERFUL MOTIVE silence  ==  [436 frames] -52.8691 [Ac=-23050.9 LM=0.0] (Act=11.4)
+Aligning File: /data/UserSubmissions/Quarantine/glenton-20090924-iaz/mfc/b0075.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence IN THAT CASE HE COULD NOT MISS THEM IF HE USED CAUTION silence  ==  [436 frames] -50.6845 [Ac=-22098.5 LM=0.0] (Act=11.0)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

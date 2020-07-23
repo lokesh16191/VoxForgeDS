@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 39 physical / 39 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080915-hzx/mfc/a0044.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence HER OWN BETRAYAL OF HERSELF WAS LIKE TONIC TO PHILIP silence  ==  [451 frames] -53.2984 [Ac=-24037.6 LM=0.0] (Act=11.5)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080915-hzx/mfc/a0045.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence HE MOVED AWAY AS QUIETLY AS HE HAD COME silence  ==  [374 frames] -49.0330 [Ac=-18338.3 LM=0.0] (Act=9.2)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080915-hzx/mfc/a0046.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THE GIRL FACED HIM HER EYES SHINING WITH SUDDEN FEAR silence  ==  [443 frames] -51.2768 [Ac=-22715.6 LM=0.0] (Act=10.1)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080915-hzx/mfc/a0047.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence CLOSE BESIDE HIM GLEAMED THE WHITE FANGS OF THE WOLF-DOG silence  ==  [494 frames] -51.4374 [Ac=-25410.1 LM=0.0] (Act=7.9)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080915-hzx/mfc/a0048.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence HE LOOKED AT THE HANDKERCHIEF MORE CLOSELY silence  ==  [366 frames] -51.9431 [Ac=-19011.2 LM=0.0] (Act=12.5)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080915-hzx/mfc/a0049.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence GREGSON WAS ASLEEP WHEN HE RE-ENTERED THE CABIN silence  ==  [417 frames] -52.3724 [Ac=-21839.3 LM=0.0] (Act=9.8)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080915-hzx/mfc/a0050.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence IN SPITE OF THEIR ABSURDITY THE WORDS AFFECTED PHILIP CURIOUSLY silence  ==  [494 frames] -55.3202 [Ac=-27328.2 LM=0.0] (Act=9.3)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080915-hzx/mfc/a0051.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence THE LACE WAS OF A DELICATE IVORY COLOR FAINTLY TINTED WITH YELLOW silence  ==  [545 frames] -58.2270 [Ac=-31733.7 LM=0.0] (Act=17.4)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080915-hzx/mfc/a0052.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence IT WAS A CURIOUS COINCIDENCE silence  ==  [366 frames] -48.7496 [Ac=-17842.3 LM=0.0] (Act=8.1)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080915-hzx/mfc/a0053.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence SUDDENLY HIS FINGERS CLOSED TIGHTLY OVER THE HANDKERCHIEF silence  ==  [426 frames] -52.9440 [Ac=-22554.1 LM=0.0] (Act=10.1)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

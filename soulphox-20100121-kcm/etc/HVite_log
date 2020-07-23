@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 42 physical / 42 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100121-kcm/mfc/b0043.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence IT WON'T BE FOR SALE silence  ==  [411 frames] -47.3897 [Ac=-19477.2 LM=0.0] (Act=9.8)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100121-kcm/mfc/b0044.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence FOR A FEW MOMENTS HE ATE IN SILENCE silence  ==  [486 frames] -49.2200 [Ac=-23920.9 LM=0.0] (Act=7.6)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100121-kcm/mfc/b0045.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence PHILIP DID NOT PURSUE THE SUBJECT silence  ==  [448 frames] -50.2095 [Ac=-22493.9 LM=0.0] (Act=11.2)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100121-kcm/mfc/b0046.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence PHILIP PRODUCED A COUPLE OF CIGARS AND TOOK A CHAIR OPPOSITE HIM silence  ==  [636 frames] -51.7051 [Ac=-32884.5 LM=0.0] (Act=10.8)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100121-kcm/mfc/b0047.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence SUPPOSE YOU SAW ME AT WORK THROUGH THE WINDOW silence  ==  [536 frames] -49.9133 [Ac=-26753.5 LM=0.0] (Act=9.7)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100121-kcm/mfc/b0048.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence HE LOOKED LIKE ONE WHO HAD PASSED THROUGH AN UNCOMFORTABLE HOUR OR TWO silence  ==  [636 frames] -51.8359 [Ac=-32967.6 LM=0.0] (Act=10.1)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100121-kcm/mfc/b0049.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence THERE WAS NOTHING MORE EXCEPT A LARGE INK BLOT UNDER THE WORDS silence  ==  [698 frames] -51.3773 [Ac=-35861.4 LM=0.0] (Act=9.8)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100121-kcm/mfc/b0050.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence ALL THIS DAY GREGSON REMAINED IN THE CABIN silence  ==  [536 frames] -48.3432 [Ac=-25911.9 LM=0.0] (Act=8.5)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100121-kcm/mfc/b0051.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence THE SIXTH DAY HE SPENT IN THE CABIN WITH GREGSON silence  ==  [561 frames] -50.2568 [Ac=-28194.1 LM=0.0] (Act=9.0)
+Aligning File: /data/UserSubmissions/Quarantine/soulphox-20100121-kcm/mfc/b0052.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence THE FLUSH WAS GONE FROM HER FACE silence  ==  [473 frames] -49.3362 [Ac=-23336.0 LM=0.0] (Act=9.3)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

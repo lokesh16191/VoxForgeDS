@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 40 physical / 40 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-xod/mfc/rb-25.mfc
+Created lattice with 16 nodes / 15 arcs from label file
+silence WHERE ALL THESE COMMANDS MIGHT LEAD TO THE SAME RESULT ON THAT POWERFUL PC silence  ==  [411 frames] -55.9218 [Ac=-22983.8 LM=0.0] (Act=7.8)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-xod/mfc/rb-26.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence THE SOFTWARE ON A HAND-HELD DEVICE MIGHT ONLY RESPOND TO ONE SPECIFIC COMMAND silence  ==  [436 frames] -55.0130 [Ac=-23985.6 LM=0.0] (Act=7.3)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-xod/mfc/rb-27.mfc
+Created lattice with 16 nodes / 15 arcs from label file
+silence THE SAME WOULD BE THE CASE FOR OTHER TASKS SUCH AS BROWSING THE WEB silence  ==  [349 frames] -57.1669 [Ac=-19951.2 LM=0.0] (Act=8.9)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-xod/mfc/rb-28.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence SEARCHING FOR DOCUMENTS IN THE FILE BROWSER AND STARTING OR CLOSING PROGRAMS silence  ==  [424 frames] -57.1454 [Ac=-24229.7 LM=0.0] (Act=7.6)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-xod/mfc/rb-29.mfc
+Created lattice with 17 nodes / 16 arcs from label file
+silence THEREFORE BEHIND YOUR PC GO ONLINE START MY WEB BROWSER OR VISIT MY HOME PAGE silence  ==  [537 frames] -55.5466 [Ac=-29828.5 LM=0.0] (Act=7.6)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-xod/mfc/rb-30.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence MIGHT ALL BE VALID COMMANDS silence  ==  [198 frames] -52.6573 [Ac=-10426.2 LM=0.0] (Act=6.7)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-xod/mfc/rb-31.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence WHEREAS ON YOUR MOBILE PHONE YOU WOULD HAVE TO STICK TO RUN BROWSER silence  ==  [411 frames] -55.4442 [Ac=-22787.5 LM=0.0] (Act=8.5)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-xod/mfc/rb-32.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence OBVIOUSLY WHEN RUNNING A FILE BROWSER THE SAME LOGIC WOULD APPLY silence  ==  [386 frames] -55.9028 [Ac=-21578.5 LM=0.0] (Act=6.1)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-xod/mfc/rb-33.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence WHEN WORKING ON A POWERFUL PC OR LAPTOP silence  ==  [249 frames] -55.2677 [Ac=-13761.7 LM=0.0] (Act=6.3)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-xod/mfc/rb-34.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence COMMANDS LIKE GO TO THE FOLDER WITH MY UNIVERSITY DOCUMENTS silence  ==  [361 frames] -58.5862 [Ac=-21149.6 LM=0.0] (Act=9.2)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

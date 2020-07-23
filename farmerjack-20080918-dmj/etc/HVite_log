@@ -1,0 +1,62 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 41 physical / 41 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-dmj/mfc/rp-24.mfc
+Created lattice with 17 nodes / 16 arcs from label file
+silence AND THE WIDTH OF THE COLORED BAND INCREASES AS THE SIZE OF THE DROPS INCREASES silence  ==  [579 frames] -54.8911 [Ac=-31781.9 LM=0.0] (Act=7.9)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-dmj/mfc/rp-25.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence THE ACTUAL PRIMARY RAINBOW OBSERVED IS SAID TO BE THE EFFECT OF silence  ==  [597 frames] -53.3514 [Ac=-31850.8 LM=0.0] (Act=11.5)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-dmj/mfc/rp-26.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence SUPER-IMPOSITION OF A NUMBER OF BOWS silence  ==  [417 frames] -51.5837 [Ac=-21510.4 LM=0.0] (Act=7.2)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-dmj/mfc/rp-27.mfc
+Created lattice with 16 nodes / 15 arcs from label file
+silence IF THE RED OF THE SECOND BOW FALLS UPON THE GREEN OF THE FIRST silence  ==  [426 frames] -55.6255 [Ac=-23696.4 LM=0.0] (Act=8.8)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-dmj/mfc/rp-28.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence THE RESULT IS TO GIVE A BOW WITH AN ABNORMALLY WIDE YELLOW BAND silence  ==  [494 frames] -56.2953 [Ac=-27809.9 LM=0.0] (Act=8.7)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-dmj/mfc/rp-29.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence SINCE RED AND GREEN LIGHT WHEN MIXED FORM YELLOW silence  ==  [434 frames] -53.3212 [Ac=-23141.4 LM=0.0] (Act=8.2)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-dmj/mfc/rp-30.mfc
+Created lattice with 16 nodes / 15 arcs from label file
+silence THIS IS A VERY COMMON TYPE OF BOW ONE SHOWING MAINLY RED AND YELLOW silence  ==  [520 frames] -52.4007 [Ac=-27248.4 LM=0.0] (Act=9.8)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-dmj/mfc/rp-31.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence WITH LITTLE OR NO GREEN OR BLUE silence  ==  [289 frames] -55.8556 [Ac=-16142.3 LM=0.0] (Act=12.8)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-dmj/mfc/ar-01.mfc
+Created lattice with 17 nodes / 16 arcs from label file
+silence ONCE THERE WAS A YOUNG RAT NAMED ARTHUR WHO NEVER COULD MAKE UP HIS MIND silence  ==  [418 frames] -55.9956 [Ac=-23406.2 LM=0.0] (Act=12.8)
+Aligning File: /data/UserSubmissions/Quarantine/farmerjack-20080918-dmj/mfc/ar-02.mfc
+Created lattice with 16 nodes / 15 arcs from label file
+No tokens survived to final node of network at beam 250.0
+silence WHENEVER HIS FRIENDS ASKED HIM IF HE WOULD LIKE TO GO OUT WITH THEM silence  ==  [434 frames] -54.6376 [Ac=-23712.7 LM=0.0] (Act=15.7)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

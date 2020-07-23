@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 43 physical / 43 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-axe/mfc/a0371.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence IT ISSUED A RATE OF FORTY TWO DOLLARS A CAR ON CHARCOAL silence  ==  [349 frames] -58.1991 [Ac=-20311.5 LM=0.0] (Act=10.7)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-axe/mfc/a0372.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence HE SAW ONLY THE EFFECT IN A GENERAL SKETCHY WAY silence  ==  [286 frames] -56.3188 [Ac=-16107.2 LM=0.0] (Act=9.2)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-axe/mfc/a0373.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence POINTS OF VIEW NEW IDEAS LIFE silence  ==  [274 frames] -54.5477 [Ac=-14946.1 LM=0.0] (Act=8.7)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-axe/mfc/a0374.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence BUT LIFE'S WORTH MORE THAN CASH SHE ARGUED silence  ==  [286 frames] -56.4990 [Ac=-16158.7 LM=0.0] (Act=8.5)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-axe/mfc/a0375.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence THE BUTCHERS AND MEAT CUTTERS REFUSED TO HANDLE MEAT DESTINED FOR UNFAIR RESTAURANTS silence  ==  [474 frames] -56.4033 [Ac=-26735.2 LM=0.0] (Act=7.9)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-axe/mfc/a0376.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+silence YOUR PRICE MY SON IS JUST ABOUT THIRTY PER WEEK silence  ==  [336 frames] -57.9417 [Ac=-19468.4 LM=0.0] (Act=8.3)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-axe/mfc/a0377.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence THIS SOUND DID NOT DISTURB THE HUSH AND AWE OF THE PLACE silence  ==  [311 frames] -57.7117 [Ac=-17948.3 LM=0.0] (Act=11.3)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-axe/mfc/a0378.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence THAT'S WHY ITS BOUNDARIES ARE ALL GOUGED AND JAGGED silence  ==  [311 frames] -56.2925 [Ac=-17507.0 LM=0.0] (Act=10.2)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-axe/mfc/a0379.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence HOW OLD ARE YOU DADDY silence  ==  [186 frames] -53.4387 [Ac=-9939.6 LM=0.0] (Act=9.1)
+Aligning File: /data/UserSubmissions/Quarantine/Steltek-20090509-axe/mfc/a0380.mfc
+Created lattice with 15 nodes / 14 arcs from label file
+silence BUT IN THE CANYONS WATER WAS PLENTIFUL AND ALSO A LUXURIANT FOREST GROWTH silence  ==  [411 frames] -56.8965 [Ac=-23384.5 LM=0.0] (Act=8.1)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

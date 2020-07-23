@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 43 physical / 43 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-rrw/mfc/b0382.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence I DEFY ANY MAN TO GET A SOLOMON ISLAND SORE IN CALIFORNIA silence  ==  [386 frames] -56.6479 [Ac=-21866.1 LM=0.0] (Act=10.2)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-rrw/mfc/b0383.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence A BUSH CHIEF HAD DIED A NATURAL DEATH silence  ==  [274 frames] -54.6455 [Ac=-14972.9 LM=0.0] (Act=12.0)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-rrw/mfc/b0384.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence THE SKIPPER'S AND NAKATA'S GYMNASTICS SERVED AS A TRANSLATION WITHOUT WORDS silence  ==  [449 frames] -59.5505 [Ac=-26738.2 LM=0.0] (Act=12.8)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-rrw/mfc/b0385.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence LAST NIGHT HE SHOWED ALL THE SYMPTOMS OF COMING DOWN WITH PNEUMONIA silence  ==  [361 frames] -56.3983 [Ac=-20359.8 LM=0.0] (Act=11.6)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-rrw/mfc/b0386.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence MY IDEA WAS THAT HE WOULD HAVE MORE INFLUENCE OVER THE NATIVES silence  ==  [336 frames] -58.7812 [Ac=-19750.5 LM=0.0] (Act=14.5)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-rrw/mfc/b0387.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence IT IS MERELY THE SIMPLE SUPERLATIVE silence  ==  [274 frames] -53.9467 [Ac=-14781.4 LM=0.0] (Act=8.8)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-rrw/mfc/b0388.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence I MADE NO MORE OVERTURES silence  ==  [223 frames] -52.8315 [Ac=-11781.4 LM=0.0] (Act=9.2)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-rrw/mfc/b0389.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+silence AMONG MY MINOR AFFLICTIONS I MAY MENTION A NEW AND MYSTERIOUS ONE silence  ==  [386 frames] -56.8570 [Ac=-21946.8 LM=0.0] (Act=11.5)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-rrw/mfc/b0390.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence THE VOYAGE WAS OUR IDEA OF A GOOD TIME silence  ==  [261 frames] -54.9683 [Ac=-14346.7 LM=0.0] (Act=12.0)
+Aligning File: /data/UserSubmissions/Quarantine/topherfangio-20080604-rrw/mfc/b0391.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence AT SEA TUESDAY MARCH SEVENTEENTH NINETEEN OH EIGHT silence  ==  [399 frames] -56.2383 [Ac=-22439.1 LM=0.0] (Act=10.3)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

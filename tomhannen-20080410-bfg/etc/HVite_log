@@ -1,0 +1,61 @@
+HVite -A -D -T 1 -l * -o SWT -b silence -C /data/svn-mirror/Main/Trunk/Scripts/AcousticModel_scripts/HTK/AMCreate_scripts/input_files/config -H ./interim_files/hmm7/macros -H ./interim_files/hmm7/hmmdefs -i ./interim_files/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I ./interim_files/words.mlf -S ./interim_files/train.scp ./interim_files/dict1 ./interim_files/monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 39 physical / 39 logical HMMs
+Label file will be used to align each file
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080410-bfg/mfc/b0330.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence THEY ONLY HAD A LITTLE THIRTY THOUSAND DOLLAR FIRE silence  ==  [487 frames] -49.8862 [Ac=-24294.6 LM=0.0] (Act=10.1)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080410-bfg/mfc/b0331.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+silence HIS PARTNERS HAD STARVED AND DIED ON THE STEWART silence  ==  [524 frames] -49.4058 [Ac=-25888.6 LM=0.0] (Act=9.5)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080410-bfg/mfc/b0332.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+silence AS TO HOW SHE DRESSED HE HAD NO IDEAS AT ALL silence  ==  [587 frames] -49.1441 [Ac=-28847.6 LM=0.0] (Act=11.4)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080410-bfg/mfc/b0333.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence IT DOES WAS HER AUDACIOUS ANSWER silence  ==  [512 frames] -47.3162 [Ac=-24225.9 LM=0.0] (Act=10.0)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080410-bfg/mfc/b0334.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+silence OH IT'S JUST A NOVEL A LOVE STORY silence  ==  [537 frames] -45.8854 [Ac=-24640.4 LM=0.0] (Act=11.4)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080410-bfg/mfc/b0335.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence WHOEVER LIVED ON THE RANCH DID THAT silence  ==  [524 frames] -45.3279 [Ac=-23751.8 LM=0.0] (Act=11.6)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080410-bfg/mfc/b0336.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+silence HOW OLD ARE YOU MOTHER silence  ==  [399 frames] -44.2304 [Ac=-17647.9 LM=0.0] (Act=9.0)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080410-bfg/mfc/b0337.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence HERE HE GOT A FRESH THRILL silence  ==  [449 frames] -44.9121 [Ac=-20165.6 LM=0.0] (Act=11.2)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080410-bfg/mfc/b0338.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+silence IT WAS UNOBTRUSIVE YET IT WAS THERE silence  ==  [499 frames] -48.1191 [Ac=-24011.4 LM=0.0] (Act=13.1)
+Aligning File: /data/UserSubmissions/Quarantine/tomhannen-20080410-bfg/mfc/b0339.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+silence WELL I'LL BE PLUMB GOSH DARNED silence  ==  [474 frames] -46.4062 [Ac=-21996.5 LM=0.0] (Act=10.0)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+
